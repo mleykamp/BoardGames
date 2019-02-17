@@ -1,13 +1,14 @@
----?image=images/0.jpg&size=85% 85%&color=black
+---?image=images/1.jpg&size=85% 85%&color=black
 
 ---
 
 @snap[north-west span-50]
-@color[red](How to Play)<BR>
-@color[blue](Tableau Builder.)
+@color[red](Roll Dice, Collect Goods/Foods)<BR>
+@color[blue](Roll one die per city.)
 @ol[list-bullets-black](false)
-- Roll Dice for resources
-- Upgrade Nation to earn VP.
+- You start with three.
+- Keep dice with skulls.
+- Keep or reroll any other dice 2X.
 @olend
 
 @snapend
@@ -20,10 +21,28 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms: Age)<BR>
-@color[blue](1-4 rounds.)
+@color[red](Collect Goods)<BR>
+@color[blue](Starting from the bottom row shift one to the right.)
 @ol[list-bullets-black](false)
-- Upgrades increase per round.
+- More Goods, then go up a row and shift one to the right.
+- Until youre out of goods.
+- If the row was full you don't collect it but it still counts.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 3.jpg](images/3.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Collect Food)<BR>
+@color[blue](Advanced food peg one position for each food symbol on the dice.)
+@ol[list-bullets-black](false)
+- Don't collect food if row was full.
 @olend
 
 @snapend
@@ -36,24 +55,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms: Dice)<BR>
-@color[blue](Colored by Resource Distribution.)
+@color[red](Feed Cities and Resolve Disasters: Feed Cities)<BR>
+@color[blue](Each city requires one food.)
 @ol[list-bullets-black](false)
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 5.jpg](images/5.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Quick Terms: Tokens)<BR>
-@color[blue](Guaranteed Dice Side.)
-@ol[list-bullets-black](false)
+- Subtract one food from pegboard.
+- Any unfed city suffers Famine.
 @olend
 
 @snapend
@@ -66,10 +72,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms: Events)<BR>
-@color[blue](EOR Goals)
+@color[red](Feed Cities and Resolve Disasters: Trackin lost points)<BR>
+@color[blue](Check Disasters Box for each point lost.)
 @ol[list-bullets-black](false)
-- How many food or swords to score VP.
+- These will be subtracted from your score EOG.
+- Resolved disasters from table 2.
 @olend
 
 @snapend
@@ -82,10 +89,12 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms: Player Order Card)<BR>
-@color[blue](Order number)
+@color[red](Build Cities/Monuments)<BR>
+@color[blue](For each worker on dice.)
 @ol[list-bullets-black](false)
-- Marks has passed for round.
+- Check off a box in the City or Monument.
+- Once it's all checked it's built.
+- Incomplete monuments are worth nothing.
 @olend
 
 @snapend
@@ -98,9 +107,10 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms: Tiles)<BR>
-@color[blue](Available Upgrades; Buildings, Advisors, Colonies, Wonders.)
+@color[red](Build Cities/Monuments: If you're the first specific monument builder)<BR>
+@color[blue](Circle the larger number of points.)
 @ol[list-bullets-black](false)
+- Everybody else will get smaller.
 @olend
 
 @snapend
@@ -113,9 +123,13 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms: Buildings)<BR>
-@color[blue](Provides Dice.)
+@color[red](buy a development)<BR>
+@color[blue](You may buy one development per turn.)
 @ol[list-bullets-black](false)
+- Circled the endgame points.
+- Buy **** and goods equal to the cost.
+- If you spend goods you must spend all goods of that type.
+- No change back.
 @olend
 
 @snapend
@@ -128,9 +142,10 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms: Advisors)<BR>
-@color[blue](Provides Rerolls)
+@color[red](buy a development: (cont.))<BR>
+@color[blue](Each development maybe bought once.)
 @ol[list-bullets-black](false)
+- table 3?
 @olend
 
 @snapend
@@ -143,9 +158,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms: Colonies)<BR>
-@color[blue](Provides Tokens.)
+@color[red](Discard Goods)<BR>
+@color[blue](You may only keep 6 goods total.)
 @ol[list-bullets-black](false)
+- Move pegs left until you have 6 goods.
+- Pass the dice to the next player.
 @olend
 
 @snapend
@@ -158,9 +175,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms: Books)<BR>
-@color[blue](EOR VP)
+@color[red](Game End)<BR>
+@color[blue](One player buys 5th development.)
 @ol[list-bullets-black](false)
+- Each monument has been built once.
+- Play until the end of round.
 @olend
 
 @snapend
@@ -173,9 +192,14 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms: Famine)<BR>
-@color[blue](EOR VP)
+@color[red](Scoring)<BR>
+@color[blue](Tally scores for:)
 @ol[list-bullets-black](false)
+- Development.
+- Monument.
+- Give or take Architecture.
+- Give or take Empire.
+- Subtract one point for every disaster.
 @olend
 
 @snapend
@@ -188,299 +212,9 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms: War)<BR>
-@color[blue](EOR VP)
+@color[red](Winning the Game)<BR>
+@color[blue](Highest score wins.)
 @ol[list-bullets-black](false)
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 15.jpg](images/15.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](New Age)<BR>
-@color[blue](Remove old Age Tiles.)
-@ol[list-bullets-black](false)
-- Place new Age Tiles.
-- Move used Tokens and Dice to unused area.
-- Reset player order card.
-- Roll Dice.
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 16.jpg](images/16.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Trading Dice)<BR>
-@color[blue](At anytime; 2 dice = 1 gold, food, stone.)
-@ol[list-bullets-black](false)
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 17.jpg](images/17.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Actions)<BR>
-@color[blue](One action per turn.)
-@ol[list-bullets-black](false)
-- Repeat until all players pass.
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 18.jpg](images/18.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Actions: Actions)<BR>
-@color[blue](Reroll)
-@ol[list-bullets-black](false)
-- Buy Tile
-- Build Wonder
-- Pass
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 19.jpg](images/19.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Actions: Reroll)<BR>
-@color[blue](Move reroll Token to used area.)
-@ol[list-bullets-black](false)
-- Reroll 1+ unused dice.
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 20.jpg](images/20.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Actions: Buy Tile)<BR>
-@color[blue](Use Gold or Sword)
-@ol[list-bullets-black](false)
-- No change.
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 21.jpg](images/21.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Actions: Buy Tile: Buildings)<BR>
-@color[blue](Buildings replace buildings.)
-@ol[list-bullets-black](false)
-- Return replaced buildings used/unused dice.
-- Roll new building's dice to unused area.
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 22.jpg](images/22.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Actions: Buy Tile: Advisors)<BR>
-@color[blue](Advisors replace/add Advisors)
-@ol[list-bullets-black](false)
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 23.jpg](images/23.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Actions: Buy Tile: Colonies)<BR>
-@color[blue](Colonies add on.)
-@ol[list-bullets-black](false)
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 24.jpg](images/24.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Actions: Buy Tile: Wonders)<BR>
-@color[blue](Wonders replace/add to Wonder build zone.)
-@ol[list-bullets-black](false)
-- Buiilt Wonders add on.
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 25.jpg](images/25.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Actions: Build Wonder)<BR>
-@color[blue](Use stone to build.)
-@ol[list-bullets-black](false)
-- Add token/dice from Wonder
-- Leave VP for EOG
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 26.jpg](images/26.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Actions: Passing)<BR>
-@color[blue](Tap player order card.)
-@ol[list-bullets-black](false)
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 27.jpg](images/27.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](EOR: Books)<BR>
-@color[blue](In reverse order.)
-@ol[list-bullets-black](false)
-- Use Books to increase counter.
-- Score VP per out ranked player.
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 29.jpg](images/29.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](EOR: Famine)<BR>
-@color[blue](In reverse order.)
-@ol[list-bullets-black](false)
-- Use food to score VP for EOR Goal
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 30.jpg](images/30.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](EOR: Player Order)<BR>
-@color[blue](Highest unused swords)
-@ol[list-bullets-black](false)
-- Ties resolve to previous order.
-- Doesn't use the swords.
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 31.jpg](images/31.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](EOR: War)<BR>
-@color[blue](In reverse order.)
-@ol[list-bullets-black](false)
-- Use unused swords to score VP for EOR Goal
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 32.jpg](images/32.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](EOR: EOR)<BR>
-@color[blue](Continue to next Age, or EOG.)
-@ol[list-bullets-black](false)
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 33.jpg](images/33.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](EOG)<BR>
-@color[blue](Add Tile VP.)
-@ol[list-bullets-black](false)
-- Highest VP Wins.
-- Ties broke by player order.
+- Ties broken by remaining goods.
+- Or were the most ****.
+- Thank you.
