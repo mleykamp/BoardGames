@@ -23,9 +23,9 @@ test = ""
 for x in args.game.split(" "):
     test += x.title()
 
-filename = "_".join(args.game.split(" "))+ ".json"
+filename = "".join(args.game.split(" "))+ ".json"
 cover_image = "0.jpg"
-outfile = "C:\\Users\\Mark\\Google Drive\\projects\\" + test + r'\PITCHME.md'
+outfile = 'PITCHME.md'
 
 
 def to_warning(x):

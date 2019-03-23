@@ -1,81 +1,169 @@
 [
   {
-    "Place Tiles.": [
-      "Place 4 tiles in numerical order.",
-      "Pick 1 tile.",
-      "Smallest value tile goes first next time.",
-      "Mandatory add your selected Domino to your kingdom"
+    "How to Play": [
+      "Domino Drafting/Builder.",
+      "Pick dominos to add.",
+      "VP from kingdom."
     ]
   },
   {
-    "Valid Placement": [
+    "Quick Terms:": [
+      {
+        "Dominos": ["2 Terrains per.", "7 distinct Terrains."]
+      },
+      {
+        "Terrains": [
+          "Yellow Fields.",
+          "Dark Green Forests.",
+          "Blue Lakes.",
+          "Light Green Grasslands.",
+          "Brown Swamps.",
+          "Black Mines.",
+          "Red Towns."
+        ]
+      },
+      {
+        "Castle": ["Starting domino."]
+      },
+      {
+        "King": ["You."]
+      },
+      {
+        "Buildings": ["Get resources.", "Upgrade Territory."]
+      },
+      {
+        "Builders Board": ["Price per building."]
+      },
+      {
+        "Knights": [""]
+      },
+      {
+        "Towers": [""]
+      },
+      {
+        "Queen": [""]
+      },
+      {
+        "Dragon": [""]
+      },
+      { "Coins": ["Money"] }
+    ]
+  },
+  {
+    "Actions": [
+      "Place Domino.",
+      "Place Knights.",
+      "Construct Building.",
+      "Bribe Dragon.",
+      "Draft Domino"
+    ]
+  },
+  {
+    "Place Domino": [
       "A kingdom may not be more than 5x5 squares.",
       "at least two connecting squares must have the same terrain.",
-      "the four sides of the starting tile are wild.",
+      "the four sides of the starting domino are wild.",
       "once a Domino's placed it may not be moved.",
-      "if you can't play a tile it's just discarded from the game.",
+      "if you can't play a domino it's just discarded from the game.",
       "if they can be played they may not be discarded."
     ]
   },
   {
-    "Knights": [
-      "optional have one or two knights collect tax on a domino you just placed.",
-      "if you have knights available you may choose to collect tax.",
-      "start collecting the Domino **** knight and place it on the Domino immediately."
+    "Place Knights.": [
+      "Optional",
+      "Knights.",
+      "Taxes.",
+      {
+        "Knights": [
+          "If you have one or two Knights available.",
+          "Place on current Domino.",
+          "Collect Tax from Knight's Terrain."
+        ]
+      },
+      {
+        "Collect Tax": [
+          "$ = connecting terrain squares.",
+          "The knight will stay on the Square until the end of the game.",
+          "You may place a Knight on a Terrain group where other Knights have collected taxes."
+        ]
+      }
     ]
   },
   {
-    "Taxes": [
-      "collect coin value equal to the number of connecting squares in the territory.",
-      "the knight will stay on the Square until the end of the game.",
-      "place up to two knights per turn.",
-      "you may place a knight on a territory where other nights have been placed in previous rounds."
+    "Construct Buildings": [
+      "Optional",
+      "Buy Building",
+      "Immediate Effects",
+      "Game Effects",
+      "Place Building",
+      "VP Value",
+      {
+        "Buy Building": [
+          "Choose a building domino available on the Builders Board.",
+          "Pay the bank the construction price."
+        ]
+      },
+      {
+        "Immediate Effects": [
+          "Top Left Grey Corner.",
+          "Collect Knights, available next turn.",
+          "Collect Towers, if most collect Queen."
+        ]
+      },
+      {
+        "Game Effects": [
+          "Lower Left Corner.",
+          "When collecting tax.",
+          "Per Knight, $ = total knights (placed or pending).",
+          "Per Tower, $ = total towers."
+        ]
+      },
+      {
+        "Place Building": [
+          "Construct the building on an open Red Town.",
+          "Upper Right Corner may add a crown."
+        ]
+      },
+      {
+        "VP Value": [
+          "Lower Right Corner",
+          "EOG VP",
+          [
+            "Flat VP",
+            "VP per Terrain square.",
+            "VP per Tower",
+            "VP per Knight (placed or pending)."
+          ]
+        ]
+      }
     ]
   },
   {
-    "Buildings": [
-      "optional construct the building on open red construction Square.",
-      "choose a building tile is available on the builders board.",
-      "pay the bank the construction price.",
-      "add the building to your construction Square."
+    "Bribe Dragon": [
+      "Optional",
+      "bribe the dragon into burning a pending building.",
+      "If the dragon's caved AND you aren't hosting the queen.",
+      "Remove building domino from the builders board.",
+      "Leave empty spot.",
+      "Pay one coin."
     ]
   },
   {
-    "Earnings": [
-      "collect the building bonus.",
-      "make sure to remember any active building bonuses for future ****.",
-      "you may only place one building per square."
-    ]
-  },
-  {
-    "Dragon": [
-      "optional bribe the dragon into burning a building tile.",
-      "You can only take this action if",
-      "the dragon is in the cave AND you are not hosting the queen.",
-      "change city building tile from the builders board.",
-      "pay one coin.",
-      "burn the building discarding from the game.",
-      "and **** with the dragon ****",
-      "only one player per round can use the Dragon."
-    ]
-  },
-  {
-    "Repeat Round: Place Tiles": [
-      "mandatory select a new Domino and the next line with your king meeple."
+    "Draft Domino": [
+      "Place King on available domino.",
+      "Smallest value domino goes first next time."
     ]
   },
   {
     "New Round": [
-      "send the dragon to the cave.",
-      "slide the building tiles to the cheapest spots.",
-      "form a new line of dominoes.",
-      "line them up numerically."
+      "Send the dragon to the cave.",
+      "Slide the building dominos to the cheapest spots.",
+      "Form a new line of pending dominoes.",
+      "Line them up numerically."
     ]
   },
   {
-    "EOG": [
-      "last for Domino's or lined up all players take their final turn final."
-    ]
+    "EOG": ["Last 4 Domino's are used.", "All players take their final turn."]
   },
   {
     "Scoring": [
