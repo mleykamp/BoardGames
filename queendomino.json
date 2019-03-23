@@ -1,0 +1,89 @@
+[
+  {
+    "Place Tiles.": [
+      "Place 4 tiles in numerical order.",
+      "Pick 1 tile.",
+      "Smallest value tile goes first next time.",
+      "Mandatory add your selected Domino to your kingdom"
+    ]
+  },
+  {
+    "Valid Placement": [
+      "A kingdom may not be more than 5x5 squares.",
+      "at least two connecting squares must have the same terrain.",
+      "the four sides of the starting tile are wild.",
+      "once a Domino's placed it may not be moved.",
+      "if you can't play a tile it's just discarded from the game.",
+      "if they can be played they may not be discarded."
+    ]
+  },
+  {
+    "Knights": [
+      "optional have one or two knights collect tax on a domino you just placed.",
+      "if you have knights available you may choose to collect tax.",
+      "start collecting the Domino **** knight and place it on the Domino immediately."
+    ]
+  },
+  {
+    "Taxes": [
+      "collect coin value equal to the number of connecting squares in the territory.",
+      "the knight will stay on the Square until the end of the game.",
+      "place up to two knights per turn.",
+      "you may place a knight on a territory where other nights have been placed in previous rounds."
+    ]
+  },
+  {
+    "Buildings": [
+      "optional construct the building on open red construction Square.",
+      "choose a building tile is available on the builders board.",
+      "pay the bank the construction price.",
+      "add the building to your construction Square."
+    ]
+  },
+  {
+    "Earnings": [
+      "collect the building bonus.",
+      "make sure to remember any active building bonuses for future ****.",
+      "you may only place one building per square."
+    ]
+  },
+  {
+    "Dragon": [
+      "optional bribe the dragon into burning a building tile.",
+      "You can only take this action if",
+      "the dragon is in the cave AND you are not hosting the queen.",
+      "change city building tile from the builders board.",
+      "pay one coin.",
+      "burn the building discarding from the game.",
+      "and **** with the dragon ****",
+      "only one player per round can use the Dragon."
+    ]
+  },
+  {
+    "Repeat Round: Place Tiles": [
+      "mandatory select a new Domino and the next line with your king meeple."
+    ]
+  },
+  {
+    "New Round": [
+      "send the dragon to the cave.",
+      "slide the building tiles to the cheapest spots.",
+      "form a new line of dominoes.",
+      "line them up numerically."
+    ]
+  },
+  {
+    "EOG": [
+      "last for Domino's or lined up all players take their final turn final."
+    ]
+  },
+  {
+    "Scoring": [
+      "3$ = 1VP",
+      "territories with crowns.",
+      "every territory squares multiplied by the crowns.",
+      "add up bonuses.",
+      "ties broken by the largest territory group of matching terrains."
+    ]
+  }
+]
