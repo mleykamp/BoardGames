@@ -448,6 +448,7 @@
 @color[blue](Last 4 Domino's are used.)
 @ol[list-bullets-black](false)
 - All players take their final turn.
+- Queen turns into Tower.
 @olend
 
 @snapend
@@ -466,4 +467,19 @@
 - territories with crowns.
 - every territory squares multiplied by the crowns.
 - add up bonuses.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 30.jpg](images/30.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Winner)<BR>
+@color[blue](Most VP.)
+@ol[list-bullets-black](false)
 - ties broken by the largest territory group of matching terrains.

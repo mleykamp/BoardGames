@@ -163,14 +163,21 @@
     ]
   },
   {
-    "EOG": ["Last 4 Domino's are used.", "All players take their final turn."]
+    "EOG": ["Last 4 Domino's are used.",
+      "All players take their final turn.",
+    "Queen turns into Tower."]
   },
   {
     "Scoring": [
       "3$ = 1VP",
       "territories with crowns.",
       "every territory squares multiplied by the crowns.",
-      "add up bonuses.",
+      "add up bonuses."
+    ]
+  },
+  {
+    "Winner": [
+      "Most VP.",
       "ties broken by the largest territory group of matching terrains."
     ]
   }
