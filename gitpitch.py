@@ -20,10 +20,11 @@ list       = []
 dict       = {}
 max_pixels = 500
 test = ""
+args.game = args.game.lower()
 for x in args.game.split(" "):
     test += x.title()
 
-filename = "".join(args.game.split(" "))+ ".json"
+filename = "_".join(args.game.split(" "))+ ".json"
 cover_image = "0.jpg"
 outfile = 'PITCHME.md'
 
