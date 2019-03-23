@@ -1,0 +1,76 @@
+[
+  {"Roll Dice, Collect Goods/Foods": [
+  "Roll one die per city.",
+  "You start with three pre circled.",
+  "Keep dice with skulls.",
+  "Keep or reroll 0+ dice 2X."
+  ]},
+  {"Collect Goods": [
+    "Having a dice with a goods symbol",
+    "Starting from the bottom row shift one to the right.",
+    "More Goods, then go up a row and shift one to the right.",
+    "Until youre out of goods.",
+    "If the row was full you don't collect it but it still counts."
+  ]},
+  {"Collect Food": [
+    "Advanced food peg one position for each food symbol on the dice.",
+    "Don't collect food if row was full."
+  ]},
+  {"Feed Cities and Resolve Disasters": [
+    {"Feed Cities": [
+      "Each city requires one food.",
+      "Subtract one food from pegboard.",
+      "Any unfed city suffers Famine."
+    ]},
+    {"Trackin lost points": [
+      "Check Disasters Box for each point lost.",
+      "These will be subtracted from your score EOG.",
+      "Resolved disasters from table 2."
+    ]}
+  ]},
+  {"Build Cities/Monuments": [
+    "For each worker on dice.",
+    "Check off a box in the City or Monument.",
+    "Once it's all checked it's built.",
+    "Incomplete monuments are worth nothing.",
+    {"If you're the first specific monument builder": [
+      "Circle the larger number of points.",
+      "Everybody else will get smaller."
+    ]}
+  ]},
+  {"buy a development": [
+    "You may buy one development per turn.",
+    "Circled the endgame points.",
+    "Buy **** and goods equal to the cost.",
+    "If you spend goods you must spend all goods of that type.",
+    "No change back.",
+    {"(cont.)": [
+      "Each development maybe bought once.",
+      "table 3?"
+    ]}
+  ]},
+  { "Discard Goods": [
+    "You may only keep 6 goods total.",
+    "Move pegs left until you have 6 goods.",
+    "Pass the dice to the next player."
+  ]},
+  { "Game End": [
+    "One player buys 5th development.",
+    "Each monument has been built once.",
+    "Play until the end of round."
+  ]},
+  {"Scoring": [
+    "Tally scores for:",
+    "Development.",
+    "Monument.",
+    "Give or take Architecture.",
+    "Give or take Empire.",
+    "Subtract one point for every disaster."
+  ]},
+  {"Winning the Game": [
+    "Highest score wins.",
+    "Ties broken by remaining goods.",
+    "Or were the most ****.",
+    "Thank you."
+  ]}
+]
