@@ -1,0 +1,194 @@
+[
+  {
+    "How to Play": [
+      "Tableau Builder.",
+      "Roll Dice for resources",
+      "Upgrade Nation to earn VP."
+    ]
+  },
+  {
+    "Quick Terms": [
+      {
+        "Age": [
+          "1-4 rounds.",
+          "Upgrades increase per round."
+        ]
+      },
+      {
+        "Dice": [
+          "Colored by Resource Distribution."
+        ]
+      },
+      {
+        "Tokens": [
+          "Guaranteed Dice Side."
+        ]
+      },
+      {
+        "Events": [
+          "EOR Goals",
+          "How many food or swords to score VP."
+        ]
+      },
+      {
+        "Player Order Card": [
+          "Order number",
+          "Marks has passed for round."
+        ]
+      },
+      {
+        "Tiles": [
+          "Available Upgrades; Buildings, Advisors, Colonies, Wonders."
+        ]
+      },
+
+      {
+        "Buildings": [
+          "Provides Dice."
+        ]
+      },
+      {
+        "Advisors": [
+          "Provides Rerolls"
+        ]
+      },
+      {
+        "Colonies": [
+          "Provides Tokens."
+        ]
+      },
+      {
+        "Books": [
+          "EOR VP"
+        ]
+      },
+      {
+        "Famine": [
+          "EOR VP"
+        ]
+      },
+      {
+        "War": [
+          "EOR VP"
+        ]
+      }
+    ]
+  },
+  {
+    "New Age": [
+      "Remove old Age Tiles.",
+      "Place new Age Tiles.",
+      "Move used Tokens and Dice to unused area.",
+      "Reset player order card.",
+      "Roll Dice."
+    ]
+  },
+  {
+    "Trading Dice": [
+      "At anytime; 2 dice = 1 gold, food, stone."
+    ]
+  },
+  {
+    "Actions": [
+      "One action per turn.",
+      "Repeat until all players pass.",
+      {
+        "Actions": [
+          "Reroll",
+          "Buy Tile",
+          "Build Wonder",
+          "Pass"
+        ]
+      },
+      {
+        "Reroll": [
+          "Move reroll Token to used area.",
+          "Reroll 1+ unused dice."
+        ]
+      },
+      {
+        "Buy Tile": [
+          "Use Gold or Sword",
+          "No change.",
+          {
+            "Buildings": [
+              "Buildings replace buildings.",
+              "Return replaced buildings used/unused dice.",
+              "Roll new building's dice to unused area."
+            ]
+          },
+          {
+            "Advisors": [
+              "Advisors replace/add Advisors"
+            ]
+          },
+          {
+            "Colonies": [
+              "Colonies add on."
+            ]
+          },
+          {
+            "Wonders": [
+              "Wonders replace/add to Wonder build zone.",
+              "Buiilt Wonders add on."
+            ]
+          }
+        ]
+      },
+      {
+        "Build Wonder": [
+          "Use stone to build.",
+          "Add token/dice from Wonder",
+          "Leave VP for EOG"
+        ]
+      },
+      {
+        "Passing": [
+          "Tap player order card."
+        ]
+      }
+    ]
+  },
+  {
+    "EOR": [
+      {
+        "Books": [
+          "In reverse order.",
+          "Use Books to increase counter.",
+          "Score VP per out ranked player."
+        ]
+      },
+      {
+        "Famine": [
+          "In reverse order.",
+          "Use food to score VP for EOR Goal"
+        ]
+      },
+      {
+        "Player Order": [
+          "Highest unused swords",
+          "Ties resolve to previous order.",
+          "Doesn't use the swords."
+        ]
+      },
+      {
+        "War": [
+          "In reverse order.",
+          "Use unused swords to score VP for EOR Goal"
+        ]
+      },
+      {
+        "EOR": [
+          "Continue to next Age, or EOG."
+        ]
+      }
+    ]
+  },
+  {
+    "EOG": [
+      "Add Tile VP.",
+      "Highest VP Wins.",
+      "Ties broke by player order."
+    ]
+  }
+]
