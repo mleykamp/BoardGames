@@ -1,6 +1,6 @@
 [
 	{
-		"Version": ["0.04"]
+		"Version": ["0.05"]
 	},
 	{
 		"Title1": ["Header", "List item"]
@@ -17,9 +17,12 @@
 		"Title4": [
 			"Header",
 			{
-				"New Slide Title4:title": ["header", "List item"]
+				"New Slide Title4:title": [
+					"header",
+					{ "Sub New Slide": ["List item"] }
+				]
 			},
-			"Footer"
+			"List item"
 		]
 	},
 	{
@@ -32,7 +35,7 @@
 					["List item", "List item"]
 				]
 			},
-			["Sub Footer"]
+			["List item"]
 		]
 	},
 	{
