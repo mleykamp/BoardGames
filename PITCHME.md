@@ -3,10 +3,9 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Title1)<BR>
-@color[blue](Header)
+@color[red](Version)<BR>
+@color[blue](0.04)
 @ol[list-bullets-black](false)
-- List item
 @olend
 
 @snapend
@@ -19,10 +18,9 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Title2)<BR>
-@color[blue](title)
+@color[red](Title1)<BR>
+@color[blue](Header)
 @ol[list-bullets-black](false)
-- Header
 - List item
 @olend
 
@@ -36,16 +34,32 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Title3)<BR>
-@color[blue](Header)
+@color[red](Title2)<BR>
+@color[blue](Side Header)
 @ol[list-bullets-black](false)
-- Sub list
+- List item
 @olend
 
 @snapend
 
 @snap[north-east span-50]
 ![Slide: 4.jpg](images/4.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Title3)<BR>
+@color[blue](Header)
+@ol[list-bullets-black](false)
+- List item
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 5.jpg](images/5.jpg)
 @snapend
 
 
@@ -60,23 +74,24 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 5.jpg](images/5.jpg)
+![Slide: 6.jpg](images/6.jpg)
 @snapend
 
 
 ---
 
 @snap[north-west span-50]
-@color[red](Title4: title)<BR>
+@color[red](Title4: New Slide Title4:title)<BR>
 @color[blue](header)
 @ol[list-bullets-black](false)
 - List item
+- Footer
 @olend
 
 @snapend
 
 @snap[north-east span-50]
-![Slide: 6.jpg](images/6.jpg)
+![Slide: 7.jpg](images/7.jpg)
 @snapend
 
 
@@ -91,24 +106,6 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 7.jpg](images/7.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Title5: title)<BR>
-@color[blue](header)
-@ol[list-bullets-black](false)
-- List item
-- Sub header
-- sub list item
-@olend
-
-@snapend
-
-@snap[north-east span-50]
 ![Slide: 8.jpg](images/8.jpg)
 @snapend
 
@@ -116,9 +113,13 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Version)<BR>
-@color[blue](0.03)
+@color[red](Title5: New Slide Title4:title)<BR>
+@color[blue](header)
 @ol[list-bullets-black](false)
+- List item
+- List item
+- List item
+- Sub Footer
 @olend
 
 @snapend

@@ -1,27 +1,39 @@
 [
-	{ "Title1": ["Header", "List item"] },
-	{ "Title2": { "title": ["Header", "List item"] } },
-	{ "Title3": ["Header", ["Sub list"]] },
+	{
+		"Version": ["0.04"]
+	},
+	{
+		"Title1": ["Header", "List item"]
+	},
+	{
+		"Title2": {
+			"Side Header": ["List item"]
+		}
+	},
+	{
+		"Title3": ["Header", ["List item"]]
+	},
 	{
 		"Title4": [
 			"Header",
-			{ "title": ["header", "List item"] }
+			{
+				"New Slide Title4:title": ["header", "List item"]
+			},
+			"Footer"
 		]
 	},
 	{
 		"Title5": [
 			"Header",
 			{
-				"title": [
+				"New Slide Title4:title": [
 					"header",
 					"List item",
-					["Sub header", "sub list item"]
+					["List item", "List item"]
 				]
-			}
+			},
+			["Sub Footer"]
 		]
-	},
-	{
-		"Version": ["0.03"]
 	},
 	{
 		"How to Play": [
