@@ -177,8 +177,8 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms: Credits)<BR>
-@color[blue](Money.)
+@color[red](Quick Terms: Faction Tiles)<BR>
+@color[blue](Starting Worlds or Developments)
 @ol[list-bullets-black](false)
 @olend
 
@@ -192,8 +192,8 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms: Faction Tiles)<BR>
-@color[blue](Starting World/Developments)
+@color[red](Quick Terms: Developments)<BR>
+@color[blue](Bonuses per round.)
 @ol[list-bullets-black](false)
 @olend
 
@@ -207,22 +207,7 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms: Development)<BR>
-@color[blue](Bonuses per round.)
-@ol[list-bullets-black](false)
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 16.jpg](images/16.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Quick Terms: World)<BR>
+@color[red](Quick Terms: Worlds)<BR>
 @color[blue](One time bonuses.)
 @ol[list-bullets-black](false)
 @olend
@@ -230,7 +215,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 17.jpg](images/17.jpg)
+![Slide: 16.jpg](images/16.jpg)
 @snapend
 
 
@@ -245,7 +230,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 18.jpg](images/18.jpg)
+![Slide: 17.jpg](images/17.jpg)
 @snapend
 
 
@@ -260,7 +245,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 19.jpg](images/19.jpg)
+![Slide: 18.jpg](images/18.jpg)
 @snapend
 
 
@@ -280,7 +265,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 20.jpg](images/20.jpg)
+![Slide: 19.jpg](images/19.jpg)
 @snapend
 
 
@@ -298,7 +283,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 21.jpg](images/21.jpg)
+![Slide: 20.jpg](images/20.jpg)
 @snapend
 
 
@@ -308,13 +293,14 @@
 @color[red](Round)<BR>
 @color[blue](Assign)
 @ol[list-bullets-black](false)
+- Behind Screen
 - Assign Worker under Phase Strip.
 @olend
 
 @snapend
 
 @snap[north-east span-50]
-![Slide: 22.jpg](images/22.jpg)
+![Slide: 21.jpg](images/21.jpg)
 @snapend
 
 
@@ -331,7 +317,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 23.jpg](images/23.jpg)
+![Slide: 22.jpg](images/22.jpg)
 @snapend
 
 
@@ -341,14 +327,14 @@
 @color[red](Round: Assign)<BR>
 @color[blue](Reassign)
 @ol[list-bullets-black](false)
-- Reassign Development power works once per round.
+- 'Reassign' Development power works once per round.
 - All players may Reassign to Dictate.
 @olend
 
 @snapend
 
 @snap[north-east span-50]
-![Slide: 24.jpg](images/24.jpg)
+![Slide: 23.jpg](images/23.jpg)
 @snapend
 
 
@@ -360,13 +346,12 @@
 @ol[list-bullets-black](false)
 - Dictate 'is' beside phase strip
 - After assigning a Worker to Dictate, reassign a different Worker to any Phase.
-- Dictated worker will end up in the cup.
 @olend
 
 @snapend
 
 @snap[north-east span-50]
-![Slide: 25.jpg](images/25.jpg)
+![Slide: 24.jpg](images/24.jpg)
 @snapend
 
 
@@ -383,7 +368,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 26.jpg](images/26.jpg)
+![Slide: 25.jpg](images/25.jpg)
 @snapend
 
 
@@ -400,7 +385,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 27.jpg](images/27.jpg)
+![Slide: 26.jpg](images/26.jpg)
 @snapend
 
 
@@ -412,13 +397,13 @@
 @ol[list-bullets-black](false)
 - Execute each Phase step in order.
 - Use all assinged Workers.
-- Also use Phase selection Worker.
+- Also use Worker who selected your Phase.
 @olend
 
 @snapend
 
 @snap[north-east span-50]
-![Slide: 28.jpg](images/28.jpg)
+![Slide: 27.jpg](images/27.jpg)
 @snapend
 
 
@@ -438,7 +423,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 29.jpg](images/29.jpg)
+![Slide: 28.jpg](images/28.jpg)
 @snapend
 
 
@@ -448,15 +433,14 @@
 @color[red](Round: Phases)<BR>
 @color[blue](Explore)
 @ol[list-bullets-black](false)
-- Scout.
-- Stock.
+- Scout or Stock.
 - Move Worker to Citizenry.
 @olend
 
 @snapend
 
 @snap[north-east span-50]
-![Slide: 30.jpg](images/30.jpg)
+![Slide: 29.jpg](images/29.jpg)
 @snapend
 
 
@@ -467,14 +451,14 @@
 @color[blue](Scout)
 @ol[list-bullets-black](false)
 - Optionally abandon Construction Zone tiles.
-- Draw abandoned + 1 tile from the bag.
+- Draw abandoned + 1 tiles from the bag.
 - Place it as a Development or World Construction Zone.
 @olend
 
 @snapend
 
 @snap[north-east span-50]
-![Slide: 31.jpg](images/31.jpg)
+![Slide: 30.jpg](images/30.jpg)
 @snapend
 
 
@@ -493,7 +477,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 32.jpg](images/32.jpg)
+![Slide: 31.jpg](images/31.jpg)
 @snapend
 
 
@@ -509,7 +493,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 33.jpg](images/33.jpg)
+![Slide: 32.jpg](images/32.jpg)
 @snapend
 
 
@@ -527,7 +511,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 34.jpg](images/34.jpg)
+![Slide: 33.jpg](images/33.jpg)
 @snapend
 
 
@@ -546,7 +530,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 35.jpg](images/35.jpg)
+![Slide: 34.jpg](images/34.jpg)
 @snapend
 
 
@@ -557,14 +541,13 @@
 @color[blue](Worlds will have immediate effect.)
 @ol[list-bullets-black](false)
 - Put worker on World Construction Zone stack.
-- If effect removes dice, select from any location.
 - Complete if Workers = Cost of World.
 @olend
 
 @snapend
 
 @snap[north-east span-50]
-![Slide: 36.jpg](images/36.jpg)
+![Slide: 35.jpg](images/35.jpg)
 @snapend
 
 
@@ -574,15 +557,16 @@
 @color[red](Round: Settle)<BR>
 @color[blue](Complete)
 @ol[list-bullets-black](false)
-- Move tile to tablue.
+- Move tile to tableu.
 - Move Workers to Citizenry.
 - Continue with Settle Workers.
+- If effect removes dice, select from any location.
 @olend
 
 @snapend
 
 @snap[north-east span-50]
-![Slide: 37.jpg](images/37.jpg)
+![Slide: 36.jpg](images/36.jpg)
 @snapend
 
 
@@ -600,7 +584,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 38.jpg](images/38.jpg)
+![Slide: 37.jpg](images/37.jpg)
 @snapend
 
 
@@ -617,7 +601,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 39.jpg](images/39.jpg)
+![Slide: 38.jpg](images/38.jpg)
 @snapend
 
 
@@ -633,7 +617,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 40.jpg](images/40.jpg)
+![Slide: 39.jpg](images/39.jpg)
 @snapend
 
 
@@ -651,7 +635,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 41.jpg](images/41.jpg)
+![Slide: 40.jpg](images/40.jpg)
 @snapend
 
 
@@ -667,7 +651,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 42.jpg](images/42.jpg)
+![Slide: 41.jpg](images/41.jpg)
 @snapend
 
 
@@ -686,7 +670,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 43.jpg](images/43.jpg)
+![Slide: 42.jpg](images/42.jpg)
 @snapend
 
 
@@ -703,7 +687,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 44.jpg](images/44.jpg)
+![Slide: 43.jpg](images/43.jpg)
 @snapend
 
 
@@ -719,7 +703,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 45.jpg](images/45.jpg)
+![Slide: 44.jpg](images/44.jpg)
 @snapend
 
 
@@ -735,7 +719,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 46.jpg](images/46.jpg)
+![Slide: 45.jpg](images/45.jpg)
 @snapend
 
 
@@ -752,7 +736,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 47.jpg](images/47.jpg)
+![Slide: 46.jpg](images/46.jpg)
 @snapend
 
 
@@ -760,17 +744,17 @@
 
 @snap[north-west span-50]
 @color[red](Winner: Most VP)<BR>
-@color[blue](Add)
+@color[blue](Add up...)
 @ol[list-bullets-black](false)
 - VP Tokens
-- VP per completed developments and worlds.
+- VP for completed developments and worlds.
 - VP from 6-Cost developments rewards (rounding up).
 @olend
 
 @snapend
 
 @snap[north-east span-50]
-![Slide: 49.jpg](images/49.jpg)
+![Slide: 48.jpg](images/48.jpg)
 @snapend
 
 
@@ -785,7 +769,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 50.jpg](images/50.jpg)
+![Slide: 49.jpg](images/49.jpg)
 @snapend
 
 

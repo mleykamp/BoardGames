@@ -55,16 +55,13 @@
 				]
 			},
 			{
-				"Credits": ["Money."]
+				"Faction Tiles": ["Starting Worlds or Developments"]
 			},
 			{
-				"Faction Tiles": ["Starting World/Developments"]
+				"Developments": ["Bonuses per round."]
 			},
 			{
-				"Development": ["Bonuses per round."]
-			},
-			{
-				"World": ["One time bonuses."]
+				"Worlds": ["One time bonuses."]
 			},
 			{
 				"Consume": ["Goods turn into VP."]
@@ -93,6 +90,7 @@
 			{
 				"Assign": [
 					"",
+					"Behind Screen",
 					"Assign Worker under Phase Strip.",
 					{
 						"Phase Selection": [
@@ -104,7 +102,7 @@
 					{
 						"Reassign": [
 							"",
-							"Reassign Development power works once per round.",
+							"'Reassign' Development power works once per round.",
 							"All players may Reassign to Dictate."
 						]
 					},
@@ -112,8 +110,7 @@
 						"Dicate": [
 							"",
 							"Dictate 'is' beside phase strip",
-							"After assigning a Worker to Dictate, reassign a different Worker to any Phase.",
-							"Dictated worker will end up in the cup."
+							"After assigning a Worker to Dictate, reassign a different Worker to any Phase."
 						]
 					}
 				]
@@ -137,7 +134,7 @@
 					"",
 					"Execute each Phase step in order.",
 					"Use all assinged Workers.",
-					"Also use Phase selection Worker.",
+					"Also use Worker who selected your Phase.",
 					{
 						"": [
 							"",
@@ -151,14 +148,13 @@
 					{
 						"Explore": [
 							"",
-							"Scout.",
-							"Stock.",
+							"Scout or Stock.",
 							"Move Worker to Citizenry.",
 							{
 								"Scout": [
 									"",
 									"Optionally abandon Construction Zone tiles.",
-									"Draw abandoned + 1 tile from the bag.",
+									"Draw abandoned + 1 tiles from the bag.",
 									"Place it as a Development or World Construction Zone.",
 									{
 										"Abandon": [
@@ -199,14 +195,14 @@
 				"Settle": [
 					"Worlds will have immediate effect.",
 					"Put worker on World Construction Zone stack.",
-					"If effect removes dice, select from any location.",
 					"Complete if Workers = Cost of World.",
 					{
 						"Complete": [
 							"",
-							"Move tile to tablue.",
+							"Move tile to tableu.",
 							"Move Workers to Citizenry.",
-							"Continue with Settle Workers."
+							"Continue with Settle Workers.",
+							"If effect removes dice, select from any location."
 						]
 					}
 				]
@@ -287,9 +283,9 @@
 		"Winner": [
 			{
 				"Most VP": [
-					"Add",
+					"Add up...",
 					"VP Tokens",
-					"VP per completed developments and worlds.",
+					"VP for completed developments and worlds.",
 					"VP from 6-Cost developments rewards (rounding up)."
 				]
 			},
