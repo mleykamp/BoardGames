@@ -12,7 +12,7 @@ args = parser.parse_args()
 
 
 pp         = pprint.PrettyPrinter(indent=2, depth=5, width=50, compact=False)
-pp.pprint(args);
+pp.pprint(args)
 
 integer    = 1
 string     = ""
@@ -25,7 +25,7 @@ for x in args.game.split(" "):
 
 filename = "_".join(args.game.split(" "))+ ".json"
 cover_image = "0.jpg"
-outfile = "C:\\Users\\Mark\\Google Drive\\projects\\" + test + r'\PITCHME.md'
+outfile = "C:\\Users\\Mark\\Google Drive\\projects\\BoardGames\\PITCHME.md"
 
 
 def to_warning(x):
@@ -180,6 +180,8 @@ def gitpitch_list(part, pastCrumbs):
     return slides
 
 def main():
+    print("open " + filename)
+    ret = []
     with open(filename) as f:
         ret = json.load(f)
     gitpitch = ""
@@ -188,10 +190,14 @@ def main():
     if type(ret) == dict.__class__:
         gitpitch += gitpitch_list(from_list([ret]), [])
     else:
+        print("outer: " + len(ret).__str__())
         gitpitch += gitpitch_list(from_list(ret), [])
 
+    print("write " + outfile)
     with open(outfile, 'w') as o:
         o.write(gitpitch)
+
+    print("END")
 
 if __name__ == "__main__":
     main()
