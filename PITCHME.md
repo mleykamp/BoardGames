@@ -18,7 +18,7 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms:: Workers)<BR>
+@color[red](Quick Terms: Workers)<BR>
 @color[blue](Dice.)
 @ol[list-bullets-black](false)
 @olend
@@ -33,7 +33,7 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms:: Phase Strip)<BR>
+@color[red](Quick Terms: Phase Strip)<BR>
 @color[blue](Manages Workers per Phase)
 @ol[list-bullets-black](false)
 @olend
@@ -48,13 +48,14 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms:: Phases)<BR>
-@color[blue](1. Explore)
+@color[red](Quick Terms: Phases)<BR>
+@color[blue](5 phases)
 @ol[list-bullets-black](false)
-- 2. Develop
-- 3. Settle
-- 4. Produce
-- 5. Shipping
+- Explore
+- Develop
+- Settle
+- Produce
+- Shipping
 @olend
 
 @snapend
@@ -67,8 +68,8 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms:: Citizenry)<BR>
-@color[blue](Used dice the run your Empire.)
+@color[red](Quick Terms: Citizenry)<BR>
+@color[blue](Used Workers.)
 @ol[list-bullets-black](false)
 @olend
 
@@ -82,8 +83,8 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms:: Construction Zone)<BR>
-@color[blue](Queue of developments.)
+@color[red](Quick Terms: Cup)<BR>
+@color[blue](Pending Workers.)
 @ol[list-bullets-black](false)
 @olend
 
@@ -97,8 +98,8 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms:: Credits)<BR>
-@color[blue](Money.)
+@color[red](Quick Terms: Construction Zone)<BR>
+@color[blue](Queue of Developments or Worlds.)
 @ol[list-bullets-black](false)
 @olend
 
@@ -112,8 +113,8 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms:)<BR>
-@color[blue](Faction Tiles)
+@color[red](Quick Terms: Credits)<BR>
+@color[blue](Money.)
 @ol[list-bullets-black](false)
 @olend
 
@@ -127,8 +128,8 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms:)<BR>
-@color[blue](Home World Tiles)
+@color[red](Quick Terms: Faction Tiles)<BR>
+@color[blue](Starting World/Developments)
 @ol[list-bullets-black](false)
 @olend
 
@@ -142,8 +143,8 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms:)<BR>
-@color[blue](Game Tiles)
+@color[red](Quick Terms: Game Tiles)<BR>
+@color[blue](Development and World sides.)
 @ol[list-bullets-black](false)
 @olend
 
@@ -157,8 +158,8 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms:: Consume)<BR>
-@color[blue](Good turns into VP.)
+@color[red](Quick Terms: Consume)<BR>
+@color[blue](Goods turn into VP.)
 @ol[list-bullets-black](false)
 @olend
 
@@ -172,8 +173,8 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms:: Trade)<BR>
-@color[blue](Good turns into $)
+@color[red](Quick Terms: Trade)<BR>
+@color[blue](Goods turn into $)
 @ol[list-bullets-black](false)
 @olend
 
@@ -187,9 +188,14 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms:)<BR>
-@color[blue]()
+@color[red](Round)<BR>
+@color[blue](5 Steps)
 @ol[list-bullets-black](false)
+- Roll
+- Assign
+- Reveal
+- Action
+- Manage
 @olend
 
 @snapend
@@ -202,9 +208,12 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms:)<BR>
-@color[blue]()
+@color[red](Roll)<BR>
+@color[blue](Roll)
 @ol[list-bullets-black](false)
+- Simultaneously
+- Behind Screen
+- Roll all Workers from cup
 @olend
 
 @snapend
@@ -217,8 +226,8 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms:)<BR>
-@color[blue]()
+@color[red](Assign)<BR>
+@color[blue](Assign Worker under phase strip.)
 @ol[list-bullets-black](false)
 @olend
 
@@ -232,9 +241,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms:)<BR>
-@color[blue]()
+@color[red](Phase Selection)<BR>
+@color[blue](Select a Phase.)
 @ol[list-bullets-black](false)
+- Only players selected phases will happen.
+- Move any one worker to any Phase on strip.
 @olend
 
 @snapend
@@ -247,9 +258,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms:)<BR>
-@color[blue]()
+@color[red](Reassign)<BR>
+@color[blue](If developed, reassign workers to different phase.)
 @ol[list-bullets-black](false)
+- Reassign power works once per round.
+- All players may Reassign to Dictate
 @olend
 
 @snapend
@@ -262,13 +275,27 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: Steps)<BR>
-@color[blue](Roll)
+@color[red](Dicate)<BR>
+@color[blue](Dictate "is" beside phase strip)
 @ol[list-bullets-black](false)
-- Assign
-- Reveal
-- Action
-- Manage
+- Reassign a different worker to a different phase.
+- Dictated worker will end up in the cup.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 20.jpg](images/20.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Reveal)<BR>
+@color[blue](Lift Screen)
+@ol[list-bullets-black](false)
+- Flip chosen Phase tiles.
 @olend
 
 @snapend
@@ -281,11 +308,10 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: Roll)<BR>
-@color[blue](Simultaneously)
+@color[red](Return)<BR>
+@color[blue](Retun 'X' phase workers to cup.)
 @ol[list-bullets-black](false)
-- Hidden
-- Roll all Workers from cup
+- Return Dictate workers to cup.
 @olend
 
 @snapend
@@ -298,9 +324,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: Assign)<BR>
-@color[blue](Assign Worker under phase strip.)
+@color[red](Phases (General))<BR>
+@color[blue](In order execute each phase step.)
 @ol[list-bullets-black](false)
+- Use all assinged workers.
+- Also use phase selection worker.
 @olend
 
 @snapend
@@ -313,11 +341,13 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: Phase Selection)<BR>
-@color[blue](Select a Phase.)
+@color[red](Phases (List))<BR>
+@color[blue](1. Explore)
 @ol[list-bullets-black](false)
-- Only players selected phases will happen.
-- Move any one worker to any Phase on strip.
+- 2. Develop
+- 3. Settle
+- 4. Produce
+- 5. Shipping
 @olend
 
 @snapend
@@ -330,11 +360,10 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: Reassign)<BR>
-@color[blue](If developed, reassign workers to different phase.)
+@color[red](1. Explore)<BR>
+@color[blue](Either Scout or Stock.)
 @ol[list-bullets-black](false)
-- Reassign power works once per round.
-- All players may Reassign to Dictate
+- Move to Citizenry.
 @olend
 
 @snapend
@@ -347,11 +376,12 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: Dicate)<BR>
-@color[blue](Dictate "is" beside phase strip)
+@color[red](SCOUT (or Stock))<BR>
+@color[blue](Optionally abandon construction zone tiles.)
 @ol[list-bullets-black](false)
-- Reassign a different worker to a different phase.
-- Dictated worker will end up in the cup.
+- Draw 1 more tile than abandoned from the bag.
+- Choose Development or World side.
+- Place it in the construction zone.
 @olend
 
 @snapend
@@ -364,10 +394,13 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: Reveal)<BR>
-@color[blue](Lift Screen)
+@color[red](Abandon)<BR>
+@color[blue](Any tile from construction zone.)
 @ol[list-bullets-black](false)
-- Flip chosen Phase tiles.
+- Put abandoned tile under Explore Phase tile.
+- After Explore phase return abandoned tiles to bag.
+- Keep developers and settlers on stack.
+- If developers complete a tile, don't complete until Develop/Settle phase.
 @olend
 
 @snapend
@@ -380,10 +413,9 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: Return)<BR>
-@color[blue](Retun 'X' phase workers to cup.)
+@color[red]((Scout or) STOCK)<BR>
+@color[blue](Get $2)
 @ol[list-bullets-black](false)
-- Return Dictate workers to cup.
 @olend
 
 @snapend
@@ -396,11 +428,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: Phases (General))<BR>
-@color[blue](In order execute each phase step.)
+@color[red](2. Develop)<BR>
+@color[blue](Put worker on development construction zone stack.)
 @ol[list-bullets-black](false)
-- Use all assinged workers.
-- Also use phase selection worker.
+- Developments will have mandatory actions (unless 'May')
+- Complete if Workers = Cost of top development.
 @olend
 
 @snapend
@@ -413,13 +445,13 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: Phases (List))<BR>
-@color[blue](1. Explore)
+@color[red](2. Develop: Complete)<BR>
+@color[blue](Move tile to tableu.)
 @ol[list-bullets-black](false)
-- 2. Develop
-- 3. Settle
-- 4. Produce
-- 5. Shipping
+- Move workers to Citizenry.
+- Continue with Develop Workers
+- May complete another tile.
+- If construction zone is empty, return Worker to cup.
 @olend
 
 @snapend
@@ -432,10 +464,12 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: 1. Explore)<BR>
-@color[blue](Either Scout or Stock.)
+@color[red](3. Settle)<BR>
+@color[blue](Put worker on world construction zone stack.)
 @ol[list-bullets-black](false)
-- Move to Citizenry.
+- Worlds will have immediate effect.
+- If effect removes dice, select any location.
+- Complete if Workers = Cost of World.
 @olend
 
 @snapend
@@ -448,12 +482,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: SCOUT (or Stock))<BR>
-@color[blue](Optionally abandon construction zone tiles.)
+@color[red](3. Settle: Complete)<BR>
+@color[blue](Move tile to tablue.)
 @ol[list-bullets-black](false)
-- Draw 1 more tile than abandoned from the bag.
-- Choose Development or World side.
-- Place it in the construction zone.
+- Move Workers to Citizenry.
+- Continue with Settle Workers.
 @olend
 
 @snapend
@@ -466,13 +499,13 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: Abandon)<BR>
-@color[blue](Any tile from construction zone.)
+@color[red](4. Produce)<BR>
+@color[blue](Each Worker becomes 1 good on non-gray World.)
 @ol[list-bullets-black](false)
-- Put abandoned tile under Explore Phase tile.
-- After Explore phase return abandoned tiles to bag.
-- Keep developers and settlers on stack.
-- If developers complete a tile, don't complete until Develop/Settle phase.
+- Any color worker becomes a good.
+- Matching world color applies to Consume.
+- World may hold 1 good.
+- Unusable Workers return to cup.
 @olend
 
 @snapend
@@ -485,9 +518,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: (Scout or) STOCK)<BR>
-@color[blue](Get $2)
+@color[red](5. Shipping)<BR>
+@color[blue](Each Worker Trades or Consumes a good.)
 @ol[list-bullets-black](false)
+- Both Ship and Good Worker move to Citizenry.
+- Purple dice is wild.
 @olend
 
 @snapend
@@ -500,11 +535,9 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: 2. Develop)<BR>
-@color[blue](Put worker on development construction zone stack.)
+@color[red](5. Shipping: Trade)<BR>
+@color[blue](Earn $ based on World color.)
 @ol[list-bullets-black](false)
-- Developments will have mandatory actions (unless 'May')
-- Complete if Workers = Cost of top development.
 @olend
 
 @snapend
@@ -517,13 +550,13 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: 2. Develop: Complete)<BR>
-@color[blue](Move tile to tableu.)
+@color[red](5. Shipping: Consume)<BR>
+@color[blue](Earn VP.)
 @ol[list-bullets-black](false)
-- Move workers to Citizenry.
-- Continue with Develop Workers
-- May complete another tile.
-- If construction zone is empty, return Worker to cup.
+- 1VP for good.
+- +1VP for matching good color.
+- +1VP for Shipper matching world color.
+- If there aren't enough VP tokens, use the set aside 10VP. Trigger EOG.
 @olend
 
 @snapend
@@ -536,12 +569,12 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: 3. Settle)<BR>
-@color[blue](Put worker on world construction zone stack.)
+@color[red](Manage Empire (EOR))<BR>
+@color[blue](Recruiting)
 @ol[list-bullets-black](false)
-- Worlds will have immediate effect.
-- If effect removes dice, select any location.
-- Complete if Workers = Cost of World.
+- Recall
+- Reset
+- Check OEG
 @olend
 
 @snapend
@@ -554,11 +587,10 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: 3. Settle: Complete)<BR>
-@color[blue](Move tile to tablue.)
+@color[red](Manage Empire (EOR): Recruit)<BR>
+@color[blue](Recruit Workers from Citizenry per $)
 @ol[list-bullets-black](false)
-- Move Workers to Citizenry.
-- Continue with Settle Workers.
+- After recruit if broke then +$1
 @olend
 
 @snapend
@@ -571,13 +603,9 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: 4. Produce)<BR>
-@color[blue](Each Worker becomes 1 good on non-gray World.)
+@color[red](Manage Empire (EOR): Recall)<BR>
+@color[blue](Freely return any construction zone Worker to cup.)
 @ol[list-bullets-black](false)
-- Any color worker becomes a good.
-- Matching world color applies to Consume.
-- World may hold 1 good.
-- Unusable Workers return to cup.
 @olend
 
 @snapend
@@ -590,11 +618,9 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: 5. Shipping)<BR>
-@color[blue](Each Worker Trades or Consumes a good.)
+@color[red](Manage Empire (EOR): Reset)<BR>
+@color[blue](Flip Phase used Phase tiles back to 'X'.)
 @ol[list-bullets-black](false)
-- Both Ship and Good Worker move to Citizenry.
-- Purple dice is wild.
 @olend
 
 @snapend
@@ -607,105 +633,7 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Round: 5. Shipping: Trade)<BR>
-@color[blue](Earn $ based on World color.)
-@ol[list-bullets-black](false)
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 41.jpg](images/41.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Round: 5. Shipping: Consume)<BR>
-@color[blue](Earn VP.)
-@ol[list-bullets-black](false)
-- 1VP for good.
-- +1VP for matching good color.
-- +1VP for Shipper matching world color.
-- If there aren't enough VP tokens, use the set aside 10VP. Trigger EOG.
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 42.jpg](images/42.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Round: Manage Empire (EOR))<BR>
-@color[blue](Recruiting)
-@ol[list-bullets-black](false)
-- Recall
-- Reset
-- Check OEG
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 43.jpg](images/43.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Round: Manage Empire (EOR): Recruit)<BR>
-@color[blue](Recruit Workers from Citizenry per $)
-@ol[list-bullets-black](false)
-- After recruit if broke then +$1
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 44.jpg](images/44.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Round: Manage Empire (EOR): Recall)<BR>
-@color[blue](Freely return any construction zone Worker to cup.)
-@ol[list-bullets-black](false)
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 45.jpg](images/45.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Round: Manage Empire (EOR): Reset)<BR>
-@color[blue](Flip Phase used Phase tiles back to 'X'.)
-@ol[list-bullets-black](false)
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 46.jpg](images/46.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Round: Manage Empire (EOR): Check EOG)<BR>
+@color[red](Manage Empire (EOR): Check EOG)<BR>
 @color[blue](A. VP pool was exhausetd)
 @ol[list-bullets-black](false)
 - B. Player has 12 tiles in tableu.
@@ -714,7 +642,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 47.jpg](images/47.jpg)
+![Slide: 41.jpg](images/41.jpg)
 @snapend
 
 
@@ -731,7 +659,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 49.jpg](images/49.jpg)
+![Slide: 43.jpg](images/43.jpg)
 @snapend
 
 
