@@ -69,6 +69,7 @@
 @color[red](Title4)<BR>
 @color[blue](Header)
 @ol[list-bullets-black](false)
+- List item
 @olend
 
 @snapend
@@ -81,9 +82,10 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Title4: New Slide Title4:title)<BR>
+@color[red](Title4: Title4:title5)<BR>
 @color[blue](header)
 @ol[list-bullets-black](false)
+- List item
 @olend
 
 @snapend
@@ -96,10 +98,10 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Title4: New Slide Title4:title: Sub New Slide)<BR>
-@color[blue](List item)
+@color[red](Title4: Title4:title5: Title4:Title4:title5:title6)<BR>
+@color[blue](header)
 @ol[list-bullets-black](false)
-- List item
+- list item
 @olend
 
 @snapend
