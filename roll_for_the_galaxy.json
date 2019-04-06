@@ -1,23 +1,5 @@
 [
 	{
-		"Version": ["0.08"]
-	},
-	{
-		"RootTitle": [
-			"Header",
-			"List item",
-			{
-				"SubTitle": [
-					"header",
-					"List item",
-					{
-						"SubSubTitle": ["header", "list item"]
-					}
-				]
-			}
-		]
-	},
-	{
 		"How to Play": [
 			"Tableu Builder.",
 			"Roll dice to strengthen and expand your empire."
