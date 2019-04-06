@@ -36,18 +36,32 @@
 @color[red](Quick Terms: Phase Strip)<BR>
 @color[blue](Manages Workers per Phase)
 @ol[list-bullets-black](false)
-- 5 phases
-- Explore
-- Develop
-- Settle
-- Produce
-- Shipping
 @olend
 
 @snapend
 
 @snap[north-east span-50]
 ![Slide: 5.jpg](images/5.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Quick Terms)<BR>
+@color[blue](Phases)
+@ol[list-bullets-black](false)
+- 1. Explore
+- 2. Develop
+- 3. Settle
+- 4. Produce
+- 5. Shipping
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 6.jpg](images/6.jpg)
 @snapend
 
 
@@ -62,7 +76,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 6.jpg](images/6.jpg)
+![Slide: 7.jpg](images/7.jpg)
 @snapend
 
 
@@ -77,7 +91,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 7.jpg](images/7.jpg)
+![Slide: 8.jpg](images/8.jpg)
 @snapend
 
 
@@ -92,7 +106,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 8.jpg](images/8.jpg)
+![Slide: 9.jpg](images/9.jpg)
 @snapend
 
 
@@ -107,7 +121,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 9.jpg](images/9.jpg)
+![Slide: 10.jpg](images/10.jpg)
 @snapend
 
 
@@ -122,7 +136,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 10.jpg](images/10.jpg)
+![Slide: 11.jpg](images/11.jpg)
 @snapend
 
 
@@ -137,7 +151,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 11.jpg](images/11.jpg)
+![Slide: 12.jpg](images/12.jpg)
 @snapend
 
 
@@ -152,7 +166,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 12.jpg](images/12.jpg)
+![Slide: 13.jpg](images/13.jpg)
 @snapend
 
 
@@ -167,7 +181,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 13.jpg](images/13.jpg)
+![Slide: 14.jpg](images/14.jpg)
 @snapend
 
 
@@ -187,7 +201,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 14.jpg](images/14.jpg)
+![Slide: 15.jpg](images/15.jpg)
 @snapend
 
 
@@ -205,7 +219,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 15.jpg](images/15.jpg)
+![Slide: 16.jpg](images/16.jpg)
 @snapend
 
 
@@ -220,7 +234,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 16.jpg](images/16.jpg)
+![Slide: 17.jpg](images/17.jpg)
 @snapend
 
 
@@ -237,7 +251,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 17.jpg](images/17.jpg)
+![Slide: 18.jpg](images/18.jpg)
 @snapend
 
 
@@ -254,7 +268,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 18.jpg](images/18.jpg)
+![Slide: 19.jpg](images/19.jpg)
 @snapend
 
 
@@ -271,7 +285,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 19.jpg](images/19.jpg)
+![Slide: 20.jpg](images/20.jpg)
 @snapend
 
 
@@ -287,7 +301,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 20.jpg](images/20.jpg)
+![Slide: 21.jpg](images/21.jpg)
 @snapend
 
 
@@ -303,7 +317,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 21.jpg](images/21.jpg)
+![Slide: 22.jpg](images/22.jpg)
 @snapend
 
 
@@ -320,7 +334,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 22.jpg](images/22.jpg)
+![Slide: 23.jpg](images/23.jpg)
 @snapend
 
 
@@ -339,7 +353,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 23.jpg](images/23.jpg)
+![Slide: 24.jpg](images/24.jpg)
 @snapend
 
 
@@ -355,7 +369,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 24.jpg](images/24.jpg)
+![Slide: 25.jpg](images/25.jpg)
 @snapend
 
 
@@ -373,7 +387,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 25.jpg](images/25.jpg)
+![Slide: 26.jpg](images/26.jpg)
 @snapend
 
 
@@ -392,7 +406,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 26.jpg](images/26.jpg)
+![Slide: 27.jpg](images/27.jpg)
 @snapend
 
 
@@ -407,7 +421,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 27.jpg](images/27.jpg)
+![Slide: 28.jpg](images/28.jpg)
 @snapend
 
 
@@ -424,7 +438,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 28.jpg](images/28.jpg)
+![Slide: 29.jpg](images/29.jpg)
 @snapend
 
 
@@ -443,7 +457,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 29.jpg](images/29.jpg)
+![Slide: 30.jpg](images/30.jpg)
 @snapend
 
 
@@ -461,7 +475,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 30.jpg](images/30.jpg)
+![Slide: 31.jpg](images/31.jpg)
 @snapend
 
 
@@ -478,7 +492,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 31.jpg](images/31.jpg)
+![Slide: 32.jpg](images/32.jpg)
 @snapend
 
 
@@ -497,7 +511,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 32.jpg](images/32.jpg)
+![Slide: 33.jpg](images/33.jpg)
 @snapend
 
 
@@ -514,7 +528,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 33.jpg](images/33.jpg)
+![Slide: 34.jpg](images/34.jpg)
 @snapend
 
 
@@ -529,7 +543,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 34.jpg](images/34.jpg)
+![Slide: 35.jpg](images/35.jpg)
 @snapend
 
 
@@ -548,7 +562,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 35.jpg](images/35.jpg)
+![Slide: 36.jpg](images/36.jpg)
 @snapend
 
 
@@ -566,7 +580,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 36.jpg](images/36.jpg)
+![Slide: 37.jpg](images/37.jpg)
 @snapend
 
 
@@ -582,7 +596,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 37.jpg](images/37.jpg)
+![Slide: 38.jpg](images/38.jpg)
 @snapend
 
 
@@ -597,7 +611,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 38.jpg](images/38.jpg)
+![Slide: 39.jpg](images/39.jpg)
 @snapend
 
 
@@ -612,7 +626,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 39.jpg](images/39.jpg)
+![Slide: 40.jpg](images/40.jpg)
 @snapend
 
 
@@ -628,7 +642,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 40.jpg](images/40.jpg)
+![Slide: 41.jpg](images/41.jpg)
 @snapend
 
 
@@ -645,7 +659,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 42.jpg](images/42.jpg)
+![Slide: 43.jpg](images/43.jpg)
 @snapend
 
 
