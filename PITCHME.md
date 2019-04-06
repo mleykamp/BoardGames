@@ -4,7 +4,7 @@
 
 @snap[north-west span-50]
 @color[red](Version)<BR>
-@color[blue](0.01)
+@color[blue](0.02)
 @ol[list-bullets-black](false)
 @olend
 
@@ -21,6 +21,7 @@
 @color[red](How to Play)<BR>
 @color[blue](Roll dice to strengthen and expand your empire.)
 @ol[list-bullets-black](false)
+- Quick Terms
 @olend
 
 @snapend
@@ -33,10 +34,9 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms)<BR>
-@color[blue](Workers)
+@color[red](Workers)<BR>
+@color[blue](Dice.)
 @ol[list-bullets-black](false)
-- Dice.
 - Phase Strip
 - Manages Workers per Phase
 - Phases

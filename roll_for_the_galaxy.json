@@ -1,35 +1,38 @@
 [
-	{ "Version": ["0.01"] },
+	{
+		"Version": ["0.02"]
+	},
 	{
 		"How to Play": [
 			"Roll dice to strengthen and expand your empire."
 		]
 	},
-	{
-		"Quick Terms": [
-			["Workers", "Dice."],
-			["Phase Strip", "Manages Workers per Phase"],
-			[
-				"Phases",
-				"Explore",
-				"Develop",
-				"Settle",
-				"Produce",
-				"Shipping"
-			],
-			["Citizenry", "Used Workers."],
-			["Cup", "Pending Workers."],
-			[
-				"Construction Zone",
-				"Queue of Developments or Worlds."
-			],
-			["Credits", "Money."],
-			["Faction Tiles", "Starting World/Developments"],
-			["Game Tiles", "Development and World sides."],
-			["Consume", "Goods turn into VP."],
-			["Trade", "Goods turn into $"]
-		]
-	},
+	[
+		"Quick Terms",
+		{
+			"Workers": ["Dice."]
+		},
+		["Phase Strip", "Manages Workers per Phase"],
+		[
+			"Phases",
+			"Explore",
+			"Develop",
+			"Settle",
+			"Produce",
+			"Shipping"
+		],
+		["Citizenry", "Used Workers."],
+		["Cup", "Pending Workers."],
+		[
+			"Construction Zone",
+			"Queue of Developments or Worlds."
+		],
+		["Credits", "Money."],
+		["Faction Tiles", "Starting World/Developments"],
+		["Game Tiles", "Development and World sides."],
+		["Consume", "Goods turn into VP."],
+		["Trade", "Goods turn into $"]
+	],
 	{
 		"Round": [
 			"5 Steps",
