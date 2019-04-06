@@ -1,5 +1,23 @@
 [
   {
+    "Version": ["0.01"]
+  },
+  {
+    "RootTitle": [
+      "Header",
+      "List item",
+      {
+        "SubTitle": [
+          "header",
+          "List item",
+          {
+            "SubSubTitle": ["subheader", "list item"]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "How to Play": [
       ""
     ]
