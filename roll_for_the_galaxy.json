@@ -10,16 +10,14 @@
 				"Workers": ["Dice."]
 			},
 			{ "Phase Strip": ["Manages Workers per Phase"] },
-			{
-				"Phases": [
-					"5 phases",
-					"Explore",
-					"Develop",
-					"Settle",
-					"Produce",
-					"Shipping"
-				]
-			},
+			[
+				"5 phases",
+				"Explore",
+				"Develop",
+				"Settle",
+				"Produce",
+				"Shipping"
+			],
 			{ "Citizenry": ["Used Workers."] },
 			{ "Cup": ["Pending Workers."] },
 			{
