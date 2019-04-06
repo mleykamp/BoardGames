@@ -29,7 +29,9 @@
 				"Workers": ["Dice."]
 			},
 			{
-				"Phase Strip": ["Manages Workers per Phase"]
+				"Phase Strip": [
+					"Identity Workers for pending Phases."
+				]
 			},
 			{
 				"Phases": [
@@ -81,7 +83,7 @@
 			"Phases",
 			"Manage Empire",
 			{
-				"1. Roll": [
+				"Roll": [
 					"",
 					"Simultaneously",
 					"Behind Screen",
@@ -89,37 +91,35 @@
 				]
 			},
 			{
-				"2. Assign": [
+				"Assign": [
 					"",
-					"Assign Worker under phase strip.",
+					"Assign Worker under Phase Strip.",
 					{
 						"Phase Selection": [
 							"",
-							"Select a Phase.",
-							"Only players selected phases will happen.",
-							"Move any one worker to any Phase on strip."
+							"Move any one worker to any Phase on strip.",
+							"Only players selected phases will happen."
 						]
 					},
 					{
 						"Reassign": [
 							"",
-							"Reassign power works once per round.",
-							"All players may Reassign to Dictate.",
-							"Some developments allow special reassigns."
+							"Reassign Development power works once per round.",
+							"All players may Reassign to Dictate."
 						]
 					},
 					{
 						"Dicate": [
 							"",
-							"Dictate \"is\" beside phase strip",
-							"Reassign a different worker to a different phase.",
+							"Dictate 'is' beside phase strip",
+							"After assigning a Worker to Dictate, reassign a different Worker to any Phase.",
 							"Dictated worker will end up in the cup."
 						]
 					}
 				]
 			},
 			{
-				"3. Reveal": [
+				"Reveal": [
 					"",
 					"Lift Screen",
 					"Flip chosen Phase tiles from 'X'.",
@@ -133,12 +133,13 @@
 				]
 			},
 			{
-				"4. Phases": [
-					"In order execute each phase step.",
-					"Use all assinged workers.",
-					"Also use phase selection worker.",
+				"Phases": [
+					"",
+					"Execute each Phase step in order.",
+					"Use all assinged Workers.",
+					"Also use Phase selection Worker.",
 					{
-						"List": [
+						"": [
 							"",
 							"Explore",
 							"Develop",
@@ -148,133 +149,97 @@
 						]
 					},
 					{
-						"1. Explore": [
+						"Explore": [
 							"",
-							"Either Scout or Stock.",
-							"Move to Citizenry.",
+							"Scout.",
+							"Stock.",
+							"Move Worker to Citizenry.",
 							{
-								"SCOUT (or Stock)": [
+								"Scout": [
 									"",
 									"Optionally abandon Construction Zone tiles.",
-									"Draw 1 more tile than abandoned from the bag.",
-									"Choose Development or World side.",
-									"Place it in the Construction Zone.",
+									"Draw abandoned + 1 tile from the bag.",
+									"Place it as a Development or World Construction Zone.",
 									{
 										"Abandon": [
 											"Any tile from Construction Zone.",
-											"Put abandoned tile under Explore Phase Tile.",
-											"After Explore phase, return abandoned tiles to bag.",
-											"Keep Developers and Settlers on stack.",
-											"If developers complete a tile, don't complete until Develop/Settle phase."
-										]
-									},
-									{
-										"(Scout or) STOCK": ["Get $2"]
-									}
-								]
-							}
-						]
-					},
-					{
-						"2. Develop": [
-							"",
-							"Put Worker on Development Construction Zone stack.",
-							"Developments will have mandatory actions (unless 'May')",
-							"Complete if Workers = Cost of top Development.",
-							{
-								"Complete": [
-									"",
-									"Move tile to tableu.",
-									"Move Workers to Citizenry.",
-									"Continue with Develop Workers",
-									"May complete another tile.",
-									"If construction zone is empty, return Worker to cup."
-								]
-							}
-						]
-					},
-					{
-						"3. Settle": [
-							"",
-							"Put worker on World Construction Zone stack.",
-							"Worlds will have immediate effect.",
-							"If effect removes dice, select from any location.",
-							"Complete if Workers = Cost of World.",
-							{
-								"Complete": [
-									"Move tile to tablue.",
-									"Move Workers to Citizenry.",
-									"Continue with Settle Workers."
-								]
-							}
-						]
-					},
-					{
-						"4. Produce": [
-							"Each Worker becomes 1 good on non-gray World.",
-							"Good will be Traded or Consumed.",
-							"Any color worker becomes a good.",
-							"Matching World color only applies when Consumed, not Traded.",
-							"World may hold 1 Good.",
-							"Unusable Workers return to Cup."
-						]
-					},
-					{
-						"5. Shipping": [
-							"Each Worker Trades or Consumes a Good.",
-							"Move to Citizenry both Shipping and Goods Worker.",
-							"Purple dice is wild.",
-							{
-								"Trade": [
-									"Earn $ per Good.",
-									"Income based on World color."
-								]
-							},
-							{
-								"Consume": [
-									"Earn VP.",
-									"1VP for Good.",
-									"+1VP for matching Good color.",
-									"+1VP for Shipper matching World color.",
-									{
-										" Trigger EOG": [
-											"If there aren't enough VP tokens, use the set aside 10VP. Trigger EOG."
+											"Put abandoned tile to side.",
+											"Keep Workers on stack.",
+											"Don't Develop or Settle completed tiles.",
+											"After Explore phase, return abandoned tiles to bag."
 										]
 									}
 								]
+							},
+							{
+								"Stock": ["", "Get $2"]
 							}
+						]
+					}
+				]
+			},
+			{
+				"Develop": [
+					"Developments give round benefits.",
+					"Mandatory unless 'May'",
+					"Put Worker on Development Construction Zone stack.",
+					"Complete if Workers = Cost of top Development.",
+					{
+						"Complete": [
+							"May complete more than 1 tile.",
+							"Move tile to tableu.",
+							"Move Workers to Citizenry.",
+							"Continue with Develop Workers",
+							"Unusable Workers to cup."
+						]
+					}
+				]
+			},
+			{
+				"Settle": [
+					"Worlds will have immediate effect.",
+					"Put worker on World Construction Zone stack.",
+					"If effect removes dice, select from any location.",
+					"Complete if Workers = Cost of World.",
+					{
+						"Complete": [
+							"",
+							"Move tile to tablue.",
+							"Move Workers to Citizenry.",
+							"Continue with Settle Workers."
+						]
+					}
+				]
+			},
+			{
+				"Produce": [
+					"Each Worker becomes 1 Good on a World.",
+					"Matching World color only helps when Consumed, not Traded.",
+					"World may hold 1 Worker.",
+					"Unusable Workers return to Cup."
+				]
+			},
+			{
+				"Shipping": [
+					"Change Good into $ or VP.",
+					"Move both Shipping and Goods Worker to the Citizenry.",
+					"Purple dice is wild.",
+					{
+						"Trade": [
+							"Earn $ per Good.",
+							"Income based on World color, not Worker color."
 						]
 					},
 					{
-						"6. Manage Empire": [
-							"End of Round",
-							"Recruiting",
-							"Recall",
-							"Reset",
-							"Check OEG",
+						"Consume": [
+							"Earn VP.",
+							"1VP for Good.",
+							"+1VP for Good matching World color.",
+							"+1VP for Shipper matching World color.",
 							{
-								"1. Recruit": [
+								"Trigger EOG": [
 									"",
-									"Recruit Workers from Citizenry per $",
-									"After recruit if broke then +$1"
-								]
-							},
-							{
-								"2. Recall": [
-									"",
-									"Freely return any construction zone Worker to cup."
-								]
-							},
-							{
-								"3. Reset": [
-									"",
-									"Flip Phase used Phase tiles back to 'X'."
-								]
-							},
-							{
-								"4. Check EOG": [
-									"A. VP pool was exhausetd",
-									"B. Player has 12 tiles in tableu."
+									"If there aren't enough VP tokens, use the previously set aside 10VP."
 								]
 							}
 						]
@@ -282,21 +247,57 @@
 				]
 			},
 			{
-				"5. Winner": [
+				"Manage Empire": [
+					"End of Round",
+					"Recruiting",
+					"Recall",
+					"Reset",
+					"Check EOG",
 					{
-						"Most VP": [
-							"VP Tokens",
-							"VP per completed developments and worlds.",
-							"VP from 6-Cost developments rewards (rounding up)."
+						"Recruit": [
+							"",
+							"$1 to recruit Workers from Citizenry to Cup.",
+							"If broke after recruit, +$1"
 						]
 					},
 					{
-						"Ties": ["Most dice in cup + Money"]
+						"Recall": [
+							"",
+							"Freely return any Construction Zone Worker to cup."
+						]
 					},
 					{
-						"The End.": []
+						"Reset": [
+							"",
+							"Flip active Phase tiles back to 'X'."
+						]
+					},
+					{
+						"Check EOG": [
+							"",
+							"VP pool was exhausetd",
+							"Player has 12 tiles in tableu."
+						]
 					}
 				]
+			}
+		]
+	},
+	{
+		"Winner": [
+			{
+				"Most VP": [
+					"Add",
+					"VP Tokens",
+					"VP per completed developments and worlds.",
+					"VP from 6-Cost developments rewards (rounding up)."
+				]
+			},
+			{
+				"Ties": ["Number of dice in cup + Money"]
+			},
+			{
+				"The End.": ["", ""]
 			}
 		]
 	}
