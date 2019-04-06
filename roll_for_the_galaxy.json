@@ -1,6 +1,27 @@
 [
+	{ "Title1": ["Header", "List item"] },
+	{ "Title2": { "title": ["Header", "List item"] } },
+	{ "Title3": ["Header", ["Sub list"]] },
 	{
-		"Version": ["0.02"]
+		"Title4": [
+			"Header",
+			{ "title": ["header", "List item"] }
+		]
+	},
+	{
+		"Title5": [
+			"Header",
+			{
+				"title": [
+					"header",
+					"List item",
+					["Sub header", "sub list item"]
+				]
+			}
+		]
+	},
+	{
+		"Version": ["0.03"]
 	},
 	{
 		"How to Play": [
