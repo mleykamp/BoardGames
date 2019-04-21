@@ -1,0 +1,200 @@
+[
+  {
+    "How to Play": ["Through battle expand your empire to 5 external planets."]
+  },
+  {
+    "Quick Terms": [
+      { "Timestrip": ["Bottom of card, shows what phase it may be played in.", "You're expected to interrupt within a reasonable time."] },
+      { "Warp": ["Where defeated ships go."] },
+      { "Gate": ["Points to attacked Planet."] },
+      { "Planet": ["Keeps ships."] },
+      { "Battle Strength": ["Ships + Encounter Card + Reinforement Cards + Modifiers."] },
+      { "": ["."] }
+    ]
+  },
+  {
+    "Active Player": [
+      "Play continues left.",
+      "One encounter.",
+      "Optional second, if first one was successful."
+    ]
+  },
+  {
+    "Encounter": [
+      "Actions",
+      "Regroup",
+      "Destiny",
+      "Launch",
+      "Alliance",
+      "Planning",
+      "Reveal",
+      "Resolution",
+      { "Regroup": ["Retrieve ship from Warp", "Place on Gate if no Planets", {"No Encounter Cards":["Play or discard any remaing cards.", "Draw 8 cards."]}] },
+      {
+        "Destiny": [
+          "Shows players action.",
+          "Offense draws top card.",
+          "If one card, reshuffle first.",
+          {
+            "Types": [
+              "",
+              "Other's Color",
+              "Own Color",
+              "Wild",
+              "Special",
+              {
+                "Other's Color": ["Indicates where attack happens."]
+              },
+              {
+                "Own's Color": [
+                  "May draw again.",
+                  "Can choose own Planet and become defender.",
+                  "If 0 ships, auto-success."
+                ]
+              },
+              { "Wild": ["Choose any player to attack."] },
+              {
+                "Special": ["List conditions that define where attack happens."]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Launch": [
+          "",
+          "Point Gate at specific Planet.",
+          "Add 1-4 own ships to Gate.",
+          "Ships can come from home, or external Planet."
+        ]
+      },
+      {
+        "Alliance": [
+          "Attacker announce permitted allies.",
+          "Defender announce permitted allies (may overlap).",
+          {
+            "Left to Right": [
+              "choose side or pass.",
+              "Adds 1-4 ships to side.",
+              "Ships can come from home, or external Planet."
+            ]
+          }
+        ]
+      },
+      {
+        "Planning": [
+          "Attacker and Defender chooses an Encounter Card face down.",
+          "Encounter Card = Attack, Negotiate, or Morph.",
+          {
+            "If Defender has no Encounter cards": [
+              "",
+              "May reveal non Encounter cards",
+              "Discard all.",
+              "Draw 8."
+            ]
+          },
+          {
+            "If Attacker has no Encounter cards": [
+              "",
+              "End Turn.",
+              "All ships return to any ownded Planet."
+            ]
+          }
+        ]
+      },
+      {
+        "Reveal": [
+          "Flip both cards.",
+          {
+            "Possibly": [
+              "2 attack cards.",
+              "1 attack, 1 negotiate.",
+              "2 negotiate.",
+              "Morph card mimics opposite.",
+              "Only 1 Morph card.",
+              {
+                "2 Attack Cards.": [
+                  "Total = ships on side + Attack card value (1-30).",
+                  "Ties go to the Defender.",
+                  "May play interrupt cards.",
+                  {"Interrupte Cards":[
+                    "Artifact = Powerful Items.",
+                    "Reinforcement = adds to battle strength.",
+                    "Flare / Super Flare...",
+                    {"Flare / Super Flare":[
+                      "May be played once per encounter.",
+                      "Will be returned to your hand.",
+                      "It's a Super Flare if it's of your Alien.",
+                      "Zapped Alien powers reduces to Flare."
+                    ]}
+                  ]}
+                ]
+              },
+              {
+                "1 Attack, 1 Negotiate": [
+                  "Negotiater auto-loses, but get's compensation.",
+                  {
+                    "Compensation": [
+                      "Per ship, draw a random card from Attacker's hand.",
+                      "Stops if Attacker runs out of cards."
+                    ]
+                  }
+                ]
+              },
+              {
+                "2 Negotiate": [
+                  "1 minute to make deal.",
+                  "Allies get ships back.",
+                  {
+                    "Deal Types": [
+                      "May trade cards / allow the other's ship to land on Planet.",
+                      "May land any ship not in Warp."
+                    ]
+                  },
+                  {
+                    "End of Negotiate": [
+                      "Return ships to any Planet.",
+                      "Must trade something, or both lose 3 ships to Warp."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {"Resolution":[
+        "Discard revealed cards.",
+        "Return Flare cards to hand.",
+        "Attacker Wins",
+        "Attacker Loses",
+        {"Attacker Wins":[
+          "Move ships from Planet to Warp.",
+          "Not any bystander ships.",
+          "Move ships from Gate to Planet.",
+          "Each new Planet increases Win Count."
+        ]},
+        {"Attacker Loses":[
+          "Move ships from Gate to Warp.",
+          {"Defensive Ally's":[
+            "Return ships to any Planet.",
+            "Per Ship: Draw an Artifact or Encounter card OR return extra ship from Warp."
+          ]}
+        ]}
+      ]},
+      {"Winning":[
+        "As soon as a player has 5 external Planets.",
+        "Ties share victory."
+      ]},
+      {"Alien Powers":[
+        "Like some cards, alters rules.",
+        "Timing strip highlights effect time.",
+        {"Losing Power":[
+        "Lose Power if you've lost 3+ home Planets",
+        "Passive Powers stay.",
+        "May be regained if you get 3+ again."
+          ]}
+      ]}
+    ]
+  }
+]

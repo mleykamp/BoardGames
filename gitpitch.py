@@ -1,31 +1,43 @@
+print("a")
 import json
+print("b")
 import pprint
+print("c")
 import sys
+print("d")
 import traceback
+print("e")
 from string import Template
+print("f")
 import argparse
+print("g")
 import re
 
+print("1")
 parser = argparse.ArgumentParser(description='Process some PITCHME.md.')
 parser.add_argument('--game', dest='game', help='Game name. ')
+print("2")
 args = parser.parse_args()
-
+print("3")
 
 pp         = pprint.PrettyPrinter(indent=2, depth=5, width=50, compact=False)
-pp.pprint(args);
-
+print("4")
+pp.pprint(args)
+print("file variables")
 integer    = 1
 string     = ""
 list       = []
 dict       = {}
+test       = ""
 max_pixels = 500
-test = ""
 for x in args.game.split(" "):
     test += x.title()
 
-filename = "_".join(args.game.split(" "))+ ".json"
+print(test)
+filename = "C:\\Users\\Mark\\Google Drive\\projects\\BoardGames\\" + "_".join(args.game.lower().split(" "))+ ".json"
+print(filename)
 cover_image = "0.jpg"
-outfile = "C:\\Users\\Mark\\Google Drive\\projects\\" + test + r'\PITCHME.md'
+outfile = "C:\\Users\\Mark\\Google Drive\\projects\\BoardGames\\PITCHME.md"
 
 
 def to_warning(x):
@@ -109,6 +121,8 @@ def from_list ( list ):
     for x in advList["set"]:
         advList["length"] += x["length"]
     return advList
+
+print("slide variables")
 slide = ""
 slide_ctr = 1
 cover = Template("---?image=images/$cover_image&size=85% 85%&color=black\n")
@@ -180,8 +194,16 @@ def gitpitch_list(part, pastCrumbs):
     return slides
 
 def main():
-    with open(filename) as f:
-        ret = json.load(f)
+    print("main")
+    print(filename)
+    try:
+        with open(filename) as f:
+            ret = json.load(f)
+    except Exception as error:
+        print("error read")
+        pp.pprint(error)
+        sys.exit(1)
+
     gitpitch = ""
     gitpitch += cover.substitute({"cover_image": cover_image})
 
@@ -190,9 +212,21 @@ def main():
     else:
         gitpitch += gitpitch_list(from_list(ret), [])
 
-    with open(outfile, 'w') as o:
-        o.write(gitpitch)
+    print("slides: " + gitpitch.__len__().__str__())
+    if gitpitch.__len__():
+        try:
+            with open(outfile, 'w') as o:
+                o.write(gitpitch)
+        except Exception as error:
+            print("error write")
+            pp.pprint(error)
+            sys.exit(1)
+    else:
+        print("No slides.")
+        sys.exit(1)
 
+print("PRE")
 if __name__ == "__main__":
+    print("__main__")
     main()
     sys.exit(0)
