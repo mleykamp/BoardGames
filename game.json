@@ -1,6 +1,6 @@
 [
   {
-    "Version": ["0.01"]
+    "Version": ["0.0.1"]
   },
   {
     "RootTitle": [
@@ -19,28 +19,230 @@
   },
   {
     "How to Play": [
-      ""
+      "Through diplomacy and war become the strongest house in Westeros."
     ]
   },
   {
     "Quick Terms:": [
       {
         "": [""]
-      },
-  {
-    "Actions": [
-      ""
+      }
     ]
   },
   {
-    "": [
-      ""
-    ]
-  },
-  {
-    "Winner": [
+    "Phases": [
       "",
-      ""
+      "Westeros",
+      "Planning",
+      "Action",
+      {
+        "Westeros": [
+          "",
+          "Advance Round Marker",
+          "Draw Westeros Cards",
+          "Advance Wildlings Track",
+          "Resolve Westeros Cards",
+          { "Advance Round Marker": ["Game ends after round 10."] },
+          {
+            "Draw Westeros Cards": [
+              "Reveal top card for all three decks.",
+              "Wait"
+            ]
+          },
+          {
+            "Advance Wildlings Track": [
+              "Per Wildling Icon, advance track.",
+              "Ignore any Icons moving it over 12.",
+              "If at 12, immediatley resolve Wildling Attack.",
+              {
+                "Wildling Attack": [
+                  "Wildling Strength = track number.",
+                  "Players siliently bid Power Tokens.",
+                  "Night's Watch wins if Power Tolens > Wilding Strength.",
+                  {
+                    "Reset Wildling Track": [
+                      "",
+                      "Return to 0 on Night's watch win.",
+                      "Move back 2 spaces on loss"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Wildling Attack": [
+                  "Reveal top Wildling card. Contains rewards or penalties.",
+                  "Night's Watch Victory reward goes to highest Power Bidder."
+                ]
+              }
+            ]
+          },
+          {
+            "Resolve Westeros Cards": [
+              "Resolve from deck 1-3",
+              "Affects game/round",
+              "May Supply, Muster, Clash of Kings",
+              {
+                "Resolve Westeros Cards": [
+                  "Supply",
+                  "In turn order. (or not for speed)",
+                  "Re-Defines how much army you can afford.",
+                  "Armies are 2+ units together.",
+                  "Move player barrel to match controlled supply icons."
+                ]
+              },
+              {
+                "Supply": [
+                  "Flags 4 / 3 / 2 / 2",
+                  "Show's you can have a 4 unit army",
+                  "Three unit army",
+                  "Two unit army",
+                  "Two unit army",
+                  "As many 1 units as you want."
+                ]
+              },
+              {
+                "Supply": [
+                  "",
+                  "If you're now over a limit",
+                  "Remove units from board until you're valid."
+                ]
+              },
+              {
+                "Resolve Westeros Cards": [
+                  "Muster",
+                  "In turn order. (or not for speed)",
+                  "Recruit more unused units.",
+                  "No change, no savings."
+                ]
+              },
+              {
+                "Muster": [
+                  "Income",
+                  "Stronghold gives $2 on it.",
+                  "Castle gives $1 on it.",
+                  "Stay within Supply limits."
+                ]
+              },
+              {
+                "Muster": [
+                  "Costs",
+                  "Footman $1",
+                  "Knight $2, upgrade footman $1",
+                  "Ship $1, place in adjacent Port or Sea space.",
+                  "Siege Engine $2, upgrade footman $1"
+                ]
+              },
+              {
+                "Resolve Westeros Cards": [
+                  "Clash of Kings",
+                  "Hide Power Tokens.",
+                  "Silently bid for order per track.",
+                  "Ties decided by owner of Iron Throne Token."
+                ]
+              },
+              {
+                "Clash of Kings": [
+                  "",
+                  "Top to Bottom, earning Reward Token after each.",
+                  "Discard Used Power Tokens",
+                  "Place unused Power Tokens in front of screen."
+                ]
+              },
+              {
+                "Clash of Kings": [
+                  "Iron Throne Track",
+                  "Defines turn order.",
+                  "Reward Throne = all tie-breaking (not battles)."
+                ]
+              },
+              {
+                "Clash of Kings": [
+                  "Fiefdom Track",
+                  "Order breaks battle ties.",
+                  "Reward Sword = +1 battles."
+                ]
+              },
+              {
+                "Clash of Kings": [
+                  "King's Court Track",
+                  "Defines how many Special Order Tokens that are usable to you.",
+                  "Rewards Raven = Replace one Order Token",
+                  "OR Look at top Wildling Deck. Return to top or bottom."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Planning": [
+          "Assign",
+          "Assign Order Tokens facedown.",
+          "One per unit(s) controlled territory.",
+          "Special Order Tokens have stars.",
+          {
+            "Order Tokens": [
+              "Will resolve by token type.",
+              "Raid",
+              "March",
+              "Defense",
+              "Support",
+              "Consolidate Power",
+              {
+                "Raid": [
+                  "",
+                  "Remove adjacent Raid, Support, Consolidate Power",
+                  "Special = or remove Defense."
+                ]
+              },
+              {
+                "March": [
+                  "",
+                  "Per unit, move to adjacent territory.",
+                  "Triggers battle with enemy units.",
+                  "Only One pattle per token.",
+                  "Special = +1 battle for attacker."
+                ]
+              },
+              {
+                "Defense": [
+                  "",
+                  "Adds it's defense bonus in territory.",
+                  "As many times as it's attacked.",
+                  "Special = +2 battle for defender."
+                ]
+              },
+              {
+                "Support": [
+                  "",
+                  "Per unit, add's unit strength to adjacent territory.",
+                  "Support Attacker or Defender.",
+                  "Special = +1 support value."
+                ]
+              },
+              {
+                "Consolidate Power": [
+                  "",
+                  "Gain 1 Power Token.",
+                  "+1 per power icon of territory.",
+                  "Nothing for seas, but misdirection.",
+                  "Special = OR muster the territory."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Planning": [
+          "Once order tokens are placed.",
+          "Reveal",
+          "Use Raven, once per round."
+        ]
+      },
+      { "Action": [] },
+      { "EOR": [] },
+      { "Winning": [] }
     ]
   }
 ]
