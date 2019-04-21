@@ -1,32 +1,32 @@
+print("a")
 import json
+print("b")
 import pprint
+print("c")
 import sys
+print("d")
 import traceback
+print("e")
 from string import Template
+print("f")
 import argparse
+print("g")
 import re
 
-parser = argparse.ArgumentParser(description='Process some PITCHME.md.')
-parser.add_argument('--game', dest='game', help='Game name. ')
-args = parser.parse_args()
-
-
 pp         = pprint.PrettyPrinter(indent=2, depth=5, width=50, compact=False)
-pp.pprint(args);
-
+print("file variables")
 integer    = 1
 string     = ""
 list       = []
 dict       = {}
+test       = ""
 max_pixels = 500
-test = ""
-for x in args.game.split(" "):
-    test += x.title()
-
-filename = "_".join(args.game.split(" "))+ ".json"
 cover_image = "0.jpg"
-outfile = "C:\\Users\\Mark\\Google Drive\\projects\\" + test + r'\PITCHME.md'
 
+filename = "C:\\Users\\Mark\\Google Drive\\projects\\BoardGames\\game.json"
+print(filename)
+outfile = "C:\\Users\\Mark\\Google Drive\\projects\\BoardGames\\PITCHME.md"
+print(outfile)
 
 def to_warning(x):
     print("ERROR")
@@ -51,8 +51,8 @@ def from_int ( int ):
 def from_str ( str ):
     if type(str) != string.__class__:
         to_warning(str)
-#    if len(str) > 0 and not re.search(r"^[\[\]{}:,]$", str):
-#        str = '"' + str +  '"'
+    #    if len(str) > 0 and not re.search(r"^[\[\]{}:,]$", str):
+    #        str = '"' + str +  '"'
     return { "type": "string", "string": str, "length": len(str) }
 
 def from_dict ( dict ):
@@ -67,7 +67,7 @@ def from_dict ( dict ):
             advDict["set"].append(from_int(key))
         else:
             to_warning(key)
-    #   advDict["set"].append(from_str(":"))
+        #   advDict["set"].append(from_str(":"))
         if type(dict[key]) == list.__class__:
             advDict["set"].append(from_list(dict[key]))
         elif type(dict[key]) == dict.__class__:
@@ -109,6 +109,8 @@ def from_list ( list ):
     for x in advList["set"]:
         advList["length"] += x["length"]
     return advList
+
+print("slide variables")
 slide = ""
 slide_ctr = 1
 cover = Template("---?image=images/$cover_image&size=85% 85%&color=black\n")
@@ -180,8 +182,16 @@ def gitpitch_list(part, pastCrumbs):
     return slides
 
 def main():
-    with open(filename) as f:
-        ret = json.load(f)
+    print("main")
+    print(filename)
+    try:
+        with open(filename) as f:
+            ret = json.load(f)
+    except Exception as error:
+        print("error read")
+        pp.pprint(error)
+        sys.exit(1)
+
     gitpitch = ""
     gitpitch += cover.substitute({"cover_image": cover_image})
 
@@ -190,9 +200,21 @@ def main():
     else:
         gitpitch += gitpitch_list(from_list(ret), [])
 
-    with open(outfile, 'w') as o:
-        o.write(gitpitch)
+    print("slides: " + gitpitch.__len__().__str__())
+    if gitpitch.__len__():
+        try:
+            with open(outfile, 'w') as o:
+                o.write(gitpitch)
+        except Exception as error:
+            print("error write")
+            pp.pprint(error)
+            sys.exit(1)
+    else:
+        print("No slides.")
+        sys.exit(1)
 
+print("PRE")
 if __name__ == "__main__":
+    print("__main__")
     main()
     sys.exit(0)
