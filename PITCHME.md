@@ -4,7 +4,7 @@
 
 @snap[north-west span-50]
 @color[red](How to Play)<BR>
-@color[blue](Through battle expand your empire to 5 external planets.)
+@color[blue](Expand your empire to 5 external planets through battle.)
 @ol[list-bullets-black](false)
 @olend
 
@@ -18,9 +18,10 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms: Timestrip)<BR>
-@color[blue](Bottom of card, shows what phase it may be played in.)
+@color[red](Quick Terms)<BR>
+@color[blue](Timestrip)
 @ol[list-bullets-black](false)
+- Bottom of card, shows what phase it may be played in.
 - You're expected to interrupt within a reasonable time.
 @olend
 
@@ -94,15 +95,36 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms: )<BR>
-@color[blue](.)
+@color[red](Quick Terms)<BR>
+@color[blue](Encounter Cards)
 @ol[list-bullets-black](false)
+- Attack
+- Negotiate
+- Morph
 @olend
 
 @snapend
 
 @snap[north-east span-50]
 ![Slide: 9.jpg](images/9.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Quick Terms)<BR>
+@color[blue](Other Cards)
+@ol[list-bullets-black](false)
+- Artifacts
+- Reinforcement
+- Flare / Super Flare
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 10.jpg](images/10.jpg)
 @snapend
 
 
@@ -119,15 +141,15 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 10.jpg](images/10.jpg)
+![Slide: 11.jpg](images/11.jpg)
 @snapend
 
 
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter)<BR>
-@color[blue](Actions)
+@color[red]()<BR>
+@color[blue](Encounter)
 @ol[list-bullets-black](false)
 - Regroup
 - Destiny
@@ -141,22 +163,6 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 11.jpg](images/11.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Encounter: Regroup)<BR>
-@color[blue](Retrieve ship from Warp)
-@ol[list-bullets-black](false)
-- Place on Gate if no Planets
-@olend
-
-@snapend
-
-@snap[north-east span-50]
 ![Slide: 12.jpg](images/12.jpg)
 @snapend
 
@@ -164,16 +170,34 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Regroup: No Encounter Cards)<BR>
-@color[blue](Play or discard any remaing cards.)
+@color[red](Encounter)<BR>
+@color[blue](Regroup)
 @ol[list-bullets-black](false)
-- Draw 8 cards.
+- Retrieve ship from Warp
+- Place on Gate if no Planets
 @olend
 
 @snapend
 
 @snap[north-east span-50]
 ![Slide: 13.jpg](images/13.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Encounter: Regroup)<BR>
+@color[blue](No Encounter Cards)
+@ol[list-bullets-black](false)
+- Play or discard any remaing cards.
+- Draw 8 cards.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 14.jpg](images/14.jpg)
 @snapend
 
 
@@ -190,7 +214,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 14.jpg](images/14.jpg)
+![Slide: 15.jpg](images/15.jpg)
 @snapend
 
 
@@ -209,21 +233,6 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 15.jpg](images/15.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Encounter: Destiny: Types: Other's Color)<BR>
-@color[blue](Indicates where attack happens.)
-@ol[list-bullets-black](false)
-@olend
-
-@snapend
-
-@snap[north-east span-50]
 ![Slide: 16.jpg](images/16.jpg)
 @snapend
 
@@ -231,11 +240,10 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Destiny: Types: Own's Color)<BR>
-@color[blue](May draw again.)
+@color[red](Encounter: Destiny: Types)<BR>
+@color[blue](Other's Color)
 @ol[list-bullets-black](false)
-- Can choose own Planet and become defender.
-- If 0 ships, auto-success.
+- Indicates where attack happens.
 @olend
 
 @snapend
@@ -248,9 +256,12 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Destiny: Types: Wild)<BR>
-@color[blue](Choose any player to attack.)
+@color[red](Encounter: Destiny: Types)<BR>
+@color[blue](Own's Color)
 @ol[list-bullets-black](false)
+- May draw again.
+- Can choose own Planet and become defender.
+- If choose own Planet with 0 ships, auto-success.
 @olend
 
 @snapend
@@ -263,15 +274,32 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Destiny: Types: Special)<BR>
-@color[blue](List conditions that define where attack happens.)
+@color[red](Encounter: Destiny: Types)<BR>
+@color[blue](Wild)
 @ol[list-bullets-black](false)
+- Choose any player to attack.
 @olend
 
 @snapend
 
 @snap[north-east span-50]
 ![Slide: 19.jpg](images/19.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Encounter: Destiny: Types)<BR>
+@color[blue](Special)
+@ol[list-bullets-black](false)
+- List conditions that define where attack happens.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 20.jpg](images/20.jpg)
 @snapend
 
 
@@ -289,22 +317,6 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 20.jpg](images/20.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Encounter: Alliance)<BR>
-@color[blue](Attacker announce permitted allies.)
-@ol[list-bullets-black](false)
-- Defender announce permitted allies (may overlap).
-@olend
-
-@snapend
-
-@snap[north-east span-50]
 ![Slide: 21.jpg](images/21.jpg)
 @snapend
 
@@ -312,11 +324,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Alliance: Left to Right)<BR>
-@color[blue](choose side or pass.)
+@color[red](Encounter)<BR>
+@color[blue](Alliance)
 @ol[list-bullets-black](false)
-- Adds 1-4 ships to side.
-- Ships can come from home, or external Planet.
+- Attacker announce permitted allies.
+- Defender announce permitted allies (may overlap).
 @olend
 
 @snapend
@@ -329,10 +341,12 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Planning)<BR>
-@color[blue](Attacker and Defender chooses an Encounter Card face down.)
+@color[red](Encounter: Alliance)<BR>
+@color[blue](Left to Right)
 @ol[list-bullets-black](false)
-- Encounter Card = Attack, Negotiate, or Morph.
+- choose side or pass.
+- Adds 1-4 ships to side.
+- Ships can come from home, or external Planet.
 @olend
 
 @snapend
@@ -345,12 +359,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Planning)<BR>
-@color[blue](If Defender has no Encounter cards)
+@color[red](Encounter)<BR>
+@color[blue](Planning)
 @ol[list-bullets-black](false)
-- May reveal non Encounter cards
-- Discard all.
-- Draw 8.
+- Attacker and Defender chooses an Encounter Card face down.
+- Encounter Card = Attack, Negotiate, or Morph.
 @olend
 
 @snapend
@@ -364,16 +377,35 @@
 
 @snap[north-west span-50]
 @color[red](Encounter: Planning)<BR>
-@color[blue](If Attacker has no Encounter cards)
+@color[blue](If Defender has no Encounter cards)
 @ol[list-bullets-black](false)
-- End Turn.
-- All ships return to any ownded Planet.
+- May reveal non-Encounter cards
+- Discard all.
+- Draw 8.
+- Else 'Encounter Card' = 0
 @olend
 
 @snapend
 
 @snap[north-east span-50]
 ![Slide: 25.jpg](images/25.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Encounter: Planning)<BR>
+@color[blue](If Attacker has no Encounter cards)
+@ol[list-bullets-black](false)
+- End Turn.
+- All ships return to any owned Planet.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 26.jpg](images/26.jpg)
 @snapend
 
 
@@ -388,25 +420,6 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 26.jpg](images/26.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Encounter: Reveal: Possibly)<BR>
-@color[blue](2 attack cards.)
-@ol[list-bullets-black](false)
-- 1 attack, 1 negotiate.
-- 2 negotiate.
-- Morph card mimics opposite.
-- Only 1 Morph card.
-@olend
-
-@snapend
-
-@snap[north-east span-50]
 ![Slide: 27.jpg](images/27.jpg)
 @snapend
 
@@ -414,11 +427,13 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Reveal: Possibly: 2 Attack Cards.)<BR>
-@color[blue](Total = ships on side + Attack card value (1-30).)
+@color[red](Encounter: Reveal)<BR>
+@color[blue](Possiblities)
 @ol[list-bullets-black](false)
-- Ties go to the Defender.
-- May play interrupt cards.
+- 2 attack cards.
+- 1 attack, 1 negotiate.
+- 2 negotiate.
+- Morph card mimics opposite. (One in game.)
 @olend
 
 @snapend
@@ -431,11 +446,12 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Reveal: Possibly: 2 Attack Cards.: Interrupte Cards)<BR>
-@color[blue](Artifact = Powerful Items.)
+@color[red](Encounter: Reveal: Possibilities)<BR>
+@color[blue](2 Attack Cards.)
 @ol[list-bullets-black](false)
-- Reinforcement = adds to battle strength.
-- Flare / Super Flare...
+- Total = ships on side + Attack card value (1-30).
+- Ties go to the Defender.
+- May play interrupt cards.
 @olend
 
 @snapend
@@ -448,12 +464,12 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Reveal: Possibly: 2 Attack Cards.: Interrupte Cards: Flare / Super Flare)<BR>
-@color[blue](May be played once per encounter.)
+@color[red](Encounter: Reveal: Possibilities)<BR>
+@color[blue](Interrupt Cards)
 @ol[list-bullets-black](false)
-- Will be returned to your hand.
-- It's a Super Flare if it's of your Alien.
-- Zapped Alien powers reduces to Flare.
+- Artifact = Powerful Items.
+- Reinforcement = adds to battle strength.
+- Flare / Super Flare...
 @olend
 
 @snapend
@@ -466,9 +482,13 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Reveal: Possibly: 1 Attack, 1 Negotiate)<BR>
-@color[blue](Negotiater auto-loses, but get's compensation.)
+@color[red](Encounter: Reveal: Possibilities: Interrupt Cards)<BR>
+@color[blue](Flare / Super Flare)
 @ol[list-bullets-black](false)
+- May be played once per encounter.
+- Will be returned to your hand.
+- It's a Super Flare if it's of your Alien.
+- Zapped Alien powers reduces to Flare.
 @olend
 
 @snapend
@@ -481,10 +501,10 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Reveal: Possibly: 1 Attack, 1 Negotiate: Compensation)<BR>
-@color[blue](Per ship, draw a random card from Attacker's hand.)
+@color[red](Encounter: Reveal: Possibilities)<BR>
+@color[blue](1 Attack, 1 Negotiate)
 @ol[list-bullets-black](false)
-- Stops if Attacker runs out of cards.
+- Negotiater auto-loses, but get's compensation.
 @olend
 
 @snapend
@@ -497,10 +517,10 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Reveal: Possibly: 2 Negotiate)<BR>
-@color[blue](1 minute to make deal.)
+@color[red](Encounter: Reveal: Possibilities: Compensation)<BR>
+@color[blue](Per ship, draw a random card from Attacker's hand.)
 @ol[list-bullets-black](false)
-- Allies get ships back.
+- Stops if Attacker runs out of cards.
 @olend
 
 @snapend
@@ -513,10 +533,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Reveal: Possibly: 2 Negotiate: Deal Types)<BR>
-@color[blue](May trade cards / allow the other's ship to land on Planet.)
+@color[red](Encounter: Reveal: Possibilities)<BR>
+@color[blue](2 Negotiate)
 @ol[list-bullets-black](false)
-- May land any ship not in Warp.
+- 1 minute to make deal.
+- Allies get ships back.
 @olend
 
 @snapend
@@ -529,10 +550,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Reveal: Possibly: 2 Negotiate: End of Negotiate)<BR>
-@color[blue](Return ships to any Planet.)
+@color[red](Encounter: Reveal: Possibilities)<BR>
+@color[blue](Deal Types)
 @ol[list-bullets-black](false)
-- Must trade something, or both lose 3 ships to Warp.
+- May trade cards / allow the other's ship to land on Planet.
+- May land any ship not in Warp.
 @olend
 
 @snapend
@@ -545,12 +567,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Resolution)<BR>
-@color[blue](Discard revealed cards.)
+@color[red](Encounter: Reveal: Possibilities)<BR>
+@color[blue](End of Negotiate)
 @ol[list-bullets-black](false)
-- Return Flare cards to hand.
-- Attacker Wins
-- Attacker Loses
+- Return ships to any Planet.
+- Must trade something, or both lose 3 ships to Warp.
 @olend
 
 @snapend
@@ -563,12 +584,13 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Resolution: Attacker Wins)<BR>
-@color[blue](Move ships from Planet to Warp.)
+@color[red]()<BR>
+@color[blue](Resolution)
 @ol[list-bullets-black](false)
-- Not any bystander ships.
-- Move ships from Gate to Planet.
-- Each new Planet increases Win Count.
+- Discard revealed cards.
+- Return Flare cards to hand.
+- Attacker Wins
+- Attacker Loses
 @olend
 
 @snapend
@@ -581,9 +603,12 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Resolution: Attacker Loses)<BR>
-@color[blue](Move ships from Gate to Warp.)
+@color[red](Resolution: Attacker Wins)<BR>
+@color[blue](Move defending ships from Planet to Warp.)
 @ol[list-bullets-black](false)
+- Not any bystander ships.
+- Move attacking ships from Gate to Planet.
+- Each new Planet increases Win Count.
 @olend
 
 @snapend
@@ -596,10 +621,9 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Resolution: Attacker Loses: Defensive Ally's)<BR>
-@color[blue](Return ships to any Planet.)
+@color[red](Resolution: Attacker Loses)<BR>
+@color[blue](Move ships from Gate to Warp.)
 @ol[list-bullets-black](false)
-- Per Ship: Draw an Artifact or Encounter card OR return extra ship from Warp.
 @olend
 
 @snapend
@@ -612,10 +636,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Winning)<BR>
-@color[blue](As soon as a player has 5 external Planets.)
+@color[red](Resolution: Attacker Loses)<BR>
+@color[blue](Defensive Ally's)
 @ol[list-bullets-black](false)
-- Ties share victory.
+- Return ships to any Planet.
+- Per Ship: Draw an Artifact or Encounter card OR return extra ship from Warp.
 @olend
 
 @snapend
@@ -628,10 +653,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Alien Powers)<BR>
-@color[blue](Like some cards, alters rules.)
+@color[red]()<BR>
+@color[blue](Winning)
 @ol[list-bullets-black](false)
-- Timing strip highlights effect time.
+- As soon as a player has 5 external Planets.
+- Ties share victory.
 @olend
 
 @snapend
@@ -644,8 +670,26 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Alien Powers: Losing Power)<BR>
-@color[blue](Lose Power if you've lost 3+ home Planets)
+@color[red]()<BR>
+@color[blue](Player's Alien Power)
 @ol[list-bullets-black](false)
+- Like some cards, alters rules.
+- Timing strip at the bottom highlights playable phase.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 42.jpg](images/42.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Player's Alien Power)<BR>
+@color[blue](Losing Power)
+@ol[list-bullets-black](false)
+- Lose Power if you've lost 3+ home Planets
 - Passive Powers stay.
 - May be regained if you get 3+ again.
