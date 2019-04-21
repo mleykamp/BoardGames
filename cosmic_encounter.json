@@ -1,5 +1,5 @@
 [
-  {"Version":["0.0.1"]},
+  { "Version": ["0.0.4"] },
   {
     "How to Play": ["Expand your empire to 5 external planets through battle."]
   },
@@ -23,6 +23,21 @@
       { "Encounter Cards": ["", "Attack", "Negotiate", "Morph"] },
       {
         "Other Cards": ["", "Artifacts", "Reinforcement", "Flare / Super Flare"]
+      }
+    ]
+  },
+  {
+    "Player's Alien Power": [
+      "",
+      "Like some cards, will alter rules.",
+      "Timing strip at the bottom highlights playable phase.",
+      {
+        "Losing Power": [
+          "",
+          "Lose Power if you've lost 3+ home Planets",
+          "Passive Powers stay.",
+          "May be regained if you get 3+ again."
+        ]
       }
     ]
   },
@@ -65,7 +80,9 @@
           {
             "Types": ["", "Other's Color", "Own Color", "Wild", "Special"]
           },
-          { "Types": ["Other's Color", "Indicates where attack happens."] },
+          {
+            "Types": ["Other's Color", "Indicates where attack happens."]
+          },
           {
             "Types": [
               "Own's Color",
@@ -74,7 +91,9 @@
               "If choose own Planet with 0 ships, auto-success."
             ]
           },
-          { "Types": ["Wild", "Choose any player to attack."] },
+          {
+            "Types": ["Wild", "Choose any player to attack."]
+          },
           {
             "Types": [
               "Special",
@@ -135,10 +154,10 @@
           {
             "Possiblities": [
               "",
-              "2 attack cards.",
-              "1 attack, 1 negotiate.",
-              "2 negotiate.",
-              "Morph card mimics opposite. (One in game.)"
+              "Two attack cards.",
+              "One attack, One negotiate.",
+              "Two negotiate.",
+              "One Morph = mimics opposite. (Only one in game.)"
             ]
           },
           {
@@ -171,7 +190,8 @@
               "1 Attack, 1 Negotiate",
               "Negotiater auto-loses, but get's compensation.",
               {
-                "Compensation": [
+                "Possibilities": [
+                  "Compensation",
                   "Per ship, draw a random card from Attacker's hand.",
                   "Stops if Attacker runs out of cards."
                 ]
@@ -181,12 +201,12 @@
           {
             "Possibilities": [
               "2 Negotiate",
-              "1 minute to make deal.",
+              "One minute to make deal.",
               "Allies get ships back.",
               {
                 "Deal Types": [
                   "",
-                  "May trade cards / allow the other's ship to land on Planet.",
+                  "May trade cards / allow the other's ship to land on Planet / any combination.",
                   "May land any ship not in Warp."
                 ]
               },
@@ -200,32 +220,33 @@
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "Resolution": [
-      "",
-      "Discard revealed cards.",
-      "Return Flare cards to hand.",
-      "Attacker Wins",
-      "Attacker Loses",
-      {
-        "Attacker Wins": [
-          "Move defending ships from Planet to Warp.",
-          "Not any bystander ships.",
-          "Move attacking ships from Gate to Planet.",
-          "Each new Planet increases Win Count."
-        ]
       },
       {
-        "Attacker Loses": [
-          "Move ships from Gate to Warp.",
+        "Resolution": [
+          "",
+          "Discard revealed cards.",
+          "Return Flare cards to hand.",
+          "Attacker Wins",
+          "Attacker Loses",
           {
-            "Defensive Ally's": [
+            "Attacker Wins": [
               "",
-              "Return ships to any Planet.",
-              "Per Ship: Draw an Artifact or Encounter card OR return extra ship from Warp."
+              "Move defending ships from Planet to Warp.",
+              "Not any bystander ships.",
+              "Move attacking ships from Gate to Planet.",
+              "Each new Planet increases Win Count."
+            ]
+          },
+          {
+            "Attacker Loses": [
+              "Move ships from Gate to Warp.",
+              {
+                "Defensive Ally's": [
+                  "",
+                  "Return ships to any Planet.",
+                  "Per Ship: Draw an Artifact card / Encounter card / get back one ship from Warp."
+                ]
+              }
             ]
           }
         ]
@@ -237,21 +258,6 @@
       "",
       "As soon as a player has 5 external Planets.",
       "Ties share victory."
-    ]
-  },
-  {
-    "Player's Alien Power": [
-      "",
-      "Like some cards, alters rules.",
-      "Timing strip at the bottom highlights playable phase.",
-      {
-        "Losing Power": [
-          "",
-          "Lose Power if you've lost 3+ home Planets",
-          "Passive Powers stay.",
-          "May be regained if you get 3+ again."
-        ]
-      }
     ]
   }
 ]

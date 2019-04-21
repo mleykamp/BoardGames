@@ -4,7 +4,7 @@
 
 @snap[north-west span-50]
 @color[red](Version)<BR>
-@color[blue](0.0.1)
+@color[blue](0.0.4)
 @ol[list-bullets-black](false)
 @olend
 
@@ -146,6 +146,41 @@
 ---
 
 @snap[north-west span-50]
+@color[red]()<BR>
+@color[blue](Player's Alien Power)
+@ol[list-bullets-black](false)
+- Like some cards, will alter rules.
+- Timing strip at the bottom highlights playable phase.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 12.jpg](images/12.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Player's Alien Power)<BR>
+@color[blue](Losing Power)
+@ol[list-bullets-black](false)
+- Lose Power if you've lost 3+ home Planets
+- Passive Powers stay.
+- May be regained if you get 3+ again.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 13.jpg](images/13.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
 @color[red](Active Player)<BR>
 @color[blue](Play continues left.)
 @ol[list-bullets-black](false)
@@ -156,7 +191,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 12.jpg](images/12.jpg)
+![Slide: 14.jpg](images/14.jpg)
 @snapend
 
 
@@ -178,7 +213,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 13.jpg](images/13.jpg)
+![Slide: 15.jpg](images/15.jpg)
 @snapend
 
 
@@ -195,7 +230,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 14.jpg](images/14.jpg)
+![Slide: 16.jpg](images/16.jpg)
 @snapend
 
 
@@ -212,7 +247,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 15.jpg](images/15.jpg)
+![Slide: 17.jpg](images/17.jpg)
 @snapend
 
 
@@ -229,7 +264,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 16.jpg](images/16.jpg)
+![Slide: 18.jpg](images/18.jpg)
 @snapend
 
 
@@ -248,7 +283,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 17.jpg](images/17.jpg)
+![Slide: 19.jpg](images/19.jpg)
 @snapend
 
 
@@ -264,7 +299,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 18.jpg](images/18.jpg)
+![Slide: 20.jpg](images/20.jpg)
 @snapend
 
 
@@ -282,7 +317,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 19.jpg](images/19.jpg)
+![Slide: 21.jpg](images/21.jpg)
 @snapend
 
 
@@ -298,7 +333,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 20.jpg](images/20.jpg)
+![Slide: 22.jpg](images/22.jpg)
 @snapend
 
 
@@ -314,7 +349,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 21.jpg](images/21.jpg)
+![Slide: 23.jpg](images/23.jpg)
 @snapend
 
 
@@ -332,7 +367,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 22.jpg](images/22.jpg)
+![Slide: 24.jpg](images/24.jpg)
 @snapend
 
 
@@ -349,7 +384,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 23.jpg](images/23.jpg)
+![Slide: 25.jpg](images/25.jpg)
 @snapend
 
 
@@ -367,7 +402,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 24.jpg](images/24.jpg)
+![Slide: 26.jpg](images/26.jpg)
 @snapend
 
 
@@ -384,7 +419,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 25.jpg](images/25.jpg)
+![Slide: 27.jpg](images/27.jpg)
 @snapend
 
 
@@ -403,7 +438,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 26.jpg](images/26.jpg)
+![Slide: 28.jpg](images/28.jpg)
 @snapend
 
 
@@ -420,7 +455,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 27.jpg](images/27.jpg)
+![Slide: 29.jpg](images/29.jpg)
 @snapend
 
 
@@ -435,7 +470,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 28.jpg](images/28.jpg)
+![Slide: 30.jpg](images/30.jpg)
 @snapend
 
 
@@ -445,16 +480,16 @@
 @color[red](Encounter: Reveal)<BR>
 @color[blue](Possiblities)
 @ol[list-bullets-black](false)
-- 2 attack cards.
-- 1 attack, 1 negotiate.
-- 2 negotiate.
-- Morph card mimics opposite. (One in game.)
+- Two attack cards.
+- One attack, One negotiate.
+- Two negotiate.
+- One Morph = mimics opposite. (Only one in game.)
 @olend
 
 @snapend
 
 @snap[north-east span-50]
-![Slide: 29.jpg](images/29.jpg)
+![Slide: 31.jpg](images/31.jpg)
 @snapend
 
 
@@ -472,7 +507,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 30.jpg](images/30.jpg)
+![Slide: 32.jpg](images/32.jpg)
 @snapend
 
 
@@ -490,7 +525,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 31.jpg](images/31.jpg)
+![Slide: 33.jpg](images/33.jpg)
 @snapend
 
 
@@ -509,7 +544,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 32.jpg](images/32.jpg)
+![Slide: 34.jpg](images/34.jpg)
 @snapend
 
 
@@ -525,23 +560,24 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 33.jpg](images/33.jpg)
+![Slide: 35.jpg](images/35.jpg)
 @snapend
 
 
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Reveal: Possibilities: Compensation)<BR>
-@color[blue](Per ship, draw a random card from Attacker's hand.)
+@color[red](Encounter: Reveal: Possibilities: Possibilities)<BR>
+@color[blue](Compensation)
 @ol[list-bullets-black](false)
+- Per ship, draw a random card from Attacker's hand.
 - Stops if Attacker runs out of cards.
 @olend
 
 @snapend
 
 @snap[north-east span-50]
-![Slide: 34.jpg](images/34.jpg)
+![Slide: 36.jpg](images/36.jpg)
 @snapend
 
 
@@ -551,14 +587,14 @@
 @color[red](Encounter: Reveal: Possibilities)<BR>
 @color[blue](2 Negotiate)
 @ol[list-bullets-black](false)
-- 1 minute to make deal.
+- One minute to make deal.
 - Allies get ships back.
 @olend
 
 @snapend
 
 @snap[north-east span-50]
-![Slide: 35.jpg](images/35.jpg)
+![Slide: 37.jpg](images/37.jpg)
 @snapend
 
 
@@ -568,14 +604,14 @@
 @color[red](Encounter: Reveal: Possibilities)<BR>
 @color[blue](Deal Types)
 @ol[list-bullets-black](false)
-- May trade cards / allow the other's ship to land on Planet.
+- May trade cards / allow the other's ship to land on Planet / any combination.
 - May land any ship not in Warp.
 @olend
 
 @snapend
 
 @snap[north-east span-50]
-![Slide: 36.jpg](images/36.jpg)
+![Slide: 38.jpg](images/38.jpg)
 @snapend
 
 
@@ -592,43 +628,6 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 37.jpg](images/37.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red]()<BR>
-@color[blue](Resolution)
-@ol[list-bullets-black](false)
-- Discard revealed cards.
-- Return Flare cards to hand.
-- Attacker Wins
-- Attacker Loses
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 38.jpg](images/38.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Resolution: Attacker Wins)<BR>
-@color[blue](Move defending ships from Planet to Warp.)
-@ol[list-bullets-black](false)
-- Not any bystander ships.
-- Move attacking ships from Gate to Planet.
-- Each new Planet increases Win Count.
-@olend
-
-@snapend
-
-@snap[north-east span-50]
 ![Slide: 39.jpg](images/39.jpg)
 @snapend
 
@@ -636,9 +635,13 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Resolution: Attacker Loses)<BR>
-@color[blue](Move ships from Gate to Warp.)
+@color[red](Encounter)<BR>
+@color[blue](Resolution)
 @ol[list-bullets-black](false)
+- Discard revealed cards.
+- Return Flare cards to hand.
+- Attacker Wins
+- Attacker Loses
 @olend
 
 @snapend
@@ -651,11 +654,13 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Resolution: Attacker Loses)<BR>
-@color[blue](Defensive Ally's)
+@color[red](Encounter: Resolution)<BR>
+@color[blue](Attacker Wins)
 @ol[list-bullets-black](false)
-- Return ships to any Planet.
-- Per Ship: Draw an Artifact or Encounter card OR return extra ship from Warp.
+- Move defending ships from Planet to Warp.
+- Not any bystander ships.
+- Move attacking ships from Gate to Planet.
+- Each new Planet increases Win Count.
 @olend
 
 @snapend
@@ -668,11 +673,9 @@
 ---
 
 @snap[north-west span-50]
-@color[red]()<BR>
-@color[blue](Winning)
+@color[red](Encounter: Resolution: Attacker Loses)<BR>
+@color[blue](Move ships from Gate to Warp.)
 @ol[list-bullets-black](false)
-- As soon as a player has 5 external Planets.
-- Ties share victory.
 @olend
 
 @snapend
@@ -685,11 +688,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red]()<BR>
-@color[blue](Player's Alien Power)
+@color[red](Encounter: Resolution: Attacker Loses)<BR>
+@color[blue](Defensive Ally's)
 @ol[list-bullets-black](false)
-- Like some cards, alters rules.
-- Timing strip at the bottom highlights playable phase.
+- Return ships to any Planet.
+- Per Ship: Draw an Artifact card / Encounter card / get back one ship from Warp.
 @olend
 
 @snapend
@@ -702,9 +705,8 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Player's Alien Power)<BR>
-@color[blue](Losing Power)
+@color[red]()<BR>
+@color[blue](Winning)
 @ol[list-bullets-black](false)
-- Lose Power if you've lost 3+ home Planets
-- Passive Powers stay.
-- May be regained if you get 3+ again.
+- As soon as a player has 5 external Planets.
+- Ties share victory.
