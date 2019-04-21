@@ -1,5 +1,5 @@
 [
-  { "Version": ["0.0.4"] },
+  { "Version": ["0.0.5"] },
   {
     "How to Play": ["Expand your empire to 5 external planets through battle."]
   },
@@ -8,8 +8,9 @@
       {
         "Timestrip": [
           "",
-          "Bottom of card, shows what phase it may be played in.",
-          "You're expected to interrupt within a reasonable time."
+          "Bottom of card",
+          "shows what phase it may be played in.",
+          "You're expected to interrupt within a reasonably short time."
         ]
       },
       { "Warp": ["Where defeated ships go."] },
@@ -22,7 +23,12 @@
       },
       { "Encounter Cards": ["", "Attack", "Negotiate", "Morph"] },
       {
-        "Other Cards": ["", "Artifacts", "Reinforcement", "Flare / Super Flare"]
+        "Other Cards": [
+          "",
+          "Artifacts *special deck",
+          "Reinforcement",
+          "Flare / Super Flare"
+        ]
       }
     ]
   },
@@ -165,56 +171,22 @@
               "2 Attack Cards.",
               "Total = ships on side + Attack card value (1-30).",
               "Ties go to the Defender.",
-              "May play interrupt cards.",
+              "Players in battle may play interrupt cards.",
               {
                 "Interrupt Cards": [
                   "",
                   "Artifact = Powerful Items.",
                   "Reinforcement = adds to battle strength.",
-                  "Flare / Super Flare...",
-                  {
-                    "Flare / Super Flare": [
-                      "",
-                      "May be played once per encounter.",
-                      "Will be returned to your hand.",
-                      "It's a Super Flare if it's of your Alien.",
-                      "Zapped Alien powers reduces to Flare."
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "Possibilities": [
-              "1 Attack, 1 Negotiate",
-              "Negotiater auto-loses, but get's compensation.",
-              {
-                "Possibilities": [
-                  "Compensation",
-                  "Per ship, draw a random card from Attacker's hand.",
-                  "Stops if Attacker runs out of cards."
-                ]
-              }
-            ]
-          },
-          {
-            "Possibilities": [
-              "2 Negotiate",
-              "One minute to make deal.",
-              "Allies get ships back.",
-              {
-                "Deal Types": [
-                  "",
-                  "May trade cards / allow the other's ship to land on Planet / any combination.",
-                  "May land any ship not in Warp."
+                  "Flare / Super Flare..."
                 ]
               },
               {
-                "End of Negotiate": [
+                "Flare / Super Flare": [
                   "",
-                  "Return ships to any Planet.",
-                  "Must trade something, or both lose 3 ships to Warp."
+                  "May be played once per encounter.",
+                  "Will be returned to your hand.",
+                  "It's a Super Flare if it's of your Alien.",
+                  "Zapped Alien powers reduces to Flare."
                 ]
               }
             ]
@@ -222,31 +194,70 @@
         ]
       },
       {
-        "Resolution": [
-          "",
-          "Discard revealed cards.",
-          "Return Flare cards to hand.",
-          "Attacker Wins",
-          "Attacker Loses",
+        "Possibilities": [
+          "1 Attack, 1 Negotiate",
+          "Negotiater auto-loses, but get's compensation.",
+          "Will really fuck allied defenders."
+        ]
+      },
+      {
+        "Possibilities": [
+          "Compensation",
+          "Per ship, draw a random card from Attacker's hand.",
+          "Stops if Attacker runs out of cards."
+        ]
+      },
+      {
+        "Possibilities": [
+          "2 Negotiate",
+          "One minute to make deal.",
+          "Allies get ships back.",
           {
-            "Attacker Wins": [
-              "",
-              "Move defending ships from Planet to Warp.",
-              "Not any bystander ships.",
-              "Move attacking ships from Gate to Planet.",
-              "Each new Planet increases Win Count."
+            "Tradeables": [
+              "Any combination",
+              "Cards",
+              "Allow the other's ship to land on Planet",
+              "May land any ship not in Warp."
             ]
           },
           {
-            "Attacker Loses": [
-              "Move ships from Gate to Warp.",
-              {
-                "Defensive Ally's": [
-                  "",
-                  "Return ships to any Planet.",
-                  "Per Ship: Draw an Artifact card / Encounter card / get back one ship from Warp."
-                ]
-              }
+            "End of Negotiate": [
+              "",
+              "Return ships to any Planet.",
+              "Must trade something, or both lose 3 ships to Warp."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Resolution": [
+      "",
+      "Discard revealed cards.",
+      "Return Flare cards to hand.",
+      "Attacker Wins",
+      "Attacker Loses",
+      {
+        "Attacker Wins": [
+          "",
+          "Move defending ships from Planet to Warp.",
+          "Not any bystander ships.",
+          "Move attacking ships from Gate to Planet.",
+          "Each new Planet increases Win Count."
+        ]
+      },
+      {
+        "Attacker Loses": [
+          "Move ships from Gate to Warp.",
+          {
+            "Defensive Ally's": [
+              "",
+              "Return ships to any Planet.",
+              "Per Ship",
+              "Draw an Artifact card",
+              "Encounter card",
+              "Get back one ship from Warp."
             ]
           }
         ]

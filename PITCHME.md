@@ -4,7 +4,7 @@
 
 @snap[north-west span-50]
 @color[red](Version)<BR>
-@color[blue](0.0.4)
+@color[blue](0.0.5)
 @ol[list-bullets-black](false)
 @olend
 
@@ -36,8 +36,9 @@
 @color[red](Quick Terms)<BR>
 @color[blue](Timestrip)
 @ol[list-bullets-black](false)
-- Bottom of card, shows what phase it may be played in.
-- You're expected to interrupt within a reasonable time.
+- Bottom of card
+- shows what phase it may be played in.
+- You're expected to interrupt within a reasonably short time.
 @olend
 
 @snapend
@@ -131,7 +132,7 @@
 @color[red](Quick Terms)<BR>
 @color[blue](Other Cards)
 @ol[list-bullets-black](false)
-- Artifacts
+- Artifacts *special deck
 - Reinforcement
 - Flare / Super Flare
 @olend
@@ -501,7 +502,7 @@
 @ol[list-bullets-black](false)
 - Total = ships on side + Attack card value (1-30).
 - Ties go to the Defender.
-- May play interrupt cards.
+- Players in battle may play interrupt cards.
 @olend
 
 @snapend
@@ -532,7 +533,7 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Reveal: Possibilities: Interrupt Cards)<BR>
+@color[red](Encounter: Reveal: Possibilities)<BR>
 @color[blue](Flare / Super Flare)
 @ol[list-bullets-black](false)
 - May be played once per encounter.
@@ -551,10 +552,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Reveal: Possibilities)<BR>
+@color[red](Encounter: Possibilities)<BR>
 @color[blue](1 Attack, 1 Negotiate)
 @ol[list-bullets-black](false)
 - Negotiater auto-loses, but get's compensation.
+- Will really fuck allied defenders.
 @olend
 
 @snapend
@@ -567,7 +569,7 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Reveal: Possibilities: Possibilities)<BR>
+@color[red](Encounter: Possibilities)<BR>
 @color[blue](Compensation)
 @ol[list-bullets-black](false)
 - Per ship, draw a random card from Attacker's hand.
@@ -584,7 +586,7 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Reveal: Possibilities)<BR>
+@color[red](Encounter: Possibilities)<BR>
 @color[blue](2 Negotiate)
 @ol[list-bullets-black](false)
 - One minute to make deal.
@@ -601,10 +603,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Reveal: Possibilities)<BR>
-@color[blue](Deal Types)
+@color[red](Encounter: Possibilities: Tradeables)<BR>
+@color[blue](Any combination)
 @ol[list-bullets-black](false)
-- May trade cards / allow the other's ship to land on Planet / any combination.
+- Cards
+- Allow the other's ship to land on Planet
 - May land any ship not in Warp.
 @olend
 
@@ -618,7 +621,7 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Reveal: Possibilities)<BR>
+@color[red](Encounter: Possibilities)<BR>
 @color[blue](End of Negotiate)
 @ol[list-bullets-black](false)
 - Return ships to any Planet.
@@ -635,7 +638,7 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter)<BR>
+@color[red]()<BR>
 @color[blue](Resolution)
 @ol[list-bullets-black](false)
 - Discard revealed cards.
@@ -654,7 +657,7 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Resolution)<BR>
+@color[red](Resolution)<BR>
 @color[blue](Attacker Wins)
 @ol[list-bullets-black](false)
 - Move defending ships from Planet to Warp.
@@ -673,7 +676,7 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Resolution: Attacker Loses)<BR>
+@color[red](Resolution: Attacker Loses)<BR>
 @color[blue](Move ships from Gate to Warp.)
 @ol[list-bullets-black](false)
 @olend
@@ -688,11 +691,14 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Encounter: Resolution: Attacker Loses)<BR>
+@color[red](Resolution: Attacker Loses)<BR>
 @color[blue](Defensive Ally's)
 @ol[list-bullets-black](false)
 - Return ships to any Planet.
-- Per Ship: Draw an Artifact card / Encounter card / get back one ship from Warp.
+- Per Ship
+- Draw an Artifact card
+- Encounter card
+- Get back one ship from Warp.
 @olend
 
 @snapend
