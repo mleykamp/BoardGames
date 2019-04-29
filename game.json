@@ -3,21 +3,6 @@
     "Version": ["0.0.1"]
   },
   {
-    "RootTitle": [
-      "Header",
-      "List item",
-      {
-        "SubTitle": [
-          "header",
-          "List item",
-          {
-            "SubSubTitle": ["subheader", "list item"]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "How to Play": [
       "Through diplomacy and war become the strongest house in Westeros."
     ]
@@ -158,14 +143,14 @@
               {
                 "Clash of Kings": [
                   "Fiefdom Track",
-                  "Order breaks battle ties.",
-                  "Reward Sword = +1 battles."
+                  "Order breaks tied battles.",
+                  "Reward Sword = +1 to one battle per round."
                 ]
               },
               {
                 "Clash of Kings": [
                   "King's Court Track",
-                  "Defines how many Special Order Tokens that are usable to you.",
+                  "Defines how many *Special Order Tokens that are usable to you.",
                   "Rewards Raven = Replace one Order Token",
                   "OR Look at top Wildling Deck. Return to top or bottom."
                 ]
@@ -179,7 +164,7 @@
           "Assign",
           "Assign Order Tokens facedown.",
           "One per unit(s) controlled territory.",
-          "Special Order Tokens have stars.",
+          "*Special Order Tokens have stars.",
           {
             "Order Tokens": [
               "Will resolve by token type.",
@@ -192,7 +177,7 @@
                 "Raid": [
                   "",
                   "Remove adjacent Raid, Support, Consolidate Power",
-                  "Special = or remove Defense."
+                  "*Special = or remove Defense."
                 ]
               },
               {
@@ -201,7 +186,7 @@
                   "Per unit, move to adjacent territory.",
                   "Triggers battle with enemy units.",
                   "Only One pattle per token.",
-                  "Special = +1 battle for attacker."
+                  "*Special = +1 battle for attacker."
                 ]
               },
               {
@@ -209,7 +194,7 @@
                   "",
                   "Adds it's defense bonus in territory.",
                   "As many times as it's attacked.",
-                  "Special = +2 battle for defender."
+                  "*Special = +2 battle for defender."
                 ]
               },
               {
@@ -217,7 +202,8 @@
                   "",
                   "Per unit, add's unit strength to adjacent territory.",
                   "Support Attacker or Defender.",
-                  "Special = +1 support value."
+                  "*Special = +1 support value.",
+                  "May support your other territories."
                 ]
               },
               {
@@ -225,8 +211,8 @@
                   "",
                   "Gain 1 Power Token.",
                   "+1 per power icon of territory.",
-                  "Nothing for seas, but misdirection.",
-                  "Special = OR muster the territory."
+                  "*Special = OR muster the territory.",
+                  "Nothing for seas, but misdirection."
                 ]
               }
             ]
@@ -237,12 +223,314 @@
         "Planning": [
           "Once order tokens are placed.",
           "Reveal",
-          "Use Raven, once per round."
+          "Use Raven, once per round.",
+          {
+            "Raven": [
+              "From King's Court Track",
+              "Defines how many *Special Order Tokens that are usable to you.",
+              "Rewards Raven = Replace one Order Token",
+              "OR Look at top Wildling Deck. Return to top or bottom."
+            ]
+          }
         ]
       },
-      { "Action": [] },
-      { "EOR": [] },
-      { "Winning": [] }
+      {
+        "Action": [
+          "",
+          "Resolve one token per action.",
+          "Play order = Iron Throne Track."
+        ]
+      },
+      {
+        "Action": [
+          "",
+          "Raid",
+          "March",
+          "Defense",
+          "Support",
+          "Consolidate Power",
+          {
+            "Raid": [
+              "",
+              "Remove adjacent Raid, Support, Consolidate Power, (Defense with *Special).",
+              "Remove Consolidate Power adds one Power Token, loser discards one Power Token.",
+              "Land cannot Raid sea, Sea can Raid either.",
+              "May choose to not resolve token."
+            ]
+          },
+          {
+            "March": [
+              "",
+              "Per unit, move to adjacent territory.",
+              "Resolve non-attacking units first.",
+              "Resolve one battle last.",
+              "Lose control if abandoning territory OR leave a Power Token.",
+              "*Special = +1 battle for attacker.",
+              {
+                "Sword Token": [
+                  "From Fiefdom Track.",
+                  "Fiefdom Track Order breaks tied battles.",
+                  "Reward Sword = +1 to one battle per round."
+                ]
+              }
+            ]
+          },
+          {
+            "Defense": [
+              "",
+              "Adds it's defense bonus in territory.",
+              "As many times as it's attacked.",
+              "*Special = +2 battle for defender."
+            ]
+          },
+          {
+            "Support": [
+              "",
+              "Add all units strength to adjacent territory.",
+              "Support Attacker or Defender.",
+              "*Special = +1 support value.",
+              "Cannot support the Sword token.",
+              "May support your other territories."
+            ]
+          },
+          {
+            "Consolidate Power": [
+              "",
+              "Gain 1 Power Token.",
+              "+1 per Power icon of territory.",
+              "*Special = OR muster the territory.",
+              "Nothing for seas, but misdirection."
+            ]
+          },
+          {
+            "Battles": [
+              {
+                "Phases": [
+                  "",
+                  "Call for support.",
+                  "Calculate initial Strengths.",
+                  "Choose and Reveal House Cards.",
+                  "Tides of Battle",
+                  "Winner has higher strength.",
+                  "Ties broken up by the Fiefdom Track order.",
+                  "Resolve Battle."
+                ]
+              },
+              {
+                "Call for support": [
+                  "",
+                  "If vacating a terrirtory, optionally leave a Power Token to retain control.",
+                  "Request help from adjacent Support Tokens.",
+                  "Agreed ally gives full territory strength to one side.",
+                  "*Special token = +1 supported strength.",
+                  "Support Tokens can be reused for all adjacent battles."
+                ]
+              },
+              {
+                "Calculate initial Strengths": [
+                  "Strength = ",
+                  "+ Unit values.",
+                  "+ Defense Order token.",
+                  "+ March Order bonus/penalty.",
+                  "+ Joined Support Territories.",
+                  "+ Garrison tokens.",
+                  {
+                    "Unit Strengths": [
+                      "",
+                      "+1 Foot soldier.",
+                      "+1 Ship.",
+                      "+2 Knight.",
+                      "+0/4 Siege Engine",
+                      {
+                        "Seige Engine": [
+                          "",
+                          "+4 if attacking or supporting an attack against a Castle or Stronghold.",
+                          "OR +0"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Choose and Reveal House Cards.": [
+                  "Choose and reveal one House Card.",
+                  "Cannot support a House Card."
+                ]
+              },
+              {
+                "Tides of Battle": [
+                  "",
+                  "Draw Tides of Battle cards.",
+                  "May Use Sword token.",
+                  "Reveal Tides of Battle cards.",
+                  "Modify Casualities",
+                  {
+                    "Draw Tides of Battle cards": [
+                      "",
+                      "Shuffle all Tides of Battle cards.",
+                      "Draw one card."
+                    ]
+                  },
+                  {
+                    "May Use Sword token": [
+                      "",
+                      "Use the Sword token to discard and draw again.",
+                      "OR add +1 to battle strength.",
+                      "If used, flip until EOR."
+                    ]
+                  },
+                  {
+                    "Reveal Tides of Battle cards": [
+                      "+ Card Stength (Shield).",
+                      "= final strength.",
+                      "Most points, tieds broken by Fiefdom Track."
+                    ]
+                  },
+                  {
+                    "Modify Casualities": [
+                      "",
+                      "Add Sword or Fortification icons to your played House Card.",
+                      "Resolve Sword or Fortification Icons.",
+                      "Resolve Skull icons.",
+                      {
+                        "Resolve Sword or Fortification Icons": [
+                          "",
+                          "Defeated player takes casualties.",
+                          "Must destroy 1 unit per = attacker sword - forticication icons."
+                        ]
+                      },
+                      {
+                        "Resolve Skill Icons": [
+                          "",
+                          "If either player's Tides of Battle card contained 1+ Skulls.",
+                          "Other player destroys 1 unit.",
+                          "From attacking force/defending territory.",
+                          "In addition to the loss from Sword Icons."
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Retreats or Routing": [
+                      "",
+                      "If Attacker lost, must retreat to attacking territory.",
+                      "If Defender lost, must reteat to...",
+                      {
+                        "Defender Retreats": [
+                          "",
+                          "An adjacent uncontrolled territory.",
+                          "Uncontrolled = no units or Power Tokens.",
+                          "Cannot retreat to Attackers terrirory.",
+                          "Retreating Units can't break Supply Limits.",
+                          "May use ships to transport a retreat.",
+                          "Siege Engines must be destroyed.",
+                          "Place retreated units on side to indicate 'Routed'"
+                        ]
+                      },
+                      {
+                        "Routed": [
+                          "",
+                          "No more adding to battle strength.",
+                          "Doesn't join battle, so can't be destroyed as sword/skull icon penalty.",
+                          "Can't be moved",
+                          "Still counts against Supply Limits.",
+                          "A routed unit, later forced to retreat is destroyed."
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Resolve Battle": [
+                  "",
+                  "Attacker Wins, remove Attacked Order Token.",
+                  "Discard enemy Power Token marking control.",
+                  "Non-controlled territory immediately becomes original owner's territory again.",
+                  "Defender Wins, doesn't affect Attackers Tokens.",
+                  "Discard Played House Card.",
+                  "Continue with next Iron Throne Track Player Order, March Order"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "EOR": [
+          "",
+          "Stand up Routed units.",
+          "Flip Sword and Raven Token to usable side.",
+          "EOR 10, is the EOG.",
+          "Always keep Victory Track instantly current."
+        ]
+      },
+      {
+        "Winning": [
+          "",
+          "Instantly when Player completes Victory Track.",
+          "OR Highest Victory Track after 10 Rounds",
+          "Ties broken my count of Strongholds.",
+          "Else Ties broken by highest Supply Limit",
+          "Else Ties broken by most Power tokens.",
+          "Finally Ties broken by Iron Throne Track."
+        ]
+      }
     ]
-  }
+  },
+  {
+    "Ship Transports": [
+      "",
+      "for Marching Orders, considers 2 Territorys connected by 1+ sea areas, each with 1+ of own ships.",
+      "May use a ship to transport as much as necessary.",
+      "Even Multiple times in the same March Order Token.",
+      "Routed Ship can still transport."
+    ]
+  },
+  {
+    "Ports": [
+      "",
+      "Only used by controlling land area player.",
+      "Ports count towards Supply Limits.",
+      "Also can't contain 4+ ships.",
+      "Can Muster into a Port even if enemy in sea area.",
+      "Still receives Order Tokens.",
+      "Ports can't be attacked, so no Defense Tokens.",
+      "Ships can March Order into their owned Ports.",
+      "Ships can Support/March/Raid adjacent sea areas only.",
+      "Ports can be Raided by adjacent sea area.",
+      "Adjacent Sea area must be empty/controlled to use Consolidate Power Order Token.",
+      "Ports have no Power Icons.",
+      "Can't Muster from Ports.",
+      "If Ports land area is conquered, you may replace 0+ enemy Port Ships with their own.",
+      "If resolving an Initial Westeros Phase: Westeros Card, also collect Power Icons per Port where Port contains ship AND Adjacent sea area is empty/controlled."
+    ]
+  },
+  {
+    "Other Terrain": [
+      "",
+      "River consider's neighbooring territorys not adjacent.",
+      "Bridges consider's conntect territorys adjacent.",
+      "Islands = Dragonstone/ Pyke/ The Arbor (contain white border)",
+      "Islands, just normal terriroys. considers only surrounding sea area as adjacent"
+    ]
+  },
+  { "Controlled Areas": ["", "When you have 1+ unit(s) or Power Token."] },
+  {
+    "Garrisons": [
+      "Don't count in Supply Limits.",
+      "Aren't assigned an Order Token.",
+      "If attacked without any normal unit(s), still occurs.",
+      "1+ are treated as 1 unit."
+    ]
+  },
+  {
+    "Finally Alliances": [
+      "",
+      "At any time make promises/seek alliance.",
+      "Never binding."
+    ]
+  },
+  { "": ["Thank You."] }
 ]
