@@ -4,7 +4,7 @@
 
 @snap[north-west span-50]
 @color[red](Version)<BR>
-@color[blue](0.0.1)
+@color[blue](0.0.2)
 @ol[list-bullets-black](false)
 @olend
 
@@ -19,7 +19,7 @@
 
 @snap[north-west span-50]
 @color[red](How to Play)<BR>
-@color[blue](Through diplomacy and war become the strongest house in Westeros.)
+@color[blue](Through diplomacy and war, control the most Strongholds + Castles.)
 @ol[list-bullets-black](false)
 @olend
 
@@ -100,9 +100,10 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Westeros: Draw Westeros Cards)<BR>
-@color[blue](Reveal top card for all three decks.)
+@color[red](Phases: Westeros)<BR>
+@color[blue](Draw Westeros Cards)
 @ol[list-bullets-black](false)
+- Reveal top card for all three decks.
 - Wait
 @olend
 
@@ -153,8 +154,8 @@
 @color[red](Phases: Westeros: Advance Wildlings Track: Wildling Attack)<BR>
 @color[blue](Reset Wildling Track)
 @ol[list-bullets-black](false)
-- Return to 0 on Night's watch win.
-- Move back 2 spaces on loss
+- If Successful, return Wildling Track to 0.
+- ELSE move back 2 spaces on Wildling Track.
 @olend
 
 @snapend
@@ -200,7 +201,7 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Westeros: Resolve Westeros Cards: Resolve Westeros Cards)<BR>
+@color[red](Phases: Westeros: Resolve Westeros Cards: )<BR>
 @color[blue](Supply)
 @ol[list-bullets-black](false)
 - In turn order. (or not for speed)
@@ -222,11 +223,11 @@
 @color[red](Phases: Westeros: Resolve Westeros Cards: Supply)<BR>
 @color[blue](Flags 4 / 3 / 2 / 2)
 @ol[list-bullets-black](false)
-- Show's you can have a 4 unit army
+- Show's you can have a four unit army
 - Three unit army
 - Two unit army
 - Two unit army
-- As many 1 units as you want.
+- As many single units as you want.
 @olend
 
 @snapend
@@ -256,7 +257,7 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Westeros: Resolve Westeros Cards: Resolve Westeros Cards)<BR>
+@color[red](Phases: Westeros: Resolve Westeros Cards: )<BR>
 @color[blue](Muster)
 @ol[list-bullets-black](false)
 - In turn order. (or not for speed)
@@ -277,8 +278,9 @@
 @color[red](Phases: Westeros: Resolve Westeros Cards: Muster)<BR>
 @color[blue](Income)
 @ol[list-bullets-black](false)
-- Stronghold gives $2 on it.
-- Castle gives $1 on it.
+- Stronghold gives $2.
+- Castle gives $1.
+- Spend on same territory.
 - Stay within Supply limits.
 @olend
 
@@ -311,9 +313,10 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Westeros: Resolve Westeros Cards: Resolve Westeros Cards)<BR>
-@color[blue](Clash of Kings)
+@color[red](Phases: Westeros)<BR>
+@color[blue](Resolve Westeros Cards)
 @ol[list-bullets-black](false)
+- Clash of Kings
 - Hide Power Tokens.
 - Silently bid for order per track.
 - Ties decided by owner of Iron Throne Token.
@@ -329,10 +332,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Westeros: Resolve Westeros Cards)<BR>
+@color[red](Phases: Westeros)<BR>
 @color[blue](Clash of Kings)
 @ol[list-bullets-black](false)
-- Top to Bottom, earning Reward Token after each.
+- Three tracks from top to bottom
+- Earning Reward Token after each track.
 - Discard Used Power Tokens
 - Place unused Power Tokens in front of screen.
 @olend
@@ -347,11 +351,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Westeros: Resolve Westeros Cards: Clash of Kings)<BR>
+@color[red](Phases: Westeros: Clash of Kings)<BR>
 @color[blue](Iron Throne Track)
 @ol[list-bullets-black](false)
 - Defines turn order.
-- Reward Throne = all tie-breaking (not battles).
+- Reward Token Iron Throne = decides all tie-breaking (not battles, but like bidding...)
 @olend
 
 @snapend
@@ -364,11 +368,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Westeros: Resolve Westeros Cards: Clash of Kings)<BR>
+@color[red](Phases: Westeros: Clash of Kings)<BR>
 @color[blue](Fiefdom Track)
 @ol[list-bullets-black](false)
 - Order breaks tied battles.
-- Reward Sword = +1 to one battle per round.
+- Reward Token: Sword = +1 to one battle per round.
 @olend
 
 @snapend
@@ -381,11 +385,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Westeros: Resolve Westeros Cards: Clash of Kings)<BR>
+@color[red](Phases: Westeros: Clash of Kings)<BR>
 @color[blue](King's Court Track)
 @ol[list-bullets-black](false)
-- Defines how many *Special Order Tokens that are usable to you.
-- Rewards Raven = Replace one Order Token
+- Count of *Special Order Tokens you may use.
+- Rewards Token: Raven = Replace one Order Token
 - OR Look at top Wildling Deck. Return to top or bottom.
 @olend
 
@@ -404,7 +408,7 @@
 @ol[list-bullets-black](false)
 - Assign Order Tokens facedown.
 - One per unit(s) controlled territory.
-- *Special Order Tokens have stars.
+- *Special Order Tokens have stars (limited by King's Court Track).
 @olend
 
 @snapend
@@ -459,7 +463,7 @@
 @ol[list-bullets-black](false)
 - Per unit, move to adjacent territory.
 - Triggers battle with enemy units.
-- Only One pattle per token.
+- Only One battle per token.
 - *Special = +1 battle for attacker.
 @olend
 
@@ -494,9 +498,9 @@
 @color[red](Phases: Planning: Order Tokens)<BR>
 @color[blue](Support)
 @ol[list-bullets-black](false)
-- Per unit, add's unit strength to adjacent territory.
+- Adds territory's strength to adjacent territory.
 - Support Attacker or Defender.
-- *Special = +1 support value.
+- *Special = +1 support strength.
 - May support your other territories.
 @olend
 
@@ -601,10 +605,9 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Action)<BR>
-@color[blue](Raid)
+@color[red](Phases: Action: Raid)<BR>
+@color[blue](Remove adjacent Raid, Support, Consolidate Power, (Defense with *Special).)
 @ol[list-bullets-black](false)
-- Remove adjacent Raid, Support, Consolidate Power, (Defense with *Special).
 - Remove Consolidate Power adds one Power Token, loser discards one Power Token.
 - Land cannot Raid sea, Sea can Raid either.
 - May choose to not resolve token.
@@ -643,8 +646,9 @@
 @color[red](Phases: Action: March: Sword Token)<BR>
 @color[blue](From Fiefdom Track.)
 @ol[list-bullets-black](false)
-- Fiefdom Track Order breaks tied battles.
-- Reward Sword = +1 to one battle per round.
+- Fiefdom Track order breaks tied battles.
+- Reward Token: Sword = +1 to one battle per round.
+- OR redraw Tides of Battle card.
 @olend
 
 @snapend
@@ -680,7 +684,7 @@
 @ol[list-bullets-black](false)
 - Add all units strength to adjacent territory.
 - Support Attacker or Defender.
-- *Special = +1 support value.
+- *Special = +1 support strength.
 - Cannot support the Sword token.
 - May support your other territories.
 @olend
@@ -721,9 +725,6 @@
 - Calculate initial Strengths.
 - Choose and Reveal House Cards.
 - Tides of Battle
-- Winner has higher strength.
-- Ties broken up by the Fiefdom Track order.
-- Resolve Battle.
 @olend
 
 @snapend
@@ -739,9 +740,24 @@
 @color[red](Phases: Action: Battles)<BR>
 @color[blue](Call for support)
 @ol[list-bullets-black](false)
-- If vacating a terrirtory, optionally leave a Power Token to retain control.
+- If vacating a territory, optionally leave a Power Token to retain control.
 - Request help from adjacent Support Tokens.
 - Agreed ally gives full territory strength to one side.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 45.jpg](images/45.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Phases: Action: Battles)<BR>
+@color[blue](Call for support)
+@ol[list-bullets-black](false)
 - *Special token = +1 supported strength.
 - Support Tokens can be reused for all adjacent battles.
 @olend
@@ -749,7 +765,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 45.jpg](images/45.jpg)
+![Slide: 46.jpg](images/46.jpg)
 @snapend
 
 
@@ -769,7 +785,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 46.jpg](images/46.jpg)
+![Slide: 47.jpg](images/47.jpg)
 @snapend
 
 
@@ -788,7 +804,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 47.jpg](images/47.jpg)
+![Slide: 48.jpg](images/48.jpg)
 @snapend
 
 
@@ -800,21 +816,7 @@
 @ol[list-bullets-black](false)
 - +4 if attacking or supporting an attack against a Castle or Stronghold.
 - OR +0
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 48.jpg](images/48.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Phases: Action: Battles: Choose and Reveal House Cards.)<BR>
-@color[blue](Choose and reveal one House Card.)
-@ol[list-bullets-black](false)
+- Choose and Reveal House Cards.
 - Cannot support a House Card.
 @olend
 
@@ -882,11 +884,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Action: Battles: Tides of Battle: Reveal Tides of Battle cards)<BR>
-@color[blue](+ Card Stength (Shield).)
+@color[red](Phases: Action: Battles: Tides of Battle)<BR>
+@color[blue](Reveal Tides of Battle cards)
 @ol[list-bullets-black](false)
-- = final strength.
-- Most points, tieds broken by Fiefdom Track.
+- Final Strength = Initial + Card Stength (Shields).
+- Most points, tieds broken by Fiefdom Track order.
 @olend
 
 @snapend
@@ -939,7 +941,6 @@
 @ol[list-bullets-black](false)
 - If either player's Tides of Battle card contained 1+ Skulls.
 - Other player destroys 1 unit.
-- From attacking force/defending territory.
 - In addition to the loss from Sword Icons.
 @olend
 
@@ -956,7 +957,7 @@
 @color[red](Phases: Action: Battles: Tides of Battle)<BR>
 @color[blue](Retreats or Routing)
 @ol[list-bullets-black](false)
-- If Attacker lost, must retreat to attacking territory.
+- If Attacker lost, must retreat back to attacking territory.
 - If Defender lost, must reteat to...
 @olend
 
@@ -970,16 +971,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Action: Battles: Tides of Battle: Retreats or Routing)<BR>
-@color[blue](Defender Retreats)
+@color[red](Phases: Action: Battles: Tides of Battle)<BR>
+@color[blue](Defender Retreats 1/3)
 @ol[list-bullets-black](false)
 - An adjacent uncontrolled territory.
 - Uncontrolled = no units or Power Tokens.
-- Cannot retreat to Attackers terrirory.
-- Retreating Units can't break Supply Limits.
-- May use ships to transport a retreat.
-- Siege Engines must be destroyed.
-- Place retreated units on side to indicate 'Routed'
 @olend
 
 @snapend
@@ -992,14 +988,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Action: Battles: Tides of Battle: Retreats or Routing)<BR>
-@color[blue](Routed)
+@color[red](Phases: Action: Battles: Tides of Battle)<BR>
+@color[blue](Defender Retreats 2/3)
 @ol[list-bullets-black](false)
-- No more adding to battle strength.
-- Doesn't join battle, so can't be destroyed as sword/skull icon penalty.
-- Can't be moved
-- Still counts against Supply Limits.
-- A routed unit, later forced to retreat is destroyed.
+- Can't break Supply Limits.
+- Place retreated units on side to indicate 'Routed'
 @olend
 
 @snapend
@@ -1012,13 +1005,65 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Action: Battles)<BR>
+@color[red](Phases: Action: Battles: Tides of Battle)<BR>
+@color[blue](Defender Retreats 3/3)
+@ol[list-bullets-black](false)
+- Cannot retreat to Attackers terrirory.
+- May use ships to transport a retreat.
+- Siege Engines must be destroyed.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 60.jpg](images/60.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Phases: Action: Battles: Tides of Battle)<BR>
+@color[blue](Routed)
+@ol[list-bullets-black](false)
+- Can't do anything.
+- Doesn't join battle, so can't be destroyed as sword/skull icon penalty.
+- Still counts against Supply Limits.
+- A routed unit, later forced to retreat is destroyed.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 61.jpg](images/61.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Phases: Action)<BR>
 @color[blue](Resolve Battle)
 @ol[list-bullets-black](false)
+- Defender Wins, doesn't affect Attackers Tokens.
 - Attacker Wins, remove Attacked Order Token.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 62.jpg](images/62.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Phases: Action)<BR>
+@color[blue](Resolve Battle)
+@ol[list-bullets-black](false)
 - Discard enemy Power Token marking control.
 - Non-controlled territory immediately becomes original owner's territory again.
-- Defender Wins, doesn't affect Attackers Tokens.
 - Discard Played House Card.
 - Continue with next Iron Throne Track Player Order, March Order
 @olend
@@ -1026,7 +1071,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 60.jpg](images/60.jpg)
+![Slide: 63.jpg](images/63.jpg)
 @snapend
 
 
@@ -1045,7 +1090,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 61.jpg](images/61.jpg)
+![Slide: 64.jpg](images/64.jpg)
 @snapend
 
 
@@ -1057,7 +1102,21 @@
 @ol[list-bullets-black](false)
 - Instantly when Player completes Victory Track.
 - OR Highest Victory Track after 10 Rounds
-- Ties broken my count of Strongholds.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 65.jpg](images/65.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Phases: Winning)<BR>
+@color[blue](Ties broken my count of Strongholds.)
+@ol[list-bullets-black](false)
 - Else Ties broken by highest Supply Limit
 - Else Ties broken by most Power tokens.
 - Finally Ties broken by Iron Throne Track.
@@ -1066,7 +1125,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 62.jpg](images/62.jpg)
+![Slide: 66.jpg](images/66.jpg)
 @snapend
 
 
@@ -1076,16 +1135,15 @@
 @color[red]()<BR>
 @color[blue](Ship Transports)
 @ol[list-bullets-black](false)
-- for Marching Orders, considers 2 Territorys connected by 1+ sea areas, each with 1+ of own ships.
-- May use a ship to transport as much as necessary.
-- Even Multiple times in the same March Order Token.
+- Considers connected territories where 1+ links of own ships.
+- May endlessly transport, even in same order token.
 - Routed Ship can still transport.
 @olend
 
 @snapend
 
 @snap[north-east span-50]
-![Slide: 63.jpg](images/63.jpg)
+![Slide: 67.jpg](images/67.jpg)
 @snapend
 
 
@@ -1096,25 +1154,71 @@
 @color[blue](Ports)
 @ol[list-bullets-black](false)
 - Only used by controlling land area player.
-- Ports count towards Supply Limits.
+- Port units count towards Supply Limits.
 - Also can't contain 4+ ships.
-- Can Muster into a Port even if enemy in sea area.
+- Can Muster into a Port even if enemy is in sea area.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 68.jpg](images/68.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red]()<BR>
+@color[blue](Ports)
+@ol[list-bullets-black](false)
 - Still receives Order Tokens.
-- Ports can't be attacked, so no Defense Tokens.
+- No Defense Tokens.
 - Ships can March Order into their owned Ports.
 - Ships can Support/March/Raid adjacent sea areas only.
-- Ports can be Raided by adjacent sea area.
 - Adjacent Sea area must be empty/controlled to use Consolidate Power Order Token.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 69.jpg](images/69.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red]()<BR>
+@color[blue](Ports)
+@ol[list-bullets-black](false)
+- Ports can't be attacked.
+- Ports can be Raided by adjacent sea area.
 - Ports have no Power Icons.
 - Can't Muster from Ports.
-- If Ports land area is conquered, you may replace 0+ enemy Port Ships with their own.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 70.jpg](images/70.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red]()<BR>
+@color[blue](Ports)
+@ol[list-bullets-black](false)
+- If you conquer a Port'ss land area, you may replace 0+ enemy Port Ships with your own.
 - If resolving an Initial Westeros Phase: Westeros Card, also collect Power Icons per Port where Port contains ship AND Adjacent sea area is empty/controlled.
 @olend
 
 @snapend
 
 @snap[north-east span-50]
-![Slide: 64.jpg](images/64.jpg)
+![Slide: 71.jpg](images/71.jpg)
 @snapend
 
 
@@ -1124,16 +1228,15 @@
 @color[red]()<BR>
 @color[blue](Other Terrain)
 @ol[list-bullets-black](false)
-- River consider's neighbooring territorys not adjacent.
-- Bridges consider's conntect territorys adjacent.
-- Islands = Dragonstone/ Pyke/ The Arbor (contain white border)
-- Islands, just normal terriroys. considers only surrounding sea area as adjacent
+- River consider's neighbooring territories not adjacent.
+- Bridges consider's conntected territories adjacent.
+- Islands (white border), just normal territories. considers only surrounding sea area as adjacent
 @olend
 
 @snapend
 
 @snap[north-east span-50]
-![Slide: 65.jpg](images/65.jpg)
+![Slide: 72.jpg](images/72.jpg)
 @snapend
 
 
@@ -1149,16 +1252,17 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 66.jpg](images/66.jpg)
+![Slide: 73.jpg](images/73.jpg)
 @snapend
 
 
 ---
 
 @snap[north-west span-50]
-@color[red](Garrisons)<BR>
-@color[blue](Don't count in Supply Limits.)
+@color[red]()<BR>
+@color[blue](Garrisons)
 @ol[list-bullets-black](false)
+- Don't count in Supply Limits.
 - Aren't assigned an Order Token.
 - If attacked without any normal unit(s), still occurs.
 - 1+ are treated as 1 unit.
@@ -1167,7 +1271,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 67.jpg](images/67.jpg)
+![Slide: 74.jpg](images/74.jpg)
 @snapend
 
 
@@ -1184,7 +1288,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 68.jpg](images/68.jpg)
+![Slide: 75.jpg](images/75.jpg)
 @snapend
 
 
