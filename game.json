@@ -1,46 +1,26 @@
 [
   {
-    "Version": ["0.01"]
+    "Version": ["0.0.1"]
   },
   {
-    "RootTitle": [
-      "Header",
-      "List item",
-      {
-        "SubTitle": [
-          "header",
-          "List item",
-          {
-            "SubSubTitle": ["subheader", "list item"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "How to Play": [
-      ""
-    ]
+    "How to Play": [""]
   },
   {
     "Quick Terms:": [
       {
         "": [""]
-      },
-  {
-    "Actions": [
-      ""
+      }
     ]
   },
   {
-    "": [
-      ""
-    ]
-  },
-  {
-    "Winner": [
+    "Phases": [
       "",
-      ""
+      "",
+      "",
+      "",
+      {
+        "": []
+      }
     ]
   }
 ]
