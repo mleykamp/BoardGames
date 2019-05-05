@@ -1,268 +1,348 @@
 [
-  {"PRE": [
-    {"How to Play": [
-      "Perfect DNA",
-      "Create Dinosaurs",
-      "Create Jurassic Park",
-      "Hire the Personnel",
-      "Build Attractions",
-      "Don’t Forget Security"
-    ]},
-    {"Quick Terms": [
-      {"Dice":["Resources available to scientists."]},
-      {"DNA":["Pieces of DNA to build a Dinosaur."]},
-      {"Recipe":["DNA Requirements of a known dinosaur."]},
-      {"Money":["Currency."]},
-      {"Dinosaur":["Built, then contained in Exhibits."]},
-      {"Lab":["Your work area."]},
-      {"Attraction":["Shops or Food Park locations."]},
-      {"Exhibit":["Dinosaur Park locations."]},
-      {"Cold Storage":["Cooler size you can hold DNA."]},
-      {"Scientist":["Manage's Dinosaur work. "]},
-      {"Worker":["Manage's Park work."]},
-      {"Patron’s":["Visitors with money."]},
-      {"Hooligan’s":["Visitors who break in."]},
-      {"Specialist":["Help you manage your park."]},
-      {"Entrance":["Doesn't count as in your park."]},
-      {"Zones":["Available zones to build attraction's or exhibit's."]},
-      {"Excitement Level":["How much fun people feel at your park."]},
-      {"Security Level":["How secure your park is compared to fun. "]},
-      {"Plot Twists":["Little twists on gameplay for uniqueness. "]},
-      {"Market Row":["Each row is a starting $ value."]},
-      {"Objectives":[""]}
-    ]}
-  ]},
-  { "PHASES": [
-    {"Phases": [
-      "Research Phase",
-      "Market Phase",
-      "Worker Phase",
-      "Park Phase",
-      "Cleanup Phase"
-    ]},
-    {"Research Phase": [
-      "1P Rolls All Dice.",
-      "one scientist per slot.",
-      {"Actions": [
-        "One scientist at a time until each player has three turns.",
-        "Research DNA",
-        "Increase Cold Storage",
-        "Take Dino Recipe",
-        "Pass",
-        {"Research DNA": [
-          {"Assign scientist to claim Die.": [
-            "(Count of DNA symbols) * (Scientist’s Research Level) = ",
-            "Add that many DNAs to your lab",
-            "You can never have more than Cold Storage"
-          ]},
-          {"Icons": [
-            "Dinosaur Icon or Scientist Icon on dice must be claimed by scientist number 3.",
-            "You only get the benefit once.",
-            "You do not multiply the sciences research level"
-          ]},
-          {"Icons (cont.)": [
-            "Dinosaur Icon allows you to upgrade the padlock capacity.",
-            "Scientist Icon allows you to gain one worker from the supply."
-          ]}
-        ]},
-        {"Increase Cold Storage":[
-          "Assign a scientist to one of the six slots of the research center.",
-          "Immediately increase cold storage by a number equal to that scientist research level on any combination of tracks."
-        ]},
-        {"Take Dino Recipe":[
-          "The number indicates minimum research level of scientist to get recipe.",
-          "Immediately place the tile in two available zones.",
-          {"There are 3 Dino Recipes per round":[
-            "Herbivore",
-            "Small Carnivore",
-            "Large Carnivore"
-          ]}
-        ]},
-        {"Pass":[
-          "Move remaining scientists to worker pool."
-        ]}
-      ]},
-      {"End Research Phase":[
-        "After everybody's three turns evaluate the dice.",
-        "Take the die with the most pips and move it to the holding area.",
-        "No dice, skip",
-        "This will be added to all players threat level during Park Phase."
-      ]}
-    ]},
-    {"Market Phase":[
-      "In Turn Order, twice around",
-      {"Actions":[
-       {"Hire specialist":[
-         "cost = Market Row (immediately carry out the effects).",
-         "Maximum of three hired specialist",
-         "You may fire one to replace, discarding from the game (Giving up bonuses)."
-       ]},
-       {"Build attraction":[
-         "cost = (Market Row) + (cost on the tile)",
-         "Immediately place it an available zone"
-       ]},
-       {"By lab upgrade":[
-         "cost = Market Row (Immediately place in Lab",
-         "Replaced lab upgrades have no effect",
-         {"Special lab upgrade":[
-           "Dino Research to $3",
-           "DNA Refinement to $5",
-           "These are upgrades to basic lab action must be placed on top of basic corresponding action"
-         ]}
-       ]},
-       {"Buy DNA":[
-         "Pay $2-$5 to the bank",
-         "Gain corresponding number of DNA(s) as the Market Board",
-         "Discard corresponding number item from Market Row",
-         "not special lab upgrade"
-       ]},
-       {"Pass":[
-         "Collect $2"
-       ]}
-     ]}
-    ]},
-    {"Worker Phase":[
-      "All players simultaneously",
-      "Any order they wish",
-      "Assign each worker to a lab action",
-      "Each worker slot can be activated once per round",
-      "Green background lab tiles are passive abilities not by workers",
-      {"Actions":[
-        {"Actions":[
-          "Refining DNA",
-          "Creating dinosaurs",
-          "Increasing security",
-          "Upgrading Exhibit capacity",
-          "Venture capital"
-        ]},
-        {"Refining DNA":[
-          "Spend two Basic DNA for one Advanced DNA"
-        ]},
-        {"Creating dinosaurs":[
-          "Dino research lab upgrade tiles allow you to create dinosaurs",
-          "Spend DNA of your Recipe",
-          "Must have capacity in the Exhibit",
-          {"Increase Excitement Level by number shown on the recipe":[
-            "Max 20"
-          ]},
-          {"Threat level increases by pips on the recipe":[
-            "At threat 11 grab +10 marker and go to one"
-          ]}
-        ]},
-        {"Increasing security":[
-          "Lab upgrade tiles can increase security",
-          "If your Security level reaches 11 grab +10 marker and go to one",
-          "Security Level above 10 costs $5 per Level",
-          "If Security Level < Threat Level Dinosaurs will eat visitors."
-        ]},
-        {"Upgrading Exhibit capacity":[
-          "Each Exhibit can hold one dinosaur",
-          "Upgrade one Exhibit for the next level",
-          "Cost = next Exhibit level",
-          "Maximum capacity four"
-        ]},
-        {"Venture capital":[
-          "Upgraded tile allows you to collect money",
-          "Assign worker collect money from slot"
-        ]}
-      ]}
-    ]},
-    {"Park Phase":[
-      {"Actions":[
-        "Attract Visitors",
-        "Manage lines",
-        "Eat Visitors"
-      ]},
-      {"Attract Visitors":[
-        "Patrons help",
-        "Hooligan’s  hurt",
-        "In turn order, draw number of Visitors from the bag = Excitement Level",
-        "Place them at your Entrance",
-        "Collect $1 per Patron"
-      ]},
-      {"Manage lines, simultaneously":[
-        "Place all visitors at Attractions and Exhibits",
-        "Exhibits hold Visitors = count of Dinosaurs",
-        "Hooligans must be placed first",
-        "Any unplaced Visitors are stuck at the Entrance"
-      ]},
-      {"Eat Visitors": [
-        {"Dinosaurs on the loose?":[
-          {"Threat level":[
-            "Check your base threat level in your lab",
-            "Herbivores increased threat by one",
-            "Carnivores increased threat by two",
-            "Add pips from Dice that was set aside a Phase 1"
-          ]},
-          {"Security level":[
-            "Marked by the lab",
-            "Add in bonuses"
-          ]},
-          {"Eat Visitors": [
-            "Visitors eaten = Threat - Security Level",
-            "You choose Park Patron/Hooligans to eat",
-            "Patrons must be eaten before Hooligans"
-          ]},
-          {"Eat Visitors (cont.)": [
-            "If whole park eaten, eat Patron/Hooligans from the Entrance",
-            "-1VP per Eaten Patron/Hooligan",
-            "You can't go below zero VP"
-          ]}
-        ]},
-        {"Put all eaten visitors back in the bag":[
-          "1VP per surviving Patron not at Entrance.",
-          "or, optionally $2 per Patron at a Food Attraction.",
-          "Do not score for Hooligans.",
-          "Do not score for the Entrance."
-        ]}
-      ]}
-    ]},
-    {"Cleanup Phase":["Cleanup"]},
-    {"Cleanup Phase":[
-      {"Resetting turn order":[
-        "Fewest VP becomes first player in order.",
-        "Ties are broken by previous round order."
-      ]},
-      {"Refresh the market":[
-        "Discard $2 market row items.",
-        "Slide all items upwards.",
-        "Fill empty items from corresponding stack.",
-        "Reshuffle if necessary",
-        "Do not rearrange by cost that is initial set up only"
-      ]},
-      {"Reveal new Recipes":[
-        "Any facedown Recipe stack turn top tile up."
-        ]},
-      "Return workers and scientists",
-      {"Remove visitors":[
-        "Put visitors back in bag"
-      ]},
-      {"Resolve plot twist":[
-        "Look for plot twist that resolved at end of round."
-      ]}
-    ]}
-  ]},
-  {"POST": [
-    {"Objectives":[
-      "At any moment the objective is met, claim with Corporation Token",
-      "Other players can claim during the same phase",
-      "Objectives are worth 6VP - 8VP",
-      "Also are the timer"
-    ]},
-    {"Game End":[
-      "Game ends when there is one objective card unclaimed",
-      "Finish around then score"
-    ]},
-    {"Scoring":[
-      "Add VP for Attractions and Exhibits",
-      "Exhibits multiplied VP by the number of Dinosaurs",
-      "Exhibit without Dinosaurs,  -10VP",
-      "Core objectives",
-      "$5 = 1VP"
-    ]},
-    {"Winner":[
-      "Money breaks ties",
-      "The End."
-    ]}
-  ]}
+  {
+    "PRE": [
+      {
+        "How to Play": [
+          "Perfect DNA",
+          "Create Dinosaurs",
+          "Create Jurassic Park",
+          "Hire the Personnel",
+          "Build Attractions",
+          "Don’t Forget Security"
+        ]
+      },
+      {
+        "Quick Terms": [
+          { "Dice": ["Resources available to scientists."] },
+          { "DNA": ["Pieces of DNA to build a Dinosaur."] },
+          { "Recipe": ["DNA Requirements of a known dinosaur."] },
+          { "Money": ["Currency."] },
+          { "Dinosaur": ["Built, then contained in Exhibits."] },
+          { "Lab": ["Your work area."] },
+          { "Attraction": ["Shops or Food Park locations."] },
+          { "Exhibit": ["Dinosaur Park locations."] },
+          { "Cold Storage": ["Cooler size you can hold DNA."] },
+          { "Scientist": ["Manage's Dinosaur work. "] },
+          { "Worker": ["Manage's Park work."] },
+          { "Patron’s": ["Visitors with money."] },
+          { "Hooligan’s": ["Visitors who break in."] },
+          { "Specialist": ["Help you manage your park."] },
+          { "Entrance": ["Doesn't count as in your park."] },
+          { "Zones": ["Available zones to build attraction's or exhibit's."] },
+          { "Excitement Level": ["How much fun people feel at your park."] },
+          { "Security Level": ["How secure your park is compared to fun. "] },
+          { "Plot Twists": ["Little twists on gameplay for uniqueness. "] },
+          { "Market Row": ["Each row is a starting $ value."] },
+          { "Objectives": [""] }
+        ]
+      }
+    ]
+  },
+  {
+    "PHASES": [
+      {
+        "Phases": [
+          "Research Phase",
+          "Market Phase",
+          "Worker Phase",
+          "Park Phase",
+          "Cleanup Phase"
+        ]
+      },
+      {
+        "Research Phase": [
+          "1P Rolls All Dice.",
+          "one scientist per slot.",
+          {
+            "Actions": [
+              "One scientist at a time until each player has three turns.",
+              "Research DNA",
+              "Increase Cold Storage",
+              "Take Dino Recipe",
+              "Pass",
+              {
+                "Research DNA": [
+                  {
+                    "Assign scientist to claim Die.": [
+                      "(Count of DNA symbols) * (Scientist’s Research Level) = ",
+                      "Add that many DNAs to your lab",
+                      "You can never have more than Cold Storage"
+                    ]
+                  },
+                  {
+                    "Icons": [
+                      "Dinosaur Icon or Scientist Icon on dice must be claimed by scientist number 3.",
+                      "You only get the benefit once.",
+                      "You do not multiply the sciences research level"
+                    ]
+                  },
+                  {
+                    "Icons (cont.)": [
+                      "Dinosaur Icon allows you to upgrade the padlock capacity.",
+                      "Scientist Icon allows you to gain one worker from the supply."
+                    ]
+                  }
+                ]
+              },
+              {
+                "Increase Cold Storage": [
+                  "Assign a scientist to one of the six slots of the research center.",
+                  "Immediately increase cold storage by a number equal to that scientist research level on any combination of tracks."
+                ]
+              },
+              {
+                "Take Dino Recipe": [
+                  "The number indicates minimum research level of scientist to get recipe.",
+                  "Immediately place the tile in two available zones.",
+                  {
+                    "There are 3 Dino Recipes per round": [
+                      "Herbivore",
+                      "Small Carnivore",
+                      "Large Carnivore"
+                    ]
+                  }
+                ]
+              },
+              { "Pass": ["Move remaining scientists to worker pool."] }
+            ]
+          },
+          {
+            "End Research Phase": [
+              "After everybody's three turns evaluate the dice.",
+              "Take the die with the most pips and move it to the holding area.",
+              "No dice, skip",
+              "This will be added to all players threat level during Park Phase."
+            ]
+          }
+        ]
+      },
+      {
+        "Market Phase": [
+          "In Turn Order, twice around",
+          {
+            "Actions": [
+              {
+                "Hire specialist": [
+                  "cost = Market Row (immediately carry out the effects).",
+                  "Maximum of three hired specialist",
+                  "You may fire one to replace, discarding from the game (Giving up bonuses)."
+                ]
+              },
+              {
+                "Build attraction": [
+                  "cost = (Market Row) + (cost on the tile)",
+                  "Immediately place it an available zone"
+                ]
+              },
+              {
+                "By lab upgrade": [
+                  "cost = Market Row (Immediately place in Lab",
+                  "Replaced lab upgrades have no effect",
+                  {
+                    "Special lab upgrade": [
+                      "Dino Research to $3",
+                      "DNA Refinement to $5",
+                      "These are upgrades to basic lab action must be placed on top of basic corresponding action"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Buy DNA": [
+                  "Pay $2-$5 to the bank",
+                  "Gain corresponding number of DNA(s) as the Market Board",
+                  "Discard corresponding number item from Market Row",
+                  "not special lab upgrade"
+                ]
+              },
+              { "Pass": ["Collect $2"] }
+            ]
+          }
+        ]
+      },
+      {
+        "Worker Phase": [
+          "All players simultaneously",
+          "Any order they wish",
+          "Assign each worker to a lab action",
+          "Each worker slot can be activated once per round",
+          "Green background lab tiles are passive abilities not by workers",
+          {
+            "Actions": [
+              {
+                "Actions": [
+                  "Refining DNA",
+                  "Creating dinosaurs",
+                  "Increasing security",
+                  "Upgrading Exhibit capacity",
+                  "Venture capital"
+                ]
+              },
+              { "Refining DNA": ["Spend two Basic DNA for one Advanced DNA"] },
+              {
+                "Creating dinosaurs": [
+                  "Dino research lab upgrade tiles allow you to create dinosaurs",
+                  "Spend DNA of your Recipe",
+                  "Must have capacity in the Exhibit",
+                  {
+                    "Increase Excitement Level by number shown on the recipe": [
+                      "Max 20"
+                    ]
+                  },
+                  {
+                    "Threat level increases by pips on the recipe": [
+                      "At threat 11 grab +10 marker and go to one"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Increasing security": [
+                  "Lab upgrade tiles can increase security",
+                  "If your Security level reaches 11 grab +10 marker and go to one",
+                  "Security Level above 10 costs $5 per Level",
+                  "If Security Level < Threat Level Dinosaurs will eat visitors."
+                ]
+              },
+              {
+                "Upgrading Exhibit capacity": [
+                  "Each Exhibit can hold one dinosaur",
+                  "Upgrade one Exhibit for the next level",
+                  "Cost = next Exhibit level",
+                  "Maximum capacity four"
+                ]
+              },
+              {
+                "Venture capital": [
+                  "Upgraded tile allows you to collect money",
+                  "Assign worker collect money from slot"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Park Phase": [
+          { "Actions": ["Attract Visitors", "Manage lines", "Eat Visitors"] },
+          {
+            "Attract Visitors": [
+              "Patrons help",
+              "Hooligan’s  hurt",
+              "In turn order, draw number of Visitors from the bag = Excitement Level",
+              "Place them at your Entrance",
+              "Collect $1 per Patron"
+            ]
+          },
+          {
+            "Manage lines, simultaneously": [
+              "Place all visitors at Attractions and Exhibits",
+              "Exhibits hold Visitors = count of Dinosaurs",
+              "Hooligans must be placed first",
+              "Any unplaced Visitors are stuck at the Entrance"
+            ]
+          },
+          {
+            "Eat Visitors": [
+              {
+                "Dinosaurs on the loose?": [
+                  {
+                    "Threat level": [
+                      "Check your base threat level in your lab",
+                      "Herbivores increased threat by one",
+                      "Carnivores increased threat by two",
+                      "Add pips from Dice that was set aside a Phase 1"
+                    ]
+                  },
+                  { "Security level": ["Marked by the lab", "Add in bonuses"] },
+                  {
+                    "Eat Visitors": [
+                      "Visitors eaten = Threat - Security Level",
+                      "You choose Park Patron/Hooligans to eat",
+                      "Patrons must be eaten before Hooligans"
+                    ]
+                  },
+                  {
+                    "Eat Visitors (cont.)": [
+                      "If whole park eaten, eat Patron/Hooligans from the Entrance",
+                      "-1VP per Eaten Patron/Hooligan",
+                      "You can't go below zero VP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Put all eaten visitors back in the bag": [
+                  "1VP per surviving Patron not at Entrance.",
+                  "or, optionally $2 per Patron at a Food Attraction.",
+                  "Do not score for Hooligans.",
+                  "Do not score for the Entrance."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      { "Cleanup Phase": ["Cleanup"] },
+      {
+        "Cleanup Phase": [
+          {
+            "Resetting turn order": [
+              "Fewest VP becomes first player in order.",
+              "Ties are broken by previous round order."
+            ]
+          },
+          {
+            "Refresh the market": [
+              "Discard $2 market row items.",
+              "Slide all items upwards.",
+              "Fill empty items from corresponding stack.",
+              "Reshuffle if necessary",
+              "Do not rearrange by cost that is initial set up only"
+            ]
+          },
+          {
+            "Reveal new Recipes": [
+              "Any facedown Recipe stack turn top tile up."
+            ]
+          },
+          "Return workers and scientists",
+          { "Remove visitors": ["Put visitors back in bag"] },
+          {
+            "Resolve plot twist": [
+              "Look for plot twist that resolved at end of round."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "POST": [
+      {
+        "Objectives": [
+          "At any moment the objective is met, claim with Corporation Token",
+          "Other players can claim during the same phase",
+          "Objectives are worth 6VP - 8VP",
+          "Also are the timer"
+        ]
+      },
+      {
+        "Game End": [
+          "Game ends when there is one objective card unclaimed",
+          "Finish around then score"
+        ]
+      },
+      {
+        "Scoring": [
+          "Add VP for Attractions and Exhibits",
+          "Exhibits multiplied VP by the number of Dinosaurs",
+          "Exhibit without Dinosaurs,  -10VP",
+          "Core objectives",
+          "$5 = 1VP"
+        ]
+      },
+      { "Winner": ["Money breaks ties", "The End."] }
+    ]
+  }
 ]
