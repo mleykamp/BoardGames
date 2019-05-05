@@ -1,9 +1,16 @@
 [
   {
-    "Version": ["0.0.1"]
+    "Version": ["0.0.2"]
   },
   {
-    "How to Play": [""]
+    "How to Play": [
+      "",
+      "Shake down business' to earn resources.",
+      "Use resources to complete jobs.",
+      "Complete jobs to earn money.",
+      "Get money from hand to suitcase.",
+      "Earn the most money in your suitcase to win."
+    ]
   },
   {
     "Quick Terms:": [
@@ -25,9 +32,16 @@
       {
         "Family Business": [
           "",
-          "Each Player clockwise, 1 Action at a time, until everybody passes.",
-          "Can't move things between Bank, Hand, or Suitcase unless provided by action.",
-          "e.x. Can't make change.",
+          "Each Player clockwise",
+          "1 Action at a time",
+          "until everybody passes.",
+          {
+            "": [
+              "",
+              "Can't move things between Bank, Hand, or Suitcase unless provided by action.",
+              "e.x. Can't make change."
+            ]
+          },
           {
             "Actions": [
               "",
@@ -39,7 +53,7 @@
                 "Play a Thug": [
                   "",
                   "Place a thug in the 'front' of a business.",
-                  "Perform 'front' icons.",
+                  "Perform 'front' actions.",
                   "If Neighboorhood is controlled by another player, they also get the actions."
                 ]
               },
@@ -47,73 +61,105 @@
                 "Play a Family Member": [
                   "",
                   "Play family member on neighborhood circle.",
-                  "Perform 'back' icons from every adjacent neighborhood's businesses.",
-                  "Family members are considered 'in' all adjacent neighborhood's."
+                  "Perform 'back' actions from every adjacent neighborhood's businesses."
                 ]
               },
-              { "Complete a Job": [
-                "",
-                "Pay goods, take job rewards.",
-                "Put completed job in suitcase.",
-                "Doesn't use a person, but you must have somebody remaining.",
-                "Can complete from hand or shared job board."
-              ] },
-              {"":["Gunned Down people move to Hudson River."]},
-              {"Play an Ally":[
-                "",
-                "Put faceup infront of you",
-                "Perform rewards."
-              ]}
+              {
+                "Complete a Job": [
+                  "",
+                  "Can complete from hand or shared job board.",
+                  "Pay goods, take job rewards.",
+                  "Put completed job in suitcase.",
+                  "Doesn't use a person, but must have somebody remaining."
+                ]
+              },
+              { "": ["Gunned Down people move to Hudson River."] },
+              {
+                "Play an Ally": [
+                  "",
+                  "Put faceup infront of you",
+                  "Perform actions."
+                ]
+              }
             ]
           }
         ]
       },
-      {"Turf War":[
-        "See who controls a neighborhood.",
-        "+1 per thug/family member 'in' neighborhood.",
-        "Neutral people count as a 'Neutral' gang.",
-        "If somebody wins, place control marker in neighborhood.",
-        "If you already control, add one.",
-        "Matters for EOG VP.",
-        "If your out of control markers, may move an existing one.",
-        "Top most control marker indicates control of neighborhood."
-      ]},
-      {"Bribery Phase":[
-        "",
-        "Silently bid suitcase money for an Ally card.",
-        "The player who bid the most gets first pick...",
-        "Ties broken by turn order.",
-        "Must bid at least $1 to get an Ally.",
-        "Last place doesn't get an Ally, but can return money to suitcase.",
-        "Allys will not count towards hand limit."
-      ]},
-      {"Tribute to the Don":[
-        "*Follow EOG if Act 4 is over.",
-        "Return all people.",
-        "Advance Act Track.",
-        "Replenish Jobs.",
-        "Remove any non Bribed Allys.",
-        "Restock Allys.",
-        "Return to hand Ally cards.",
-        "Discard down to hand limit."
-      ]}
+      {
+        "Turf War": [
+          "See who controls a neighborhood.",
+          {
+            "": [
+              "",
+              "+1 per thug/family member 'in' neighborhood.",
+              "Family members are considered 'in' all adjacent neighborhood's.",
+              "Neutral people count as a 'Neutral' gang.",
+              "If somebody wins, place control marker in neighborhood."
+            ]
+          },
+          {
+            "": [
+              "",
+              "If you already control, add one more.",
+              "Matters for EOG VP.",
+              "If your out of control markers, may move an existing one.",
+              "Top most control marker indicates control of neighborhood."
+            ]
+          }
+        ]
+      },
+      {
+        "Bribery Phase": [
+          "",
+          "Silently bid suitcase money for an Ally card.",
+          "The player who bid the most gets first pick...",
+          "Ties broken by turn order.",
+          {
+            "": [
+              "Must bid at least $1 to get an Ally.",
+              "Last place doesn't get an Ally, but can return money to suitcase.",
+              "Allys will not count towards hand limit."
+            ]
+          }
+        ]
+      },
+      {
+        "Tribute to the Don": [
+          "",
+          "Return all people.",
+          "Advance Act Track.",
+          "Replenish Jobs.",
+          "Remove any non Bribed Allies.",
+          "Stock Allies.",
+          "Return to hand Ally cards.",
+          "Discard down to hand limit."
+        ]
+      }
     ]
   },
-  {"EOG":[
-    "",
-    "Hand limit was 2, but you may move moeny to your suitcase.",
-    "Seperate money and each job color.",
-    {"EOG Bonuses":[
+  {
+    "EOG": [
       "",
-      "$5 for neighborhoods won (most control markers).",
-      "Ties broken by highest control marker in stack.",
-      "$5 for most completed jobs by color.",
-      "Ties all get $5"
-    ]},
-    {"Winning":[
-      "",
-      "Player with the most money wins.",
-      "Ties broken by most neighborhoods won."
-    ]}
-  ]}
+      "Hand limit was 2, but you may move money to your suitcase.",
+      "Discard anything else in hand.",
+      "From suitcase - seperate money and each job color.",
+      {
+        "EOG Bonuses": [
+          "",
+          "$5 for neighborhoods won (most control markers).",
+          "Ties broken by highest control marker in stack.",
+          "$5 for most completed jobs by color.",
+          "Ties all get $5"
+        ]
+      },
+      {
+        "Winning": [
+          "",
+          "Player with the most money wins.",
+          "Ties broken by most neighborhoods won."
+        ]
+      }
+    ]
+  },
+  { "": "Good Luck" }
 ]
