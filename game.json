@@ -3,7 +3,7 @@
     "Version": ["0.0.1"]
   },
   {
-    "How to Play": [""]
+    "How to Play": ["Expand one or more empires to take 1 coin from the coin pool for each region your race tokens occupy."]
   },
   {
     "Quick Terms:": [
@@ -15,12 +15,103 @@
   {
     "Phases": [
       "",
-      "",
-      "",
-      "",
+      "First Turn.",
+      "Following Turns.",
       {
-        "": []
-      }
+        "First Turns": [
+          "",
+          "Pick a Race and Power combo.",
+          "Conquer Regions.",
+          "Score Victory Coins.",
+          {"Pick a Race and Power Combo":[
+            "Select 1 Race and Power combo.",
+            {"Race Cost":[
+              "",
+              "First Race is free.",
+              "Later Races, leave coins on skipped Races",
+              "Keep any coins on selected Race.",
+              "Slide Race and Power choices up a slot."
+            ]},
+            {"Race Tokens":[
+              "",
+              "Race tokens = race value + special power combo value",
+              "Always limited to this value."
+            ]}
+          ]},
+          {"Conquer Regions":[
+            "",
+            "Start Empire from border territory.",
+            "Can border via sea.",
+            "Invading force tokens > territory strength",
+            {"Territory Value":[
+              "",
+              "2 Initial Race tokens",
+              "+1 Race token per Opponenet Race Token, Encapment, Fortress, Mountain, Troll's Lair, Lost Tribe tokens."
+            ]},
+            {"Losing Race":[
+              "",
+              "Return Race Tokens to player.",
+              "Discard 1 Race token from game.",
+              "Keep in hand until redeployment."
+            ]},
+            {"":["You may continue conquering adjacent territories."]},
+            {"Final Conquest":[
+              "",
+              "Only need 1 Initial Race token.",
+              "+1,3 Reinforcement Die Roll",
+              "Conquer or assign the last Race token to a current territory."
+            ]},
+            {"Troop Redeployment":[
+              "",
+              "After Final Conquest",
+              "Ensuring you leave 1 per territory",
+              "Redeploy your extra Race tokens to your territories."
+            ]}
+          ]},
+          {"Score Victory Coins":[
+            "",
+            "Take 1 coin per territory occupied.",
+            "Per Active or In Decline Races.",
+            "In Decline Races don't use Race or Powers benefit.",
+            "Hide your coins."
+          ]}
+        ]
+      },
+      {"Following Turns":[
+        "",
+        "Either Conquer Regions.",
+        "Or Decline your empire.",
+        {"Either Conquer Regions":[
+          "",
+          "Using 0+ tokens from existing territories.",
+          "Conquer Adjacent territories.",
+          "Leaving 0 loses control."
+        ]},
+        {"Or Decline your empire":[
+          "Instead of conquering.",
+          "Flip over your race banner",
+          "Discard your Power.",
+          "Remove all but 1 Race token per territory.",
+          "Next round follow the First Turn rules."
+        ]},
+        {"Second Decline or Lost All Race's Territories":[
+          "",
+          "*Immediatley remove old declined race.",
+          "Place Race banner at bottom of stack."
+        ]},
+        {"Score Victory Coins":[
+          "",
+          "Take 1 coin per territory occupied.",
+          "Per Active or In Decline Races.",
+          "In Decline Races don't use Race or Powers benefit.",
+          "Hide your coins."
+        ]}
+      ]}
     ]
-  }
+  },
+  {"Winning": [
+    "",
+    "The Player with the most Victory Coins.",
+    "Ties broken by active/in decline race tokens."
+  ]}
 ]
