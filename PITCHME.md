@@ -4,7 +4,7 @@
 
 @snap[north-west span-50]
 @color[red](Version)<BR>
-@color[blue](0.0.1)
+@color[blue](0.0.2)
 @ol[list-bullets-black](false)
 @olend
 
@@ -19,7 +19,7 @@
 
 @snap[north-west span-50]
 @color[red](How to Play)<BR>
-@color[blue](Expand one or more empires to take 1 coin from the coin pool for each region your race tokens occupy.)
+@color[blue](Expand one or more empires. Taking 1 coin for each territory your race tokens occupy.)
 @ol[list-bullets-black](false)
 @olend
 
@@ -52,7 +52,7 @@
 @color[blue](Phases)
 @ol[list-bullets-black](false)
 - First Turn.
-- Following Turns.
+- Other Turns.
 @olend
 
 @snapend
@@ -66,7 +66,7 @@
 
 @snap[north-west span-50]
 @color[red](Phases)<BR>
-@color[blue](First Turns)
+@color[blue](First Turn)
 @ol[list-bullets-black](false)
 - Pick a Race and Power combo.
 - Conquer Regions.
@@ -83,7 +83,7 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: First Turns: Pick a Race and Power Combo)<BR>
+@color[red](Phases: First Turn: Pick a Race and Power Combo)<BR>
 @color[blue](Select 1 Race and Power combo.)
 @ol[list-bullets-black](false)
 @olend
@@ -98,13 +98,13 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: First Turns: Pick a Race and Power Combo)<BR>
+@color[red](Phases: First Turn: Pick a Race and Power Combo)<BR>
 @color[blue](Race Cost)
 @ol[list-bullets-black](false)
 - First Race is free.
 - Later Races, leave coins on skipped Races
 - Keep any coins on selected Race.
-- Slide Race and Power choices up a slot.
+- Slide leftovers up a slot.
 @olend
 
 @snapend
@@ -117,11 +117,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: First Turns: Pick a Race and Power Combo)<BR>
+@color[red](Phases: First Turn: Pick a Race and Power Combo)<BR>
 @color[blue](Race Tokens)
 @ol[list-bullets-black](false)
 - Race tokens = race value + special power combo value
-- Always limited to this value.
+- Max tokens limited to this value.
 @olend
 
 @snapend
@@ -134,12 +134,12 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: First Turns)<BR>
+@color[red](Phases: First Turn)<BR>
 @color[blue](Conquer Regions)
 @ol[list-bullets-black](false)
 - Start Empire from border territory.
 - Can border via sea.
-- Invading force tokens > territory strength
+- Invading force tokens 2 + territory value.
 @olend
 
 @snapend
@@ -152,11 +152,15 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: First Turns: Conquer Regions)<BR>
+@color[red](Phases: First Turn: Conquer Regions)<BR>
 @color[blue](Territory Value)
 @ol[list-bullets-black](false)
-- 2 Initial Race tokens
-- +1 Race token per Opponenet Race Token, Encapment, Fortress, Mountain, Troll's Lair, Lost Tribe tokens.
+- +1 per Opponenet Race Token
+- +1 per Encapment
+- +1 per Fortress
+- +1 per Mountain
+- +1 per Troll's Lair
+- +1 per Lost Tribe tokens.
 @olend
 
 @snapend
@@ -169,11 +173,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: First Turns: Conquer Regions)<BR>
+@color[red](Phases: First Turn: Conquer Regions)<BR>
 @color[blue](Losing Race)
 @ol[list-bullets-black](false)
 - Return Race Tokens to player.
-- Discard 1 Race token from game.
+- Discard 1 Race token to tray.
 - Keep in hand until redeployment.
 @olend
 
@@ -187,7 +191,7 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: First Turns: Conquer Regions: )<BR>
+@color[red](Phases: First Turn: Conquer Regions: )<BR>
 @color[blue](You may continue conquering adjacent territories.)
 @ol[list-bullets-black](false)
 @olend
@@ -202,12 +206,12 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: First Turns: Conquer Regions)<BR>
+@color[red](Phases: First Turn: Conquer Regions)<BR>
 @color[blue](Final Conquest)
 @ol[list-bullets-black](false)
 - Only need 1 Initial Race token.
-- +1,3 Reinforcement Die Roll
-- Conquer or assign the last Race token to a current territory.
+- +1,2,3 from Reinforcement Die Roll
+- Conquer Succeeds or assign the last Race token to a current territory.
 @olend
 
 @snapend
@@ -220,12 +224,13 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: First Turns: Conquer Regions)<BR>
+@color[red](Phases: First Turn: Conquer Regions)<BR>
 @color[blue](Troop Redeployment)
 @ol[list-bullets-black](false)
 - After Final Conquest
 - Ensuring you leave 1 per territory
 - Redeploy your extra Race tokens to your territories.
+- * Also, players who were conquered.
 @olend
 
 @snapend
@@ -238,12 +243,12 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: First Turns)<BR>
+@color[red](Phases: First Turn)<BR>
 @color[blue](Score Victory Coins)
 @ol[list-bullets-black](false)
 - Take 1 coin per territory occupied.
-- Per Active or In Decline Races.
-- In Decline Races don't use Race or Powers benefit.
+- For either Active or In Decline Races.
+- In Decline Races don't use Race or Power benefit.
 - Hide your coins.
 @olend
 
@@ -279,7 +284,7 @@
 @ol[list-bullets-black](false)
 - Using 0+ tokens from existing territories.
 - Conquer Adjacent territories.
-- Leaving 0 loses control.
+- Leaving none, loses control.
 @olend
 
 @snapend
@@ -312,7 +317,7 @@
 
 @snap[north-west span-50]
 @color[red](Phases: Following Turns)<BR>
-@color[blue](Second Decline or Lost All Race's Territories)
+@color[blue](Second Decline or Lost All Territories)
 @ol[list-bullets-black](false)
 - *Immediatley remove old declined race.
 - Place Race banner at bottom of stack.
@@ -352,3 +357,5 @@
 @ol[list-bullets-black](false)
 - The Player with the most Victory Coins.
 - Ties broken by active/in decline race tokens.
+- 
+- Good luck.
