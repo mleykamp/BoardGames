@@ -4,7 +4,7 @@
 
 @snap[north-west span-50]
 @color[red](Version)<BR>
-@color[blue](0.0.2)
+@color[blue](0.0.3)
 @ol[list-bullets-black](false)
 @olend
 
@@ -139,7 +139,7 @@
 @ol[list-bullets-black](false)
 - Start Empire from border territory.
 - Can border via sea.
-- Invading force tokens 2 + territory value.
+- Invading force tokens = 2 + territory value.
 @olend
 
 @snapend
@@ -248,7 +248,7 @@
 @ol[list-bullets-black](false)
 - Take 1 coin per territory occupied.
 - For either Active or In Decline Races.
-- In Decline Races don't use Race or Power benefit.
+- In Decline Races don't get Race or Power benefit.
 - Hide your coins.
 @olend
 
@@ -317,9 +317,9 @@
 
 @snap[north-west span-50]
 @color[red](Phases: Following Turns)<BR>
-@color[blue](Second Decline or Lost All Territories)
+@color[blue](If Second Decline or Lost All Territories)
 @ol[list-bullets-black](false)
-- *Immediatley remove old declined race.
+- *Immediatley remove old declined race tokens.
 - Place Race banner at bottom of stack.
 @olend
 
@@ -337,8 +337,8 @@
 @color[blue](Score Victory Coins)
 @ol[list-bullets-black](false)
 - Take 1 coin per territory occupied.
-- Per Active or In Decline Races.
-- In Decline Races don't use Race or Powers benefit.
+- For Active or In Decline Races.
+- In Decline Races don't get Race or Power benefit.
 - Hide your coins.
 @olend
 

@@ -1,6 +1,6 @@
 [
   {
-    "Version": ["0.0.2"]
+    "Version": ["0.0.3"]
   },
   {
     "How to Play": ["Expand one or more empires. Taking 1 coin for each territory your race tokens occupy."]
@@ -42,7 +42,7 @@
             "",
             "Start Empire from border territory.",
             "Can border via sea.",
-            "Invading force tokens 2 + territory value.",
+            "Invading force tokens = 2 + territory value.",
             {"Territory Value":[
               "",
               "+1 per Opponenet Race Token",
@@ -77,7 +77,7 @@
             "",
             "Take 1 coin per territory occupied.",
             "For either Active or In Decline Races.",
-            "In Decline Races don't use Race or Power benefit.",
+            "In Decline Races don't get Race or Power benefit.",
             "Hide your coins."
           ]}
         ]
@@ -99,16 +99,16 @@
           "Remove all but 1 Race token per territory.",
           "Next round follow the First Turn rules."
         ]},
-        {"Second Decline or Lost All Territories":[
+        {"If Second Decline or Lost All Territories":[
           "",
-          "*Immediatley remove old declined race.",
+          "*Immediatley remove old declined race tokens.",
           "Place Race banner at bottom of stack."
         ]},
         {"Score Victory Coins":[
           "",
           "Take 1 coin per territory occupied.",
-          "Per Active or In Decline Races.",
-          "In Decline Races don't use Race or Powers benefit.",
+          "For Active or In Decline Races.",
+          "In Decline Races don't get Race or Power benefit.",
           "Hide your coins."
         ]}
       ]}
