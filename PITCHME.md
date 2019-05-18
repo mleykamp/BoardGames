@@ -52,6 +52,7 @@
 @color[blue](Phases)
 @ol[list-bullets-black](false)
 - Use Dice
+- Use Pass Tokens
 - Attack
 - Building and Trade
 - EOT
@@ -87,11 +88,10 @@
 @color[blue](Actions)
 @ol[list-bullets-black](false)
 - Use the location beneath the die.
-- Remove a die, and move another die left or right once.
-- Remove a die, and repace 4 location cards. (Once per turn)
-- Remove a die, and reactivate one location.
-- Pass and get a Pass Token. (Once per turn)
-- Optionally, use 2 Pass Tokens for one action. (As many times as you have Pass Tokens
+- Move another die left or right.
+- Replace 4 location cards. (Once per turn)
+- Reactivate one location.
+- Get a Pass Token. (Once per turn)
 @olend
 
 @snapend
@@ -104,11 +104,9 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Use Dice: Actions)<BR>
-@color[blue](Gain one resource of your choice.)
+@color[red](Phases: Use Pass Tokens)<BR>
+@color[blue](Use 2 Pass Tokens for one action. (As many times as you have Pass Tokens))
 @ol[list-bullets-black](false)
-- +1 to your army strength (for the turn).
-- Force all players to re-roll one die of your choice. (clockwise)
 @olend
 
 @snapend
@@ -121,11 +119,12 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases)<BR>
-@color[blue](Attack)
+@color[red](Phases: Use Pass Tokens)<BR>
+@color[blue](Actions)
 @ol[list-bullets-black](false)
-- Army strength = Red locations sword values, which are activated with a die.
-- May continue to attack with remaining strength.
+- Gain one resource of your choice.
+- +1 to your army strength (for the turn).
+- Force all players to re-roll one die of your choice. (clockwise)
 @olend
 
 @snapend
@@ -138,11 +137,12 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Attack: Actions)<BR>
-@color[blue](Attack Bandits.)
+@color[red](Phases)<BR>
+@color[blue](Attack)
 @ol[list-bullets-black](false)
-- Attack Locations.
-- Attack Stock.
+- Army strength = Red locations sword values, which were activated with a die.
+- May continue to attack with remaining strength.
+- Need >= defense value to attack.
 @olend
 
 @snapend
@@ -155,11 +155,12 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Attack: Actions)<BR>
-@color[blue](Attack Bandits)
+@color[red](Phases: Attack)<BR>
+@color[blue](Actions)
 @ol[list-bullets-black](false)
-- Claim a Bandit Card where you have >= army strength.
-- Place facedown in front of you.
+- Attack Bandits.
+- Attack Locations.
+- Attack Stock.
 @olend
 
 @snapend
@@ -173,10 +174,27 @@
 
 @snap[north-west span-50]
 @color[red](Phases: Attack: Actions)<BR>
+@color[blue](Attack Bandits)
+@ol[list-bullets-black](false)
+- Claim a Bandit Card.
+- Place facedown in front of you.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 13.jpg](images/13.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Phases: Attack: Actions)<BR>
 @color[blue](Attack Locations)
 @ol[list-bullets-black](false)
-- Place a Deactivation Token on an opponents city where you have >= army strength.
-- Gain location's VP value (facedown).
+- Place a Deactivation Token on an opponents city.
+- Gain location's VP value tokens (facedown).
 - Can't attack already Deactivated locations.
 - Can't attack locations without Defense Values.
 @olend
@@ -184,7 +202,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 13.jpg](images/13.jpg)
+![Slide: 14.jpg](images/14.jpg)
 @snapend
 
 
@@ -200,23 +218,6 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 14.jpg](images/14.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Phases: Attack: Building and Trade)<BR>
-@color[blue](Actions.)
-@ol[list-bullets-black](false)
-- Building.
-- Trade.
-@olend
-
-@snapend
-
-@snap[north-east span-50]
 ![Slide: 15.jpg](images/15.jpg)
 @snapend
 
@@ -224,12 +225,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Attack: Building and Trade)<BR>
-@color[blue](Building)
+@color[red](Phases: Building and Trade)<BR>
+@color[blue](Actions.)
 @ol[list-bullets-black](false)
-- Spend resources to buy available location.
-- Place it over any city location.
-- Replaced locations are nothing.
+- Building.
+- Trade.
 @olend
 
 @snapend
@@ -242,11 +242,12 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Attack: Building and Trade)<BR>
-@color[blue](Trade)
+@color[red](Phases: Building and Trade)<BR>
+@color[blue](Building)
 @ol[list-bullets-black](false)
-- Spend resources required for Trade Ship VP.
-- Claim the Trade Ship facedown in front of you.
+- Spend resources to buy available location.
+- Place it over any city location.
+- Replaced locations are meaningless.
 @olend
 
 @snapend
@@ -259,13 +260,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Attack)<BR>
-@color[blue](EOT)
+@color[red](Phases: Building and Trade)<BR>
+@color[blue](Trade)
 @ol[list-bullets-black](false)
-- Keep one resource per type.
-- Keep all Pass Tokens.
-- Re-roll dice.
-- Army strength reverts to 0.
+- Spend resources required for Trade Ship.
+- Claim the Trade Ship card facedown in front of you.
 @olend
 
 @snapend
@@ -278,9 +277,13 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Attack: EOG)<BR>
-@color[blue](Continue until all players had the same amount of turns.)
+@color[red](Phases)<BR>
+@color[blue](EOT)
 @ol[list-bullets-black](false)
+- Keep one resource per type.
+- Keep all Pass Tokens.
+- Re-roll dice.
+- Army strength reverts to 0.
 @olend
 
 @snapend
@@ -293,27 +296,12 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Attack: EOG)<BR>
+@color[red](Phases: EOG)<BR>
 @color[blue](Scenarios)
 @ol[list-bullets-black](false)
 - Three Bandit piles are exhausted.
 - Two Trade Ship piles are exhausted.
 - Empty Location deck.
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 20.jpg](images/20.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Phases: Attack: EOG: Optional Scenario)<BR>
-@color[blue](If you've upgraded two rows in your city - without deactication tokens - choose if you'd like to End the Game.)
-@ol[list-bullets-black](false)
 @olend
 
 @snapend
@@ -326,18 +314,48 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Winning)<BR>
-@color[blue](Most VP from...)
+@color[red](Phases: EOG: Optional Scenario)<BR>
+@color[blue](If you've upgraded two rows in your city - without deactivation tokens - choose if you'd like to End the Game.)
 @ol[list-bullets-black](false)
-- VP Tokens.
-- VP From Bandit or Trade Ships
-- VP from city (include deactivated).
 @olend
 
 @snapend
 
 @snap[north-east span-50]
 ![Slide: 22.jpg](images/22.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Phases: EOG: )<BR>
+@color[blue](Continue until all players had the same amount of turns.)
+@ol[list-bullets-black](false)
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 23.jpg](images/23.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Phases: Winning)<BR>
+@color[blue](Most VP from...)
+@ol[list-bullets-black](false)
+- VP Tokens.
+- VP From Bandit and/or Trade Ships
+- VP from city (include deactivated).
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 24.jpg](images/24.jpg)
 @snapend
 
 
@@ -355,13 +373,13 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 23.jpg](images/23.jpg)
+![Slide: 25.jpg](images/25.jpg)
 @snapend
 
 
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: )<BR>
+@color[red]()<BR>
 @color[blue](Good luck.)
 @ol[list-bullets-black](false)

@@ -17,10 +17,11 @@
   Phases:
     - ""
     - "Use Dice"
-    - Attack
+    - "Use Pass Tokens"
+    - "Attack"
     - "Building and Trade"
-    - EOT
-    - EOG
+    - "EOT"
+    - "EOG"
     -
       ? "Use Dice"
       :
@@ -29,23 +30,29 @@
           Actions:
             - ""
             - "Use the location beneath the die."
-            - "Remove a die, and move another die left or right once."
-            - "Remove a die, and repace 4 location cards. (Once per turn)"
-            - "Remove a die, and reactivate one location."
-            - "Pass and get a Pass Token. (Once per turn)"
-        - "Optionally, use 2 Pass Tokens for one action. (As many times as you have Pass Tokens"
+            - "Move another die left or right."
+            - "Replace 4 location cards. (Once per turn)"
+            - "Reactivate one location."
+            - "Get a Pass Token. (Once per turn)"
+    -
+      ? "Use Pass Tokens"
+      :
+        - "Use 2 Pass Tokens for one action. (As many times as you have Pass Tokens)"
         -
           Actions:
+            - ""
             - "Gain one resource of your choice."
             - "+1 to your army strength (for the turn)."
             - "Force all players to re-roll one die of your choice. (clockwise)"
     -
       Attack:
         - ""
-        - "Army strength = Red locations sword values, which are activated with a die."
+        - "Army strength = Red locations sword values, which were activated with a die."
         - "May continue to attack with remaining strength."
+        - "Need >= defense value to attack."
         -
           Actions:
+            - ""
             - "Attack Bandits."
             - "Attack Locations."
             - "Attack Stock."
@@ -53,14 +60,14 @@
               ? "Attack Bandits"
               :
                 - ""
-                - "Claim a Bandit Card where you have >= army strength."
+                - "Claim a Bandit Card."
                 - "Place facedown in front of you."
             -
               ? "Attack Locations"
               :
                 - ""
-                - "Place a Deactivation Token on an opponents city where you have >= army strength."
-                - "Gain location's VP value (facedown)."
+                - "Place a Deactivation Token on an opponents city."
+                - "Gain location's VP value tokens (facedown)."
                 - "Can't attack already Deactivated locations."
                 - "Can't attack locations without Defense Values."
             -
@@ -68,48 +75,49 @@
               :
                 - ""
                 - "Per 2 strength, take an opponents resources."
+    -
+      ? "Building and Trade"
+      :
+        - "Actions."
+        - "Building."
+        - "Trade."
         -
-          ? "Building and Trade"
-          :
-            - Actions.
-            - Building.
-            - Trade.
-            -
-              Building:
-                - ""
-                - "Spend resources to buy available location."
-                - "Place it over any city location."
-                - "Replaced locations are nothing."
-            -
-              Trade:
-                - ""
-                - "Spend resources required for Trade Ship VP."
-                - "Claim the Trade Ship facedown in front of you."
-        -
-          EOT:
+          Building:
             - ""
-            - "Keep one resource per type."
-            - "Keep all Pass Tokens."
-            - "Re-roll dice."
-            - "Army strength reverts to 0."
+            - "Spend resources to buy available location."
+            - "Place it over any city location."
+            - "Replaced locations are meaningless."
         -
-          EOG:
-            - "Continue until all players had the same amount of turns."
-            -
-              Scenarios:
-                - ""
-                - "Three Bandit piles are exhausted."
-                - "Two Trade Ship piles are exhausted."
-                - "Empty Location deck."
-            -
-              ? "Optional Scenario"
-              :
-                - "If you've upgraded two rows in your city - without deactication tokens - choose if you'd like to End the Game."
+          Trade:
+            - ""
+            - "Spend resources required for Trade Ship."
+            - "Claim the Trade Ship card facedown in front of you."
+    -
+      EOT:
+        - ""
+        - "Keep one resource per type."
+        - "Keep all Pass Tokens."
+        - "Re-roll dice."
+        - "Army strength reverts to 0."
+    -
+      EOG:
+        -
+          Scenarios:
+            - ""
+            - "Three Bandit piles are exhausted."
+            - "Two Trade Ship piles are exhausted."
+            - "Empty Location deck."
+        -
+          ? "Optional Scenario"
+          :
+            - "If you've upgraded two rows in your city - without deactivation tokens - choose if you'd like to End the Game."
+        - "":
+          - "Continue until all players had the same amount of turns."
     -
       Winning:
         - "Most VP from..."
         - "VP Tokens."
-        - "VP From Bandit or Trade Ships"
+        - "VP From Bandit and/or Trade Ships"
         - "VP from city (include deactivated)."
     -
       Ties:
@@ -117,7 +125,7 @@
         - "Ties broken by most location cards."
         - "Followed by VP from Bandit and Trade Ships."
         - "Followed by closest to starting player."
-    -
-      ? ""
-      :
-        - "Good luck."
+-
+  ? ""
+  :
+    - "Good luck."
