@@ -1,5 +1,6 @@
 print("a")
 import json
+import yaml
 print("b")
 import pprint
 print("c")
@@ -186,11 +187,18 @@ def main():
     print(filename)
     try:
         with open(filename) as f:
-            ret = json.load(f)
+            ret = yaml.safe_load(f)
     except Exception as error:
-        print("error read")
+        print("error yaml read")
         pp.pprint(error)
         sys.exit(1)
+
+    #with open(filename) as f:
+    #        ret = json.load(f)
+    #except Exception as error:
+    #    print("error json read")
+    #    pp.pprint(error)
+    #    sys.exit(1)
 
     gitpitch = ""
     gitpitch += cover.substitute({"cover_image": cover_image})
