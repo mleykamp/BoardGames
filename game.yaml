@@ -1,11 +1,11 @@
 ---
 -
   Version:
-    - "0.0.1"
+    - "0.0.3"
 -
   ? "How to Play"
   :
-    - ""
+    - "Collect resources, attack others, and upgrade your city to earn the most VP."
 -
   ? "Quick Terms"
   :
@@ -17,7 +17,7 @@
   Phases:
     - ""
     - "Use Dice"
-    - "Use Pass Tokens"
+    - "Use 2 Pass Tokens"
     - "Attack"
     - "Building and Trade"
     - "EOT"
@@ -25,7 +25,7 @@
     -
       ? "Use Dice"
       :
-        - "For each dice take one action"
+        - "For each dice, remove and take one action."
         -
           Actions:
             - ""
@@ -35,7 +35,7 @@
             - "Reactivate one location."
             - "Get a Pass Token. (Once per turn)"
     -
-      ? "Use Pass Tokens"
+      ? "Use 2 Pass Tokens"
       :
         - "Use 2 Pass Tokens for one action. (As many times as you have Pass Tokens)"
         -
@@ -51,27 +51,27 @@
         - "May continue to attack with remaining strength."
         - "Need >= defense value to attack."
         -
-          Actions:
+          "Things you can attack":
             - ""
-            - "Attack Bandits."
-            - "Attack Locations."
-            - "Attack Stock."
+            - "Bandits."
+            - "Locations."
+            - "Stock."
             -
-              ? "Attack Bandits"
+              ? "Attacking Bandits"
               :
                 - ""
                 - "Claim a Bandit Card."
                 - "Place facedown in front of you."
             -
-              ? "Attack Locations"
+              ? "Attacking Locations"
               :
                 - ""
-                - "Place a Deactivation Token on an opponents city."
-                - "Gain location's VP value tokens (facedown)."
-                - "Can't attack already Deactivated locations."
+                - "Place a Deactivation Token on an opponents city location."
+                - "Gain location's VP tokens (facedown)."
+                - "Can't attack Deactivated locations."
                 - "Can't attack locations without Defense Values."
             -
-              ? "Attack Stock"
+              ? "Attacking Stock"
               :
                 - ""
                 - "Per 2 strength, take an opponents resources."

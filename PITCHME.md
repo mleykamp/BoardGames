@@ -4,7 +4,7 @@
 
 @snap[north-west span-50]
 @color[red](Version)<BR>
-@color[blue](0.0.1)
+@color[blue](0.0.3)
 @ol[list-bullets-black](false)
 @olend
 
@@ -18,8 +18,8 @@
 ---
 
 @snap[north-west span-50]
-@color[red]()<BR>
-@color[blue](How to Play)
+@color[red](How to Play)<BR>
+@color[blue](Collect resources, attack others, and upgrade your city to earn the most VP.)
 @ol[list-bullets-black](false)
 @olend
 
@@ -52,7 +52,7 @@
 @color[blue](Phases)
 @ol[list-bullets-black](false)
 - Use Dice
-- Use Pass Tokens
+- Use 2 Pass Tokens
 - Attack
 - Building and Trade
 - EOT
@@ -70,7 +70,7 @@
 
 @snap[north-west span-50]
 @color[red](Phases: Use Dice)<BR>
-@color[blue](For each dice take one action)
+@color[blue](For each dice, remove and take one action.)
 @ol[list-bullets-black](false)
 @olend
 
@@ -104,7 +104,7 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Use Pass Tokens)<BR>
+@color[red](Phases: Use 2 Pass Tokens)<BR>
 @color[blue](Use 2 Pass Tokens for one action. (As many times as you have Pass Tokens))
 @ol[list-bullets-black](false)
 @olend
@@ -119,7 +119,7 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Use Pass Tokens)<BR>
+@color[red](Phases: Use 2 Pass Tokens)<BR>
 @color[blue](Actions)
 @ol[list-bullets-black](false)
 - Gain one resource of your choice.
@@ -156,11 +156,11 @@
 
 @snap[north-west span-50]
 @color[red](Phases: Attack)<BR>
-@color[blue](Actions)
+@color[blue](Things you can attack)
 @ol[list-bullets-black](false)
-- Attack Bandits.
-- Attack Locations.
-- Attack Stock.
+- Bandits.
+- Locations.
+- Stock.
 @olend
 
 @snapend
@@ -173,8 +173,8 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Attack: Actions)<BR>
-@color[blue](Attack Bandits)
+@color[red](Phases: Attack: Things you can attack)<BR>
+@color[blue](Attacking Bandits)
 @ol[list-bullets-black](false)
 - Claim a Bandit Card.
 - Place facedown in front of you.
@@ -190,12 +190,12 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Attack: Actions)<BR>
-@color[blue](Attack Locations)
+@color[red](Phases: Attack: Things you can attack)<BR>
+@color[blue](Attacking Locations)
 @ol[list-bullets-black](false)
-- Place a Deactivation Token on an opponents city.
-- Gain location's VP value tokens (facedown).
-- Can't attack already Deactivated locations.
+- Place a Deactivation Token on an opponents city location.
+- Gain location's VP tokens (facedown).
+- Can't attack Deactivated locations.
 - Can't attack locations without Defense Values.
 @olend
 
@@ -209,8 +209,8 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Phases: Attack: Actions)<BR>
-@color[blue](Attack Stock)
+@color[red](Phases: Attack: Things you can attack)<BR>
+@color[blue](Attacking Stock)
 @ol[list-bullets-black](false)
 - Per 2 strength, take an opponents resources.
 @olend
