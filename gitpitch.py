@@ -24,7 +24,7 @@ test       = ""
 max_pixels = 500
 cover_image = "0.jpg"
 
-filename = "C:\\Users\\Mark\\Google Drive\\projects\\BoardGames\\game.json"
+filename = "C:\\Users\\Mark\\Google Drive\\projects\\BoardGames\\game.yaml"
 print(filename)
 outfile = "C:\\Users\\Mark\\Google Drive\\projects\\BoardGames\\PITCHME.md"
 print(outfile)
