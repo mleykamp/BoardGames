@@ -4,7 +4,7 @@
 
 @snap[north-west span-50]
 @color[red](Version)<BR>
-@color[blue](0.0.2)
+@color[blue](0.0.3)
 @ol[list-bullets-black](false)
 @olend
 
@@ -48,9 +48,10 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Quick Terms: Fields)<BR>
-@color[blue](Holds Vines.)
+@color[red](Quick Terms)<BR>
+@color[blue](Fields)
 @ol[list-bullets-black](false)
+- Holds Vines.
 @olend
 
 @snapend
