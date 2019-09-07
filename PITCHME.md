@@ -4,7 +4,7 @@
 
 @snap[north-west span-50]
 @color[red](Version)<BR>
-@color[blue](0.0.1)
+@color[blue](0.0.2)
 @ol[list-bullets-black](false)
 @olend
 
@@ -27,6 +27,21 @@
 
 @snap[north-east span-50]
 ![Slide: 3.jpg](images/3.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red]()<BR>
+@color[blue](Quick Terms)
+@ol[list-bullets-black](false)
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 4.jpg](images/4.jpg)
 @snapend
 
 

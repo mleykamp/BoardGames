@@ -1,56 +1,57 @@
 - "Version":
-    - "0.0.1"
+    - "0.0.2"
 - "How to Play":
   - "Grow and sell wine to earn the most reputation (20VP)."
 - "Quick Terms":
-    - "Fields":
-      - "Holds Vines."
-    - "Vines":
-      - "Produces grapes."
-    - "Crush Pad":
-      - "Holds Grapes."
-    - "Cellar":
-      - "Holds wine."
-    - "Orders":
-      - "Sell wine."
-    - "Visitors":
-      - "Provides actions or rewards."
-    - "Workers":
-      - "Used to claim available actions."
-    - "El Grande":
-      - "Same as Worker, also can be placed on a filled action space (no bonuses gained)."
-    - "Residual Payments":
-      - "Earned when filling orders."
-      - "Collected at EOY."
-      - "Max 5."
+  - ""
+  - "Fields":
+    - "Holds Vines."
+  - "Vines":
+    - "Produces grapes."
+  - "Crush Pad":
+    - "Holds Grapes."
+  - "Cellar":
+    - "Holds wine."
+  - "Orders":
+    - "Sell wine."
+  - "Visitors":
+    - "Provides actions or rewards."
+  - "Workers":
+    - "Used to claim available actions."
+  - "El Grande":
+    - "Same as Worker, also can be placed on a filled action space (no bonuses gained)."
+  - "Residual Payments":
+    - "Earned when filling orders."
+    - "Collected at EOY."
+    - "Max 5."
 - "Phases":
-    - "Spring":
-      - "Wake Up.":
-        - "Place Rooster on the Wake Up chart."
-        - "Dictates turn order and benefits received."
-    - "Summer":
-      - "In Wake Up order."
-      - "Place 1 worker on an available Summer action space (yellow)"
-      - "Each action space has 1 bonus slot"
-      - "Pass and save remaining workers for Winter."
-    - "Fall":
-      - "In Wake Up order."
-      - "Draw one Visitor card."
-      - "Summer - Yellow"
-      - "Winter - Blue"
-    - "Winter":
-      - "In Wake Up order."
-      - "Place 1 worker on an available Winter action space (blue)."
-      - "Each action space has 1 bonus slot"
-      - "Gain $1 always available"
-    - "EOR":
-      - "Age Grapes and Wines."
-      - "Return Workers and Rooster."
-      - "Collect Residuals."
-      - "Rotate Starting Player counter clockwise."
-      - "Check EOG."
-    - "EOG":
-      - "Once a player has reached 20+VP."
+  - "Spring":
+    - "Wake Up.":
+      - "Place Rooster on the Wake Up chart."
+      - "Dictates turn order and benefits received."
+  - "Summer":
+    - "In Wake Up order."
+    - "Place 1 worker on an available Summer action space (yellow)"
+    - "Each action space has 1 bonus slot"
+    - "Pass and save remaining workers for Winter."
+  - "Fall":
+    - "In Wake Up order."
+    - "Draw one Visitor card."
+    - "Summer - Yellow"
+    - "Winter - Blue"
+  - "Winter":
+    - "In Wake Up order."
+    - "Place 1 worker on an available Winter action space (blue)."
+    - "Each action space has 1 bonus slot"
+    - "Gain $1 always available"
+  - "EOR":
+    - "Age Grapes and Wines."
+    - "Return Workers and Rooster."
+    - "Collect Residuals."
+    - "Rotate Starting Player counter clockwise."
+    - "Check EOG."
+  - "EOG":
+    - "Once a player has reached 20+VP."
 - "Vines":
   - "Color"
   - "Value(s): where it starts on Crush Pad"
@@ -76,52 +77,52 @@
     - "You may fill the order with the next available higher value wine"
 - "Structures":
     - "$2 Trellis":
-        - "Requirement for certain vines."
+      - "Requirement for certain vines."
     - "$5 Windmill":
-        - "Collect 1VP per future planted vines."
+      - "Collect 1VP per future planted vines."
     - "$3 Irrigation":
-        - "Requirement for certain vines."
+      - "Requirement for certain vines."
     - "$2 Yoke":
-        - "Action space for Summer or Winter."
-        - "Uproot or Harvest"
+      - "Action space for Summer or Winter."
+      - "Uproot or Harvest"
     - "$6 Tasting Room":
-        - "Collect 1VP per future Wine tour if you have at least 1 wine."
+      - "Collect 1VP per future Wine tour if you have at least 1 wine."
     - "$4/$6 Cellars":
-        - "Medium, Large."
-        - "Stores more/higher valued wine."
+      - "Medium, Large."
+      - "Stores more/higher valued wine."
     - "$4 Cottage":
-        - "Draw 1 extra Fall Visitor card."
+      - "Draw 1 extra Fall Visitor card."
 - "Worker Placement":
   - "Summer Worker Placement"
   - "Winter Worker Placement"
   - "Must be able to resolve action to take it."
   - "Bonuses are optional."
 - "Summer Worker Placement":
-    - "Gain $1":
-        - "Available in Summer or Winter."
-        - "No worker limit."
-    - "Uproot":
-        - "Action from visitor cards or yoke."
-        - "Take one planted field back into your hand."
-    - "Summer Visitor (yellow)":
-        - "Must be able to resolve visitor card."
-        - "BONUS: resolve second Summer Visitor card."
-    - "Draw Vine Card":
-        - "BONUS: draw second vine card."
-    - "Plant Vine Card":
-        - "Play on empty field."
-        - "Or where it won't exceed the field limit."
-        - "Offset card to keep all grape values visible."
-        - "You will produce 1 red and or 1 white from totals."
-        - "BONUS: plant second vine card."
-    - "$2 Vineyard Tour":
-        - "BONUS: gain $1."
-    - "Build Structure":
-      - "BONUS: gain $1."
-    - "Sell >= 1 Grape OR Buy/Sell 1 Field":
-        - "Sell any grape from Crush Pad for it's row's value."
-        - "OR sell back a field card unless it has vines."
-        - "BONUS: gain 1VP."
+  - "Gain $1":
+    - "Available in Summer or Winter."
+    - "No worker limit."
+  - "Uproot":
+    - "Action from visitor cards or yoke."
+    - "Take one planted field back into your hand."
+  - "Summer Visitor (yellow)":
+    - "Must be able to resolve visitor card."
+    - "BONUS: resolve second Summer Visitor card."
+  - "Draw Vine Card":
+    - "BONUS: draw second vine card."
+  - "Plant Vine Card":
+    - "Play on empty field."
+    - "Or where it won't exceed the field limit."
+    - "Offset card to keep all grape values visible."
+    - "You will produce 1 red and or 1 white from totals."
+    - "BONUS: plant second vine card."
+  - "$2 Vineyard Tour":
+    - "BONUS: gain $1."
+  - "Build Structure":
+    - "BONUS: gain $1."
+  - "Sell >= 1 Grape OR Buy/Sell 1 Field":
+    - "Sell any grape from Crush Pad for it's row's value."
+    - "OR sell back a field card unless it has vines."
+    - "BONUS: gain 1VP."
 - "Winter Worker Placement":
   - "Draw 1 Wine Order Card (purple)":
     - "BONUS: Draw an additional Wine Order Card."
