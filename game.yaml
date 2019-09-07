@@ -1,5 +1,5 @@
 - "Version":
-    - "0.0.9"
+    - "0.0.10"
 - "How to Play":
   - "Grow and sell wine to earn the most reputation (20VP)."
 - "Quick Terms":
@@ -82,11 +82,11 @@
   - "May be harvested once a year"
   - "Types":
     - "CARDS"
-    - " 4 Red and 4 White 1 value vines."
-    - " 6 Red and White 1 value vines (Trellis)."
-    - " 5 Red and 5 White 2 value vines (Trellis)."
-    - " 5 Red and 5 White 3 value vines (Irrigation)."
-    - " 4 Red and 4 White 4 value vines (T & I)."
+    - " 4R and 4W 1 value vines."
+    - " 6R&W 1 value vines (Trellis)."
+    - " 5R and 5W 2 value vines (Trellis)."
+    - " 5R and 5W 3 value vines (Irrigation)."
+    - " 4R and 4W 4 value vines (T & I)."
 - "Devalue / Overvalue":
   - ""
   - "Devalue Grape/Wine(s)":
