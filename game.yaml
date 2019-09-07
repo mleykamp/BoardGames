@@ -1,5 +1,5 @@
 - "Version":
-    - "0.0.6"
+    - "0.0.7"
 - "How to Play":
   - "Grow and sell wine to earn the most reputation (20VP)."
 - "Quick Terms":
@@ -70,13 +70,24 @@
   - "EOG":
     - ""
     - "Once a player has reached 20+VP."
-- "Field Vines":
+- "Field's Value":
+  - ""
+  - "Total value of red and white vines"
+  - "You'll be able to buy one 5, 6, and 7 value field."
+- "Vines":
   - ""
   - "Color"
   - "Value(s): where it starts on Crush Pad"
   - "Multiple Vine Cards add to red and/or white total"
-  - "PreRequisite: None, Trellis and/or Irrigation"
   - "May be harvested once a year"
+  - "Types":
+    - ""
+    - "CARDS | VALUE | COLOR | Prerequisites"
+    - " 4/4  |   1   | R / W |     none"
+    - "  6   |   1   | R & W |    Trellis"
+    - " 5/5  |   2   | R / W |    Trellis"
+    - " 5/5  |   3   | R / W |   Irrigation"
+    - " 4/4  |   4   | R / W |     T & I"
 - "Devalue / Overvalue":
   - ""
   - "Devalue Grape/Wine(s)":
@@ -107,8 +118,9 @@
     - "Collect 1VP per future planted vines."
   - "$2 Yoke":
     - ""
-    - "Acts as an action space for Summer or Winter."
-    - "Allows you to Uproot or Harvest"
+    - "Acts as 1 action space for Summer OR Winter."
+    - "Allows you to Uproot 1 Vine."
+    - "Harvest 1 Field."
   - "$6 Tasting Room":
     - ""
     - "Collect 1VP per future Wine tour."
@@ -122,8 +134,8 @@
     - "Draw 1 extra Fall Visitor card."
 - "Worker Placement":
   - ""
-  - "Summer Worker Placement"
-  - "Winter Worker Placement"
+  - "Actions for Summer."
+  - "Actions for Winter."
   - "Must be able to resolve action to take it."
   - "Bonuses are optional."
 - "Summer Worker Placement":

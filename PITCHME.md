@@ -4,7 +4,7 @@
 
 @snap[north-west span-50]
 @color[red](Version)<BR>
-@color[blue](0.0.6)
+@color[blue](0.0.7)
 @ol[list-bullets-black](false)
 @olend
 
@@ -336,19 +336,56 @@
 
 @snap[north-west span-50]
 @color[red]()<BR>
-@color[blue](Field Vines)
+@color[blue](Field's Value)
 @ol[list-bullets-black](false)
-- Color
-- Value(s): where it starts on Crush Pad
-- Multiple Vine Cards add to red and/or white total
-- PreRequisite: None, Trellis and/or Irrigation
-- May be harvested once a year
+- Total value of red and white vines
+- You'll be able to buy one 5, 6, and 7 value field.
 @olend
 
 @snapend
 
 @snap[north-east span-50]
 ![Slide: 22.jpg](images/22.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red]()<BR>
+@color[blue](Vines)
+@ol[list-bullets-black](false)
+- Color
+- Value(s): where it starts on Crush Pad
+- Multiple Vine Cards add to red and/or white total
+- May be harvested once a year
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 23.jpg](images/23.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Vines)<BR>
+@color[blue](Types)
+@ol[list-bullets-black](false)
+- CARDS | VALUE | COLOR | Prerequisites
+-  4/4  |   1   | R / W |     none
+-   6   |   1   | R & W |    Trellis
+-  5/5  |   2   | R / W |    Trellis
+-  5/5  |   3   | R / W |   Irrigation
+-  4/4  |   4   | R / W |     T & I
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 24.jpg](images/24.jpg)
 @snapend
 
 
@@ -363,7 +400,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 23.jpg](images/23.jpg)
+![Slide: 25.jpg](images/25.jpg)
 @snapend
 
 
@@ -381,7 +418,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 24.jpg](images/24.jpg)
+![Slide: 26.jpg](images/26.jpg)
 @snapend
 
 
@@ -399,7 +436,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 25.jpg](images/25.jpg)
+![Slide: 27.jpg](images/27.jpg)
 @snapend
 
 
@@ -417,7 +454,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 26.jpg](images/26.jpg)
+![Slide: 28.jpg](images/28.jpg)
 @snapend
 
 
@@ -432,7 +469,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 27.jpg](images/27.jpg)
+![Slide: 29.jpg](images/29.jpg)
 @snapend
 
 
@@ -448,7 +485,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 28.jpg](images/28.jpg)
+![Slide: 30.jpg](images/30.jpg)
 @snapend
 
 
@@ -464,7 +501,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 29.jpg](images/29.jpg)
+![Slide: 31.jpg](images/31.jpg)
 @snapend
 
 
@@ -480,7 +517,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 30.jpg](images/30.jpg)
+![Slide: 32.jpg](images/32.jpg)
 @snapend
 
 
@@ -490,14 +527,15 @@
 @color[red](Structures)<BR>
 @color[blue]($2 Yoke)
 @ol[list-bullets-black](false)
-- Acts as an action space for Summer or Winter.
-- Allows you to Uproot or Harvest
+- Acts as 1 action space for Summer OR Winter.
+- Allows you to Uproot 1 Vine.
+- Harvest 1 Field.
 @olend
 
 @snapend
 
 @snap[north-east span-50]
-![Slide: 31.jpg](images/31.jpg)
+![Slide: 33.jpg](images/33.jpg)
 @snapend
 
 
@@ -514,7 +552,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 32.jpg](images/32.jpg)
+![Slide: 34.jpg](images/34.jpg)
 @snapend
 
 
@@ -531,7 +569,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 33.jpg](images/33.jpg)
+![Slide: 35.jpg](images/35.jpg)
 @snapend
 
 
@@ -547,7 +585,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 34.jpg](images/34.jpg)
+![Slide: 36.jpg](images/36.jpg)
 @snapend
 
 
@@ -557,8 +595,8 @@
 @color[red]()<BR>
 @color[blue](Worker Placement)
 @ol[list-bullets-black](false)
-- Summer Worker Placement
-- Winter Worker Placement
+- Actions for Summer.
+- Actions for Winter.
 - Must be able to resolve action to take it.
 - Bonuses are optional.
 @olend
@@ -566,7 +604,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 35.jpg](images/35.jpg)
+![Slide: 37.jpg](images/37.jpg)
 @snapend
 
 
@@ -581,7 +619,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 36.jpg](images/36.jpg)
+![Slide: 38.jpg](images/38.jpg)
 @snapend
 
 
@@ -598,7 +636,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 37.jpg](images/37.jpg)
+![Slide: 39.jpg](images/39.jpg)
 @snapend
 
 
@@ -614,7 +652,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 38.jpg](images/38.jpg)
+![Slide: 40.jpg](images/40.jpg)
 @snapend
 
 
@@ -633,7 +671,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 39.jpg](images/39.jpg)
+![Slide: 41.jpg](images/41.jpg)
 @snapend
 
 
@@ -650,7 +688,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 40.jpg](images/40.jpg)
+![Slide: 42.jpg](images/42.jpg)
 @snapend
 
 
@@ -667,7 +705,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 41.jpg](images/41.jpg)
+![Slide: 43.jpg](images/43.jpg)
 @snapend
 
 
@@ -683,7 +721,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 42.jpg](images/42.jpg)
+![Slide: 44.jpg](images/44.jpg)
 @snapend
 
 
@@ -699,7 +737,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 43.jpg](images/43.jpg)
+![Slide: 45.jpg](images/45.jpg)
 @snapend
 
 
@@ -718,7 +756,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 44.jpg](images/44.jpg)
+![Slide: 46.jpg](images/46.jpg)
 @snapend
 
 
@@ -733,7 +771,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 45.jpg](images/45.jpg)
+![Slide: 47.jpg](images/47.jpg)
 @snapend
 
 
@@ -750,7 +788,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 46.jpg](images/46.jpg)
+![Slide: 48.jpg](images/48.jpg)
 @snapend
 
 
@@ -766,7 +804,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 47.jpg](images/47.jpg)
+![Slide: 49.jpg](images/49.jpg)
 @snapend
 
 
@@ -784,7 +822,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 48.jpg](images/48.jpg)
+![Slide: 50.jpg](images/50.jpg)
 @snapend
 
 
@@ -802,7 +840,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 49.jpg](images/49.jpg)
+![Slide: 51.jpg](images/51.jpg)
 @snapend
 
 
@@ -819,7 +857,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 50.jpg](images/50.jpg)
+![Slide: 52.jpg](images/52.jpg)
 @snapend
 
 
@@ -838,7 +876,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 51.jpg](images/51.jpg)
+![Slide: 53.jpg](images/53.jpg)
 @snapend
 
 
@@ -857,7 +895,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 52.jpg](images/52.jpg)
+![Slide: 54.jpg](images/54.jpg)
 @snapend
 
 
@@ -875,7 +913,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 53.jpg](images/53.jpg)
+![Slide: 55.jpg](images/55.jpg)
 @snapend
 
 
@@ -895,7 +933,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 54.jpg](images/54.jpg)
+![Slide: 56.jpg](images/56.jpg)
 @snapend
 
 
@@ -911,7 +949,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 55.jpg](images/55.jpg)
+![Slide: 57.jpg](images/57.jpg)
 @snapend
 
 
@@ -929,7 +967,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 56.jpg](images/56.jpg)
+![Slide: 58.jpg](images/58.jpg)
 @snapend
 
 
