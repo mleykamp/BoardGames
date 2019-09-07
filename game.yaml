@@ -1,8 +1,8 @@
-- Version:
+- "Version":
     - "0.0.1"
-- How to Play:
+- "How to Play":
   - "Grow and sell wine to earn the most reputation (20VP)."
-- Quick Terms:
+- "Quick Terms":
     - "Fields":
       - "Holds Vines."
     - "Vines":
@@ -23,35 +23,35 @@
       - "Earned when filling orders."
       - "Collected at EOY."
       - "Max 5."
-- Phases:
-    - "Spring"
-      - "Wake Up."
+- "Phases":
+    - "Spring":
+      - "Wake Up.":
         - "Place Rooster on the Wake Up chart."
         - "Dictates turn order and benefits received."
-    - "Summer"
+    - "Summer":
       - "In Wake Up order."
       - "Place 1 worker on an available Summer action space (yellow)"
       - "Each action space has 1 bonus slot"
       - "Pass and save remaining workers for Winter."
-    - "Fall"
+    - "Fall":
       - "In Wake Up order."
       - "Draw one Visitor card."
       - "Summer - Yellow"
       - "Winter - Blue"
-    - "Winter"
+    - "Winter":
       - "In Wake Up order."
       - "Place 1 worker on an available Winter action space (blue)."
       - "Each action space has 1 bonus slot"
       - "Gain $1 always available"
-    - "EOR"
+    - "EOR":
       - "Age Grapes and Wines."
       - "Return Workers and Rooster."
       - "Collect Residuals."
       - "Rotate Starting Player counter clockwise."
       - "Check EOG."
-    - "EOG"
+    - "EOG":
       - "Once a player has reached 20+VP."
-- Vines:
+- "Vines":
   - "Color"
   - "Value(s): where it starts on Crush Pad"
   - "Multiple Vine Cards add to red or white total"
@@ -75,13 +75,6 @@
     - "And you don't have a level 4 wine"
     - "You may fill the order with the next available higher value wine"
 - "Structures":
-    - "$2 Trellis"
-    - "$5 Windmill"
-    - "$3 Irrigation"
-    - "$2 Yoke"
-    - "$6 Tasting Room"
-    - "$4/$6 Cellars"
-    - "$4 Cottage"
     - "$2 Trellis":
         - "Requirement for certain vines."
     - "$5 Windmill":
@@ -104,14 +97,6 @@
   - "Must be able to resolve action to take it."
   - "Bonuses are optional."
 - "Summer Worker Placement":
-    - "Gain $1."
-    - "Uproot"
-    - "Summer Visitor (yellow)"
-    - "Draw Vine Card"
-    - "Plant Vine Card"
-    - "$2 Vineyard Tour"
-    - "Build Structure"
-    - "Sell >= 1 Grape OR Buy/Sell 1 Field"
     - "Gain $1":
         - "Available in Summer or Winter."
         - "No worker limit."
@@ -170,9 +155,9 @@
   - "Collect Residual Payments."
   - "Discard down to 7 cards."
   - "Rotate first player counter-clockwise."
-- Winning:
-    - "Highest VP."
-    - "Tiebreakers..."
-    - "Most money."
-    - "Highest value of wine in Cellar."
-    - "Highest value of grapes in Crush Pad."
+- "Winning":
+  - "Highest VP."
+  - "Tiebreakers..."
+  - "Most money."
+  - "Highest value of wine in Cellar."
+  - "Highest value of grapes in Crush Pad."
