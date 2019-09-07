@@ -4,7 +4,7 @@
 
 @snap[north-west span-50]
 @color[red](Version)<BR>
-@color[blue](0.0.5)
+@color[blue](0.0.6)
 @ol[list-bullets-black](false)
 @olend
 
@@ -163,7 +163,7 @@
 @color[red](Quick Terms)<BR>
 @color[blue](El Grande)
 @ol[list-bullets-black](false)
-- Same as Worker, also can be placed on a filled action space (no bonuses gained).
+- Same as Worker, also can be placed on a filled action space but no bonuses gained.
 @olend
 
 @snapend
@@ -227,8 +227,9 @@
 @color[red](Phases: Spring)<BR>
 @color[blue](Wake Up.)
 @ol[list-bullets-black](false)
+- From first player, clockwise.
 - Place Rooster on the Wake Up chart.
-- Dictates turn order and benefits received.
+- Dictates player order and benefits received.
 @olend
 
 @snapend
@@ -265,8 +266,8 @@
 @ol[list-bullets-black](false)
 - In Wake Up order.
 - Draw one Visitor card.
-- Summer - Yellow
-- Winter - Blue
+- Summer (yellow)
+- Winter (blue)
 @olend
 
 @snapend
@@ -335,11 +336,11 @@
 
 @snap[north-west span-50]
 @color[red]()<BR>
-@color[blue](Vines)
+@color[blue](Field Vines)
 @ol[list-bullets-black](false)
 - Color
 - Value(s): where it starts on Crush Pad
-- Multiple Vine Cards add to red or white total
+- Multiple Vine Cards add to red and/or white total
 - PreRequisite: None, Trellis and/or Irrigation
 - May be harvested once a year
 @olend
@@ -370,11 +371,11 @@
 
 @snap[north-west span-50]
 @color[red](Devalue / Overvalue)<BR>
-@color[blue](Grape/Wine(s))
+@color[blue](Devalue Grape/Wine(s))
 @ol[list-bullets-black](false)
 - If you earn a level 4 grape/wine
 - And you already have a level 4 grape/wine
-- You may add it as the next available lower value
+- You may still add it as the next available lower value
 @olend
 
 @snapend
@@ -388,11 +389,11 @@
 
 @snap[north-west span-50]
 @color[red](Devalue / Overvalue)<BR>
-@color[blue](Cellar limit)
+@color[blue](Devalue Cellar limit)
 @ol[list-bullets-black](false)
 - If you earn a level 5 grape/wine
 - But don't have the corresponding cellar
-- You may add it as the next available lower value
+- You may still add it as the next available lower value
 @olend
 
 @snapend
@@ -410,7 +411,7 @@
 @ol[list-bullets-black](false)
 - If you need to fill an order with a level 4 wine
 - And you don't have a level 4 wine
-- You may fill the order with the next available higher value wine
+- You may still fill the order with the next available higher value wine
 @olend
 
 @snapend
@@ -524,7 +525,7 @@
 @color[blue]($4/$6 Cellars)
 @ol[list-bullets-black](false)
 - Medium/Large.
-- Stores additional higher valued wine.
+- Stores additional, higher valued wine.
 @olend
 
 @snapend
@@ -624,8 +625,8 @@
 @color[blue](Plant Vine Card)
 @ol[list-bullets-black](false)
 - Play where it won't exceed the field limit.
-- Keep all grape values visible.
-- You will produce 1 red and or 1 white from vine totals.
+- Keep values visible.
+- You will eventually produce 1 red and/or 1 white from vine totals.
 - BONUS: plant second vine card.
 @olend
 
@@ -642,7 +643,7 @@
 @color[red](Summer Worker Placement)<BR>
 @color[blue](Uproot)
 @ol[list-bullets-black](false)
-- Action from visitor cards or yoke.
+- Action from Visitor Cards or Yoke.
 - Take one planted field back into your hand.
 @olend
 
@@ -706,7 +707,7 @@
 
 @snap[north-west span-50]
 @color[red](Summer Worker Placement)<BR>
-@color[blue](Sell Grape(s) OR Buy/Sell 1 Field)
+@color[blue](Sell Grapes OR Buy/Sell 1 Field)
 @ol[list-bullets-black](false)
 - Sell any grape from Crush Pad for it's row's value.
 - OR buy a field card.
@@ -775,7 +776,7 @@
 @color[red](Winter Worker Placement)<BR>
 @color[blue](Harvest 1 field)
 @ol[list-bullets-black](false)
-- Choose 1 field to add grapes based on vine values.
+- Choose 1 field to produce grapes based on vine values.
 - Vine Cards stay on field.
 - BONUS: Harvest an additional field.
 @olend
@@ -828,7 +829,7 @@
 @color[red](Winter Worker Placement)<BR>
 @color[blue](Make up to 2 Wine Tokens)
 @ol[list-bullets-black](false)
-- Convert Crush Pad Grapes to Wine(s).
+- Convert Crush Pad Grapes to Wines.
 - Level 4 Grape converts to level 4 Wine.
 - Wines that require two or three grapes equal sum of grapes.
 - BONUS: Make 1 extra Wine Token
@@ -917,9 +918,10 @@
 ---
 
 @snap[north-west span-50]
-@color[red](Winning: Tiebreakers...)<BR>
-@color[blue](Most money.)
+@color[red](Winning)<BR>
+@color[blue](Tiebreakers...)
 @ol[list-bullets-black](false)
+- Most money.
 - Highest value of wine in Cellar.
 - Highest value of grapes in Crush Pad.
 @olend

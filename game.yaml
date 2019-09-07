@@ -1,5 +1,5 @@
 - "Version":
-    - "0.0.5"
+    - "0.0.6"
 - "How to Play":
   - "Grow and sell wine to earn the most reputation (20VP)."
 - "Quick Terms":
@@ -27,7 +27,7 @@
     - "Used to claim available actions."
   - "El Grande":
     - ""
-    - "Same as Worker, also can be placed on a filled action space (no bonuses gained)."
+    - "Same as Worker, also can be placed on a filled action space but no bonuses gained."
   - "Residual Payments":
     - ""
     - "Earned when filling orders."
@@ -39,8 +39,9 @@
     - ""
     - "Wake Up.":
       - ""
+      - "From first player, clockwise."
       - "Place Rooster on the Wake Up chart."
-      - "Dictates turn order and benefits received."
+      - "Dictates player order and benefits received."
   - "Summer":
     - ""
     - "In Wake Up order."
@@ -51,8 +52,8 @@
     - ""
     - "In Wake Up order."
     - "Draw one Visitor card."
-    - "Summer - Yellow"
-    - "Winter - Blue"
+    - "Summer (yellow)"
+    - "Winter (blue)"
   - "Winter":
     - ""
     - "In Wake Up order."
@@ -69,30 +70,30 @@
   - "EOG":
     - ""
     - "Once a player has reached 20+VP."
-- "Vines":
+- "Field Vines":
   - ""
   - "Color"
   - "Value(s): where it starts on Crush Pad"
-  - "Multiple Vine Cards add to red or white total"
+  - "Multiple Vine Cards add to red and/or white total"
   - "PreRequisite: None, Trellis and/or Irrigation"
   - "May be harvested once a year"
 - "Devalue / Overvalue":
   - ""
-  - "Grape/Wine(s)":
+  - "Devalue Grape/Wine(s)":
     - ""
     - "If you earn a level 4 grape/wine"
     - "And you already have a level 4 grape/wine"
-    - "You may add it as the next available lower value"
-  - "Cellar limit":
+    - "You may still add it as the next available lower value"
+  - "Devalue Cellar limit":
     - ""
     - "If you earn a level 5 grape/wine"
     - "But don't have the corresponding cellar"
-    - "You may add it as the next available lower value"
+    - "You may still add it as the next available lower value"
   - "Overvalued Wine(s)":
     - ""
     - "If you need to fill an order with a level 4 wine"
     - "And you don't have a level 4 wine"
-    - "You may fill the order with the next available higher value wine"
+    - "You may still fill the order with the next available higher value wine"
 - "Structures":
   - ""
   - "$2 Trellis":
@@ -115,7 +116,7 @@
   - "$4/$6 Cellars":
     - ""
     - "Medium/Large."
-    - "Stores additional higher valued wine."
+    - "Stores additional, higher valued wine."
   - "$4 Cottage":
     - ""
     - "Draw 1 extra Fall Visitor card."
@@ -137,12 +138,12 @@
   - "Plant Vine Card":
     - ""
     - "Play where it won't exceed the field limit."
-    - "Keep all grape values visible."
-    - "You will produce 1 red and or 1 white from vine totals."
+    - "Keep values visible."
+    - "You will eventually produce 1 red and/or 1 white from vine totals."
     - "BONUS: plant second vine card."
   - "Uproot":
     - ""
-    - "Action from visitor cards or yoke."
+    - "Action from Visitor Cards or Yoke."
     - "Take one planted field back into your hand."
   - "Summer Visitor (yellow)":
     - ""
@@ -154,7 +155,7 @@
   - "Build Structure":
     - ""
     - "BONUS: gain $1."
-  - "Sell Grape(s) OR Buy/Sell 1 Field":
+  - "Sell Grapes OR Buy/Sell 1 Field":
     - ""
     - "Sell any grape from Crush Pad for it's row's value."
     - "OR buy a field card."
@@ -171,7 +172,7 @@
     - "BONUS: Draw an additional Wine Order Card."
   - "Harvest 1 field":
     - ""
-    - "Choose 1 field to add grapes based on vine values."
+    - "Choose 1 field to produce grapes based on vine values."
     - "Vine Cards stay on field."
     - "BONUS: Harvest an additional field."
 
@@ -186,7 +187,7 @@
     - "BONUS: resolve second Winter Visitor card."
   - "Make up to 2 Wine Tokens":
     - ""
-    - "Convert Crush Pad Grapes to Wine(s)."
+    - "Convert Crush Pad Grapes to Wines."
     - "Level 4 Grape converts to level 4 Wine."
     - "Wines that require two or three grapes equal sum of grapes."
     - "BONUS: Make 1 extra Wine Token"
@@ -212,6 +213,7 @@
   - ""
   - "Highest VP."
   - "Tiebreakers...":
+    - ""
     - "Most money."
     - "Highest value of wine in Cellar."
     - "Highest value of grapes in Crush Pad."
