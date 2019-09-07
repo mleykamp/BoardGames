@@ -4,7 +4,7 @@
 
 @snap[north-west span-50]
 @color[red](Version)<BR>
-@color[blue](0.0.8)
+@color[blue](0.0.9)
 @ol[list-bullets-black](false)
 @olend
 
@@ -374,11 +374,11 @@
 @color[red](Vines: Types)<BR>
 @color[blue](CARDS)
 @ol[list-bullets-black](false)
--  4 Red and 4 White 1 value vine.
--  6 Red and White 1 value vine. *Trellis
--  5 Red and 5 White 2 value vine. *Trellis
--  5 Red and 5 White 3 value vine. *Irrigation
--  4 Red and 4 White 4 value vine. *T & I
+-  4 Red and 4 White 1 value vines.
+-  6 Red and White 1 value vines (Trellis).
+-  5 Red and 5 White 2 value vines (Trellis).
+-  5 Red and 5 White 3 value vines (Irrigation).
+-  4 Red and 4 White 4 value vines (T & I).
 @olend
 
 @snapend
