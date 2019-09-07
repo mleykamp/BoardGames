@@ -1,14 +1,178 @@
 - Version:
-  - "0.0.1"
+    - "0.0.1"
 - How to Play:
- - ""
+  - "Grow and sell wine to earn the most reputation (20VP)."
 - Quick Terms:
-  - "":
-    - ""
+    - "Fields":
+      - "Holds Vines."
+    - "Vines":
+      - "Produces grapes."
+    - "Crush Pad":
+      - "Holds Grapes."
+    - "Cellar":
+      - "Holds wine."
+    - "Orders":
+      - "Sell wine."
+    - "Visitors":
+      - "Provides actions or rewards."
+    - "Workers":
+      - "Used to claim available actions."
+    - "El Grande":
+      - "Same as Worker, also can be placed on a filled action space (no bonuses gained)."
+    - "Residual Payments":
+      - "Earned when filling orders."
+      - "Collected at EOY."
+      - "Max 5."
 - Phases:
-  - ""
-  - ""
-  - ""
-  - ""
-  - "":
-   - ""
+    - "Spring"
+      - "Wake Up."
+        - "Place Rooster on the Wake Up chart."
+        - "Dictates turn order and benefits received."
+    - "Summer"
+      - "In Wake Up order."
+      - "Place 1 worker on an available Summer action space (yellow)"
+      - "Each action space has 1 bonus slot"
+      - "Pass and save remaining workers for Winter."
+    - "Fall"
+      - "In Wake Up order."
+      - "Draw one Visitor card."
+      - "Summer - Yellow"
+      - "Winter - Blue"
+    - "Winter"
+      - "In Wake Up order."
+      - "Place 1 worker on an available Winter action space (blue)."
+      - "Each action space has 1 bonus slot"
+      - "Gain $1 always available"
+    - "EOR"
+      - "Age Grapes and Wines."
+      - "Return Workers and Rooster."
+      - "Collect Residuals."
+      - "Rotate Starting Player counter clockwise."
+      - "Check EOG."
+    - "EOG"
+      - "Once a player has reached 20+VP."
+- Vines:
+  - "Color"
+  - "Value(s): where it starts on Crush Pad"
+  - "Multiple Vine Cards add to red or white total"
+  - "PreRequisite: None, Trellis and/or Irrigation"
+  - "May be harvested once a year"
+- "Wine Order Card":
+  - "Required Wine(s) value."
+  - "VP Earned."
+  - "Increase Residual Payment icon."
+- "Devalue / Overvalue":
+  - "Grape/Wine(s)":
+    - "If you earn a level 4 grape/wine"
+    - "And you already have a level 4 grape/wine"
+    - "You may add it as the next available lower value"
+  - "Cellar limit":
+    - "If you earn a level 5 grape/wine"
+    - "But don't have the corresponding cellar"
+    - "You may add it as the next available lower value"
+  - "Overvalued Wine(s)":
+    - "If you need to fill an order with a level 4 wine"
+    - "And you don't have a level 4 wine"
+    - "You may fill the order with the next available higher value wine"
+- "Structures":
+    - "$2 Trellis"
+    - "$5 Windmill"
+    - "$3 Irrigation"
+    - "$2 Yoke"
+    - "$6 Tasting Room"
+    - "$4/$6 Cellars"
+    - "$4 Cottage"
+    - "$2 Trellis":
+        - "Requirement for certain vines."
+    - "$5 Windmill":
+        - "Collect 1VP per future planted vines."
+    - "$3 Irrigation":
+        - "Requirement for certain vines."
+    - "$2 Yoke":
+        - "Action space for Summer or Winter."
+        - "Uproot or Harvest"
+    - "$6 Tasting Room":
+        - "Collect 1VP per future Wine tour if you have at least 1 wine."
+    - "$4/$6 Cellars":
+        - "Medium, Large."
+        - "Stores more/higher valued wine."
+    - "$4 Cottage":
+        - "Draw 1 extra Fall Visitor card."
+- "Worker Placement":
+  - "Summer Worker Placement"
+  - "Winter Worker Placement"
+  - "Must be able to resolve action to take it."
+  - "Bonuses are optional."
+- "Summer Worker Placement":
+    - "Gain $1."
+    - "Uproot"
+    - "Summer Visitor (yellow)"
+    - "Draw Vine Card"
+    - "Plant Vine Card"
+    - "$2 Vineyard Tour"
+    - "Build Structure"
+    - "Sell >= 1 Grape OR Buy/Sell 1 Field"
+    - "Gain $1":
+        - "Available in Summer or Winter."
+        - "No worker limit."
+    - "Uproot":
+        - "Action from visitor cards or yoke."
+        - "Take one planted field back into your hand."
+    - "Summer Visitor (yellow)":
+        - "Must be able to resolve visitor card."
+        - "BONUS: resolve second Summer Visitor card."
+    - "Draw Vine Card":
+        - "BONUS: draw second vine card."
+    - "Plant Vine Card":
+        - "Play on empty field."
+        - "Or where it won't exceed the field limit."
+        - "Offset card to keep all grape values visible."
+        - "You will produce 1 red and or 1 white from totals."
+        - "BONUS: plant second vine card."
+    - "$2 Vineyard Tour":
+        - "BONUS: gain $1."
+    - "Build Structure":
+      - "BONUS: gain $1."
+    - "Sell >= 1 Grape OR Buy/Sell 1 Field":
+        - "Sell any grape from Crush Pad for it's row's value."
+        - "OR sell back a field card unless it has vines."
+        - "BONUS: gain 1VP."
+- "Winter Worker Placement":
+  - "Draw 1 Wine Order Card (purple)":
+    - "BONUS: Draw an additional Wine Order Card."
+  - "Harvest 1 field":
+    - "Choose 1 field to add grape tokens based on yield values."
+    - "Vine Cards stay on field."
+    - "BONUS: Harvest an additional field."
+  - "Gain $1":
+    - "Available in Summer or Winter."
+    - "No worker limit."
+  - "Pay $4 to train 1 worker":
+    - "Place new worker on this space."
+    - "Will be picked up at EOY."
+    - "BONUS: Gain $1."
+  - "Play 1 Winter Visitor Card (blue)":
+    - "Must be able to resolve visitor card."
+    - "BONUS: resolve second Winter Visitor card."
+  - "Make up to 2 Wine Tokens":
+    - "Convert Crush Pad Grapes to Wine(s)."
+    - "Level 4 Grape converts to level 4 Wine."
+    - "Wines that require two or three grapes equal sum of two grapes."
+    - "BONUS: Make 1 extra Wine Token"
+  - "Fill 1 Wine Order":
+    - "Some Visitor cards allow this action."
+    - "Must be able to resolve order card."
+    - "Discard used Wine token."
+    - "BONUS: Gain $1"
+- "EOY":
+  - "If room, increase all Wines and Grapes by 1."
+  - "Collect Workers."
+  - "Collect Residual Payments."
+  - "Discard down to 7 cards."
+  - "Rotate first player counter-clockwise."
+- Winning:
+    - "Highest VP."
+    - "Tiebreakers..."
+    - "Most money."
+    - "Highest value of wine in Cellar."
+    - "Highest value of grapes in Crush Pad."
