@@ -4,7 +4,7 @@
 
 @snap[north-west span-50]
 @color[red](Version)<BR>
-@color[blue](0.0.4)
+@color[blue](0.0.5)
 @ol[list-bullets-black](false)
 @olend
 
@@ -355,24 +355,6 @@
 
 @snap[north-west span-50]
 @color[red]()<BR>
-@color[blue](Wine Order Card)
-@ol[list-bullets-black](false)
-- Required Wine(s) value.
-- VP Earned.
-- Increase Residual Payment icon.
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 23.jpg](images/23.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red]()<BR>
 @color[blue](Devalue / Overvalue)
 @ol[list-bullets-black](false)
 @olend
@@ -380,7 +362,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 24.jpg](images/24.jpg)
+![Slide: 23.jpg](images/23.jpg)
 @snapend
 
 
@@ -398,7 +380,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 25.jpg](images/25.jpg)
+![Slide: 24.jpg](images/24.jpg)
 @snapend
 
 
@@ -416,7 +398,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 26.jpg](images/26.jpg)
+![Slide: 25.jpg](images/25.jpg)
 @snapend
 
 
@@ -434,7 +416,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 27.jpg](images/27.jpg)
+![Slide: 26.jpg](images/26.jpg)
 @snapend
 
 
@@ -449,7 +431,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 28.jpg](images/28.jpg)
+![Slide: 27.jpg](images/27.jpg)
 @snapend
 
 
@@ -458,6 +440,22 @@
 @snap[north-west span-50]
 @color[red](Structures)<BR>
 @color[blue]($2 Trellis)
+@ol[list-bullets-black](false)
+- Requirement for certain vines.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 28.jpg](images/28.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Structures)<BR>
+@color[blue]($3 Irrigation)
 @ol[list-bullets-black](false)
 - Requirement for certain vines.
 @olend
@@ -489,9 +487,10 @@
 
 @snap[north-west span-50]
 @color[red](Structures)<BR>
-@color[blue]($3 Irrigation)
+@color[blue]($2 Yoke)
 @ol[list-bullets-black](false)
-- Requirement for certain vines.
+- Acts as an action space for Summer or Winter.
+- Allows you to Uproot or Harvest
 @olend
 
 @snapend
@@ -505,10 +504,10 @@
 
 @snap[north-west span-50]
 @color[red](Structures)<BR>
-@color[blue]($2 Yoke)
+@color[blue]($6 Tasting Room)
 @ol[list-bullets-black](false)
-- Action space for Summer or Winter.
-- Uproot or Harvest
+- Collect 1VP per future Wine tour.
+- If you have at least 1 wine.
 @olend
 
 @snapend
@@ -522,32 +521,16 @@
 
 @snap[north-west span-50]
 @color[red](Structures)<BR>
-@color[blue]($6 Tasting Room)
+@color[blue]($4/$6 Cellars)
 @ol[list-bullets-black](false)
-- Collect 1VP per future Wine tour if you have at least 1 wine.
+- Medium/Large.
+- Stores additional higher valued wine.
 @olend
 
 @snapend
 
 @snap[north-east span-50]
 ![Slide: 33.jpg](images/33.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Structures)<BR>
-@color[blue]($4/$6 Cellars)
-@ol[list-bullets-black](false)
-- Medium, Large.
-- Stores more/higher valued wine.
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 34.jpg](images/34.jpg)
 @snapend
 
 
@@ -563,7 +546,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 35.jpg](images/35.jpg)
+![Slide: 34.jpg](images/34.jpg)
 @snapend
 
 
@@ -582,7 +565,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 36.jpg](images/36.jpg)
+![Slide: 35.jpg](images/35.jpg)
 @snapend
 
 
@@ -597,7 +580,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 37.jpg](images/37.jpg)
+![Slide: 36.jpg](images/36.jpg)
 @snapend
 
 
@@ -614,7 +597,42 @@
 @snapend
 
 @snap[north-east span-50]
+![Slide: 37.jpg](images/37.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Summer Worker Placement)<BR>
+@color[blue](Draw Vine Card)
+@ol[list-bullets-black](false)
+- BONUS: draw second vine card.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
 ![Slide: 38.jpg](images/38.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Summer Worker Placement)<BR>
+@color[blue](Plant Vine Card)
+@ol[list-bullets-black](false)
+- Play where it won't exceed the field limit.
+- Keep all grape values visible.
+- You will produce 1 red and or 1 white from vine totals.
+- BONUS: plant second vine card.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 39.jpg](images/39.jpg)
 @snapend
 
 
@@ -631,7 +649,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 39.jpg](images/39.jpg)
+![Slide: 40.jpg](images/40.jpg)
 @snapend
 
 
@@ -648,43 +666,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 40.jpg](images/40.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Summer Worker Placement)<BR>
-@color[blue](Draw Vine Card)
-@ol[list-bullets-black](false)
-- BONUS: draw second vine card.
-@olend
-
-@snapend
-
-@snap[north-east span-50]
 ![Slide: 41.jpg](images/41.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Summer Worker Placement)<BR>
-@color[blue](Plant Vine Card)
-@ol[list-bullets-black](false)
-- Play on empty field.
-- Or where it won't exceed the field limit.
-- Offset card to keep all grape values visible.
-- You will produce 1 red and or 1 white from totals.
-- BONUS: plant second vine card.
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 42.jpg](images/42.jpg)
 @snapend
 
 
@@ -700,7 +682,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 43.jpg](images/43.jpg)
+![Slide: 42.jpg](images/42.jpg)
 @snapend
 
 
@@ -716,7 +698,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 44.jpg](images/44.jpg)
+![Slide: 43.jpg](images/43.jpg)
 @snapend
 
 
@@ -724,11 +706,27 @@
 
 @snap[north-west span-50]
 @color[red](Summer Worker Placement)<BR>
-@color[blue](Sell >= 1 Grape OR Buy/Sell 1 Field)
+@color[blue](Sell Grape(s) OR Buy/Sell 1 Field)
 @ol[list-bullets-black](false)
 - Sell any grape from Crush Pad for it's row's value.
-- OR sell back a field card unless it has vines.
+- OR buy a field card.
+- OR sell back a field card (unless it has vines).
 - BONUS: gain 1VP.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 44.jpg](images/44.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red]()<BR>
+@color[blue](Winter Worker Placement)
+@ol[list-bullets-black](false)
 @olend
 
 @snapend
@@ -741,9 +739,11 @@
 ---
 
 @snap[north-west span-50]
-@color[red]()<BR>
-@color[blue](Winter Worker Placement)
+@color[red](Winter Worker Placement)<BR>
+@color[blue](Gain $1)
 @ol[list-bullets-black](false)
+- Available in Summer or Winter.
+- No worker limit.
 @olend
 
 @snapend
@@ -775,7 +775,7 @@
 @color[red](Winter Worker Placement)<BR>
 @color[blue](Harvest 1 field)
 @ol[list-bullets-black](false)
-- Choose 1 field to add grape tokens based on yield values.
+- Choose 1 field to add grapes based on vine values.
 - Vine Cards stay on field.
 - BONUS: Harvest an additional field.
 @olend
@@ -784,23 +784,6 @@
 
 @snap[north-east span-50]
 ![Slide: 48.jpg](images/48.jpg)
-@snapend
-
-
----
-
-@snap[north-west span-50]
-@color[red](Winter Worker Placement)<BR>
-@color[blue](Gain $1)
-@ol[list-bullets-black](false)
-- Available in Summer or Winter.
-- No worker limit.
-@olend
-
-@snapend
-
-@snap[north-east span-50]
-![Slide: 49.jpg](images/49.jpg)
 @snapend
 
 
@@ -818,7 +801,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 50.jpg](images/50.jpg)
+![Slide: 49.jpg](images/49.jpg)
 @snapend
 
 
@@ -835,7 +818,7 @@
 @snapend
 
 @snap[north-east span-50]
-![Slide: 51.jpg](images/51.jpg)
+![Slide: 50.jpg](images/50.jpg)
 @snapend
 
 
@@ -847,14 +830,14 @@
 @ol[list-bullets-black](false)
 - Convert Crush Pad Grapes to Wine(s).
 - Level 4 Grape converts to level 4 Wine.
-- Wines that require two or three grapes equal sum of two grapes.
+- Wines that require two or three grapes equal sum of grapes.
 - BONUS: Make 1 extra Wine Token
 @olend
 
 @snapend
 
 @snap[north-east span-50]
-![Slide: 52.jpg](images/52.jpg)
+![Slide: 51.jpg](images/51.jpg)
 @snapend
 
 
@@ -868,6 +851,24 @@
 - Must be able to resolve order card.
 - Discard used Wine token.
 - BONUS: Gain $1
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 52.jpg](images/52.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red](Winter Worker Placement: Fill 1 Wine Order)<BR>
+@color[blue](Wine Order Card)
+@ol[list-bullets-black](false)
+- Required Wine(s) value.
+- VP Earned.
+- Increase Residual Payment icon.
 @olend
 
 @snapend
@@ -904,10 +905,6 @@
 @color[blue](Winning)
 @ol[list-bullets-black](false)
 - Highest VP.
-- Tiebreakers...
-- Most money.
-- Highest value of wine in Cellar.
-- Highest value of grapes in Crush Pad.
 @olend
 
 @snapend
@@ -920,7 +917,23 @@
 ---
 
 @snap[north-west span-50]
-@color[red]()<BR>
-@color[blue]()
+@color[red](Winning: Tiebreakers...)<BR>
+@color[blue](Most money.)
 @ol[list-bullets-black](false)
-- Thank You
+- Highest value of wine in Cellar.
+- Highest value of grapes in Crush Pad.
+@olend
+
+@snapend
+
+@snap[north-east span-50]
+![Slide: 56.jpg](images/56.jpg)
+@snapend
+
+
+---
+
+@snap[north-west span-50]
+@color[red]()<BR>
+@color[blue](Thank You)
+@ol[list-bullets-black](false)

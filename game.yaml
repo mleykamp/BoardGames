@@ -1,5 +1,5 @@
 - "Version":
-    - "0.0.4"
+    - "0.0.5"
 - "How to Play":
   - "Grow and sell wine to earn the most reputation (20VP)."
 - "Quick Terms":
@@ -76,11 +76,6 @@
   - "Multiple Vine Cards add to red or white total"
   - "PreRequisite: None, Trellis and/or Irrigation"
   - "May be harvested once a year"
-- "Wine Order Card":
-  - ""
-  - "Required Wine(s) value."
-  - "VP Earned."
-  - "Increase Residual Payment icon."
 - "Devalue / Overvalue":
   - ""
   - "Grape/Wine(s)":
@@ -103,23 +98,24 @@
   - "$2 Trellis":
     - ""
     - "Requirement for certain vines."
-  - "$5 Windmill":
-    - ""
-    - "Collect 1VP per future planted vines."
   - "$3 Irrigation":
     - ""
     - "Requirement for certain vines."
+  - "$5 Windmill":
+    - ""
+    - "Collect 1VP per future planted vines."
   - "$2 Yoke":
     - ""
-    - "Action space for Summer or Winter."
-    - "Uproot or Harvest"
+    - "Acts as an action space for Summer or Winter."
+    - "Allows you to Uproot or Harvest"
   - "$6 Tasting Room":
     - ""
-    - "Collect 1VP per future Wine tour if you have at least 1 wine."
+    - "Collect 1VP per future Wine tour."
+    - "If you have at least 1 wine."
   - "$4/$6 Cellars":
     - ""
-    - "Medium, Large."
-    - "Stores more/higher valued wine."
+    - "Medium/Large."
+    - "Stores additional higher valued wine."
   - "$4 Cottage":
     - ""
     - "Draw 1 extra Fall Visitor card."
@@ -135,6 +131,15 @@
     - ""
     - "Available in Summer or Winter."
     - "No worker limit."
+  - "Draw Vine Card":
+    - ""
+    - "BONUS: draw second vine card."
+  - "Plant Vine Card":
+    - ""
+    - "Play where it won't exceed the field limit."
+    - "Keep all grape values visible."
+    - "You will produce 1 red and or 1 white from vine totals."
+    - "BONUS: plant second vine card."
   - "Uproot":
     - ""
     - "Action from visitor cards or yoke."
@@ -143,41 +148,33 @@
     - ""
     - "Must be able to resolve visitor card."
     - "BONUS: resolve second Summer Visitor card."
-  - "Draw Vine Card":
-    - ""
-    - "BONUS: draw second vine card."
-  - "Plant Vine Card":
-    - ""
-    - "Play on empty field."
-    - "Or where it won't exceed the field limit."
-    - "Offset card to keep all grape values visible."
-    - "You will produce 1 red and or 1 white from totals."
-    - "BONUS: plant second vine card."
   - "$2 Vineyard Tour":
     - ""
     - "BONUS: gain $1."
   - "Build Structure":
     - ""
     - "BONUS: gain $1."
-  - "Sell >= 1 Grape OR Buy/Sell 1 Field":
+  - "Sell Grape(s) OR Buy/Sell 1 Field":
     - ""
     - "Sell any grape from Crush Pad for it's row's value."
-    - "OR sell back a field card unless it has vines."
+    - "OR buy a field card."
+    - "OR sell back a field card (unless it has vines)."
     - "BONUS: gain 1VP."
 - "Winter Worker Placement":
   - ""
+  - "Gain $1":
+    - ""
+    - "Available in Summer or Winter."
+    - "No worker limit."
   - "Draw 1 Wine Order Card (purple)":
     - ""
     - "BONUS: Draw an additional Wine Order Card."
   - "Harvest 1 field":
     - ""
-    - "Choose 1 field to add grape tokens based on yield values."
+    - "Choose 1 field to add grapes based on vine values."
     - "Vine Cards stay on field."
     - "BONUS: Harvest an additional field."
-  - "Gain $1":
-    - ""
-    - "Available in Summer or Winter."
-    - "No worker limit."
+
   - "Pay $4 to train 1 worker":
     - ""
     - "Place new worker on this space."
@@ -191,7 +188,7 @@
     - ""
     - "Convert Crush Pad Grapes to Wine(s)."
     - "Level 4 Grape converts to level 4 Wine."
-    - "Wines that require two or three grapes equal sum of two grapes."
+    - "Wines that require two or three grapes equal sum of grapes."
     - "BONUS: Make 1 extra Wine Token"
   - "Fill 1 Wine Order":
     - ""
@@ -199,6 +196,11 @@
     - "Must be able to resolve order card."
     - "Discard used Wine token."
     - "BONUS: Gain $1"
+    - "Wine Order Card":
+      - ""
+      - "Required Wine(s) value."
+      - "VP Earned."
+      - "Increase Residual Payment icon."
 - "EOY":
   - ""
   - "If room, increase all Wines and Grapes by 1."
@@ -209,10 +211,9 @@
 - "Winning":
   - ""
   - "Highest VP."
-  - "Tiebreakers..."
-  - "Most money."
-  - "Highest value of wine in Cellar."
-  - "Highest value of grapes in Crush Pad."
+  - "Tiebreakers...":
+    - "Most money."
+    - "Highest value of wine in Cellar."
+    - "Highest value of grapes in Crush Pad."
 - "":
-  - ""
   - "Thank You"
